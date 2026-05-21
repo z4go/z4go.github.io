@@ -1,0 +1,63 @@
+---
+import { t, type Lang } from '../lib/i18n';
+
+interface Reference {
+  title: string;
+  url: string;
+  icon?: string;
+}
+
+interface Props {
+  references: Reference[];
+  lang?: Lang;
+}
+
+const { references, lang = 'en' } = Astro.props;
+const s = t(lang);
+
+const hostOf = (url: string) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return '';
+  }
+};
+---
+
+{
+  references.length > 0 && (
+    <section class="mx-auto max-w-4xl px-4 mt-12">
+      <h2 class="text-3xl mb-4">
+        <span class="scribble">{s.references}</span>
+      </h2>
+      <div class="grid sm:grid-cols-2 gap-3 sm:gap-4">
+        {references.map((ref) => (
+          <a
+            href={ref.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="sketch pop-sm lift p-4 flex items-center gap-3"
+          >
+            <span class="grid place-items-center w-11 h-11 shrink-0 rounded-full border-2 border-ink bg-cf-amber text-xl">
+              {ref.icon ?? '🔗'}
+            </span>
+            <span class="min-w-0 flex-1">
+              <span class="font-hand text-lg leading-tight block">
+                {ref.title}
+              </span>
+              <span class="text-xs text-ink-2 truncate block">
+                {hostOf(ref.url)}
+              </span>
+            </span>
+            <span
+              class="font-hand text-xl text-cf-dark shrink-0"
+              aria-label="opens in a new tab"
+            >
+              ↗
+            </span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )
+}

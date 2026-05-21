@@ -1,0 +1,22 @@
+---
+import { getCollection, render } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import DayLayout from '../../components/DayLayout.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('trips');
+  return entries.map((entry) => ({
+    params: { day: entry.id.split('/').pop()! },
+    props: { entry },
+  }));
+}
+
+type Props = { entry: CollectionEntry<'trips'> };
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<DayLayout entry={entry}>
+  <Content />
+</DayLayout>

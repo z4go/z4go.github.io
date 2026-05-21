@@ -1,0 +1,57 @@
+---
+import '../styles/global.css';
+import { getCollection } from 'astro:content';
+import SiteNav from '../components/SiteNav.astro';
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  title: string;
+  description?: string;
+  currentDay?: number;
+  lang?: Lang;
+}
+
+const {
+  title,
+  description = 'A hand-drawn 5-day Osaka & Kansai trip plan — Kyoto temples, a Kansai day trip and Universal Studios Japan.',
+  currentDay,
+  lang = 'en',
+} = Astro.props;
+
+const days = (await getCollection('trips')).sort((a, b) => a.data.day - b.data.day);
+const year = new Date().getFullYear();
+const s = t(lang);
+---
+
+<!doctype html>
+<html lang={s.htmlLang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#d63346" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link
+      rel="preload"
+      href="/iannnnn-DOG/iannnnn-DOG-Regular.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <title>{title}</title>
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <SiteNav days={days} currentDay={currentDay} />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <footer class="border-t-2 border-dashed border-ink/40 mt-16">
+      <div
+        class="mx-auto max-w-4xl px-4 py-8 text-sm text-ink-2 flex flex-wrap gap-x-6 gap-y-1 justify-between"
+      >
+        <span>© {year} {s.footerBlog}</span>
+      </div>
+    </footer>
+  </body>
+</html>

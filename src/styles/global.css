@@ -1,0 +1,224 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* ── Self-hosted display font — iannnnn-DOG (files in public/) ────────── */
+@font-face {
+  font-family: "iannnnn-DOG";
+  src: url("/iannnnn-DOG/iannnnn-DOG-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "iannnnn-DOG";
+  src: url("/iannnnn-DOG/iannnnn-DOG-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "iannnnn-DOG";
+  src: url("/iannnnn-DOG/iannnnn-DOG-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* ── Theme tokens — crimson × Excalidraw hand-drawn ───────────────────── */
+@theme {
+  /* iannnnn-DOG everywhere — headings, body and form controls */
+  --font-hand: "iannnnn-DOG", "Comic Sans MS", ui-rounded, cursive;
+  --font-sans: "iannnnn-DOG", ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  --color-paper: #faf6ec;
+  --color-paper-2: #f1e8d4;
+  --color-card: #fffdf7;
+  --color-ink: #211f1c;
+  --color-ink-2: #5b554c;
+
+  --color-cf: #d63346;
+  --color-cf-dark: #b3283c;
+  --color-cf-amber: #fbad41;
+  --color-sky: #3aa0d6;
+  --color-leaf: #4f9d69;
+  --color-berry: #c8447a;
+}
+
+/* ── Base ─────────────────────────────────────────────────────────────── */
+@layer base {
+  html {
+    /* Base size 18px (112.5% of the 16px default) — iannnnn-DOG renders
+       small, and 112.5% keeps the user's own browser font setting respected.
+       All rem-based sizing scales up proportionally. */
+    font-size: 112.5%;
+    color-scheme: light;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+    /* Excalidraw-style dot grid canvas */
+    background-image: radial-gradient(rgba(33, 31, 28, 0.07) 1.4px, transparent 1.4px);
+    background-size: 24px 24px;
+    background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-hand);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1.15;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  :focus-visible {
+    outline: 3px dashed var(--color-cf);
+    outline-offset: 3px;
+  }
+}
+
+/* ── Hand-drawn surfaces (plain CSS so they're never purged) ──────────── */
+.sketch {
+  border: 2.5px solid var(--color-ink);
+  border-radius: 18px 13px 20px 12px / 12px 20px 13px 18px;
+  background: var(--color-card);
+}
+
+.sketch-alt {
+  border-radius: 13px 19px 11px 21px / 21px 11px 19px 13px;
+}
+
+.pop {
+  box-shadow: 5px 5px 0 0 var(--color-ink);
+}
+
+.pop-sm {
+  box-shadow: 3px 3px 0 0 var(--color-ink);
+}
+
+.pop-cf {
+  box-shadow: 5px 5px 0 0 var(--color-cf-dark);
+}
+
+.lift {
+  transition: transform 0.14s ease, box-shadow 0.14s ease;
+}
+
+.lift:hover {
+  transform: translate(-2px, -2px) rotate(-0.4deg);
+  box-shadow: 8px 8px 0 0 var(--color-ink);
+}
+
+/* Pills — location / weather / tags / nav */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 2px solid var(--color-ink);
+  border-radius: 999px;
+  padding: 0.18rem 0.7rem;
+  font-family: var(--font-hand);
+  font-size: 1.05rem;
+  line-height: 1.2;
+  background: var(--color-card);
+  white-space: nowrap;
+}
+
+/* Highlighter underline for headings */
+.scribble {
+  background-image: linear-gradient(
+    transparent 58%,
+    var(--color-cf-amber) 58%,
+    var(--color-cf-amber) 92%,
+    transparent 92%
+  );
+}
+
+/* ── Markdown callouts & TODO markers ─────────────────────────────────── */
+.callout {
+  border: 2.5px solid var(--color-ink);
+  border-radius: 16px 12px 18px 10px / 10px 18px 12px 16px;
+  padding: 0.9rem 1.1rem;
+  margin: 1.5rem 0;
+  box-shadow: 4px 4px 0 0 var(--color-ink);
+  background: var(--color-card);
+}
+
+.callout > :first-child {
+  margin-top: 0;
+}
+
+.callout > :last-child {
+  margin-bottom: 0;
+}
+
+.callout-warning {
+  background: #fff3df;
+  border-color: var(--color-cf-dark);
+  box-shadow: 4px 4px 0 0 var(--color-cf-dark);
+}
+
+.callout-warning strong {
+  color: var(--color-cf-dark);
+}
+
+.todo-block {
+  border: 2.5px dashed var(--color-ink);
+  border-radius: 14px;
+  padding: 0.9rem 1.1rem;
+  margin: 1.4rem 0;
+  background: repeating-linear-gradient(
+    45deg,
+    #fff8e6,
+    #fff8e6 13px,
+    #fdefc9 13px,
+    #fdefc9 26px
+  );
+}
+
+.todo-block > :first-child {
+  margin-top: 0;
+}
+
+.todo-block > :last-child {
+  margin-bottom: 0;
+}
+
+.todo-marker {
+  display: inline-block;
+  font-family: var(--font-hand);
+  font-size: 0.85em;
+  line-height: 1.3;
+  background: var(--color-cf);
+  color: #fffdf7;
+  border: 2px solid var(--color-ink);
+  border-radius: 6px;
+  padding: 0 0.45rem;
+  transform: rotate(-3deg);
+  white-space: nowrap;
+}
+
+/* ── Lightbox ─────────────────────────────────────────────────────────── */
+.lightbox {
+  border: none;
+  background: transparent;
+  max-width: 96vw;
+  max-height: 96vh;
+  padding: 0;
+}
+
+.lightbox::backdrop {
+  background: rgba(20, 18, 15, 0.82);
+}
+
+.lightbox img {
+  max-width: 92vw;
+  max-height: 86vh;
+  border: 3px solid #fffdf7;
+  border-radius: 14px;
+}

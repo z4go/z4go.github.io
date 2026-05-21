@@ -1,0 +1,157 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { t } from '../lib/i18n';
+
+const lang = 'en';
+const s = t(lang);
+
+const days = (await getCollection('trips')).sort(
+  (a, b) => a.data.day - b.data.day,
+);
+
+const pathOf = (e: CollectionEntry<'trips'>) =>
+  `/osaka-2026/${e.id.split('/').pop()}`;
+
+const fmt = (date: Date, withYear = false) =>
+  date.toLocaleDateString(s.locale, {
+    day: 'numeric',
+    month: 'short',
+    ...(withYear ? { year: 'numeric' } : {}),
+  });
+
+const first = days[0]?.data.date;
+const last = days[days.length - 1]?.data.date;
+const dateRange = first && last ? `${fmt(first)} – ${fmt(last, true)}` : '';
+const loggedCount = days.filter((d) => d.data.status === 'done').length;
+
+// Open planning decisions surfaced from the trip spec.
+const decisions = [
+  { kind: 'todo', label: 'Osaka hotel zone — Namba vs. Umeda', day: 4 },
+  { kind: 'warn', label: 'Kobe beef reservation', day: 3 },
+  { kind: 'warn', label: 'USJ Express Pass', day: 4 },
+  { kind: 'warn', label: 'Super Nintendo World timed entry', day: 4 },
+  { kind: 'todo', label: 'Day 2 — include Tofukuji?', day: 2 },
+  { kind: 'todo', label: 'Day 3 — Kobe or Katsuo-ji?', day: 3 },
+];
+const dayHref = (n: number) => {
+  const match = days.find((d) => d.data.day === n);
+  return match ? pathOf(match) : '/';
+};
+---
+
+<BaseLayout
+  title="z4go — Osaka & Kansai, 5 days"
+  description="A hand-drawn 5-day Osaka & Kansai trip plan — Kyoto temples, a Kansai day trip and Universal Studios Japan."
+  lang={lang}
+>
+  <!-- Hero -->
+  <section class="mx-auto max-w-4xl px-4 pt-10 sm:pt-14">
+    <p class="font-hand text-2xl text-cf-dark rotate-[-1.5deg]">
+      ✈ a hand-drawn trip plan
+    </p>
+    <h1 class="text-5xl sm:text-7xl mt-2 leading-[1.1]">
+      Osaka <span class="text-cf">&amp;</span> Kansai
+      <span class="block"><span class="scribble">5 days, 2 travellers</span></span>
+    </h1>
+    <div class="mt-5 flex flex-wrap gap-2">
+      <span class="pill">🗓️ {dateRange}</span>
+      <span class="pill">👥 2 travellers</span>
+      <span class="pill">📍 Kyoto · Kansai · Osaka</span>
+      <span class="pill bg-cf-amber">
+        📓 {loggedCount}/{days.length} days logged
+      </span>
+    </div>
+    <p class="mt-6 max-w-2xl text-lg text-ink-2">
+      ทริปวนคันไซ 5 วันในเดือนพฤศจิกายน — เช้า ๆ ไหว้วัดในเกียวโต กลางทริปมี
+      เดย์ทริปแบบยืดหยุ่น แล้วปิดท้ายด้วยยูนิเวอร์แซลสตูดิโอเจแปนในโอซากะ
+      ก่อนบินกลับจากสนามบินคันไซ บางวันเขียนเสร็จแล้ว บางวันยังวางแผนกันอยู่
+    </p>
+  </section>
+
+  <!-- Day cards -->
+  <section class="mx-auto max-w-4xl px-4 mt-12">
+    <h2 class="text-3xl mb-5"><span class="scribble">The itinerary</span></h2>
+    <div class="grid sm:grid-cols-2 gap-5 sm:gap-6">
+      {
+        days.map((d, i) => (
+          <a
+            href={pathOf(d)}
+            class:list={[
+              'sketch pop lift overflow-hidden flex flex-col',
+              i % 2 === 0 ? 'sketch-alt' : '',
+            ]}
+          >
+            <div class="relative">
+              <Image
+                src={d.data.hero}
+                alt={d.data.heroAlt}
+                widths={[320, 520, 768]}
+                sizes="(max-width: 640px) 100vw, 380px"
+                format="webp"
+                class="w-full aspect-[3/2] object-cover border-b-2 border-ink"
+              />
+              <span class="absolute top-3 left-3 pill font-bold">
+                {s.dayLabel} {d.data.day}
+              </span>
+              <span
+                class:list={[
+                  'absolute top-3 right-3 pill',
+                  d.data.status === 'done'
+                    ? 'bg-leaf text-paper'
+                    : 'bg-cf-amber',
+                ]}
+              >
+                {d.data.status === 'done' ? s.logged : s.planning}
+              </span>
+            </div>
+            <div class="p-5 flex flex-col flex-1">
+              <p class="font-hand text-lg text-ink-2">
+                {fmt(d.data.date, true)}
+              </p>
+              <h3 class="text-2xl mt-0.5">{d.data.title}</h3>
+              <p class="mt-2 text-ink-2 flex-1">{d.data.summary}</p>
+              <div class="mt-4 flex items-center justify-between gap-2">
+                <span class="pill text-sm">📍 {d.data.location}</span>
+                <span class="font-hand text-lg text-cf-dark">Read day →</span>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Open decisions -->
+  <section class="mx-auto max-w-4xl px-4 mt-14">
+    <h2 class="text-3xl mb-2"><span class="scribble">Still cooking</span></h2>
+    <p class="text-ink-2 mb-5">
+      การจองและตัวเลือกที่ยังไม่ลงตัว — แตะเพื่อข้ามไปดูวันนั้น
+    </p>
+    <div class="grid sm:grid-cols-2 gap-3 sm:gap-4">
+      {
+        decisions.map((item) => (
+          <a
+            href={dayHref(item.day)}
+            class:list={[
+              'sketch pop-sm lift p-4 flex items-center gap-3',
+              item.kind === 'warn' ? 'bg-[#fff3df]' : '',
+            ]}
+          >
+            <span class="text-2xl" aria-hidden="true">
+              {item.kind === 'warn' ? '⚠️' : '✎'}
+            </span>
+            <span class="flex-1 font-hand text-lg leading-tight">
+              {item.label}
+            </span>
+            <span class="pill text-sm shrink-0">
+              {s.dayLabel} {item.day}
+            </span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
