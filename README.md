@@ -1,54 +1,84 @@
-# z4go ✈️
+# z4go ✈️ — Osaka / Kansai trip plan
 
-A small, fast **travel planner** — keep every trip and its day-by-day
-itinerary in one place. Built with [Astro](https://astro.build) and
-[Bun](https://bun.sh), deployed free on **GitHub Pages**.
+A static **5-day Osaka & Kansai trip plan** (Nov 13–17, 2026) — Kyoto
+temples, a flexible Kansai day trip, and Universal Studios Japan. Built with
+**Astro** + **Bun**, hand-drawn in a *Cloudflare × Excalidraw* theme, and
+deployed free to **GitHub Pages**.
 
-🔗 Live site: **https://z4go.github.io/z4go/**
+🔗 Live site: **https://z4go.github.io/**
 
 ## Tech
 
-- **Astro 5** — static site generator
-- **Bun** — package manager & runtime
-- Plain CSS — Ocean / Teal theme
+- **Astro 5** + TypeScript — static site generator
+- **Content collections** — one Markdown file per trip day (`src/content/trips/`)
+- **Tailwind CSS v4** — via the `@tailwindcss/vite` plugin (CSS-first theme)
+- **`astro:assets`** `<Image>` — auto WebP + responsive images
 - **GitHub Actions** — auto-deploy on push to `main`
+
+> **Note on the spec:** `@astrojs/image` was removed from Astro years ago — its
+> replacement, the built-in `astro:assets`, is used here instead.
 
 ## Develop
 
 ```sh
-bun install      # install dependencies
-bun run dev      # start dev server → http://localhost:4321/z4go
-bun run build    # build to ./dist
-bun run preview  # preview the production build
+bun install          # install dependencies
+bun run placeholders # (re)generate placeholder images
+bun run dev          # dev server → http://localhost:4321
+bun run build        # build to ./dist
+bun run preview      # preview the production build
 ```
-
-## Add a trip
-
-Everything lives in [`src/data/trips.ts`](src/data/trips.ts). Add a new
-object to the `trips` array — a page is generated for each `slug`
-automatically.
 
 ## Project structure
 
 ```
 src/
-  components/   Header, Footer, TripCard
-  data/         trips.ts — all trip & itinerary data
-  layouts/      Layout.astro — shared page shell
-  lib/          url.ts — base-path-aware link helper
-  pages/        index.astro, trips/[slug].astro
-  styles/       global.css — theme + layout
-public/         favicon.svg
-.github/        workflows/deploy.yml — GitHub Pages deploy
+  assets/osaka-2026/      day-N/hero.jpg + photo-*.jpg  (optimized by Astro)
+  components/
+    TripHero.astro        title, date, location + weather pills, hero image
+    DayStats.astro        4 metric cards — steps / spent / stops / photos
+    Timeline.astro        time · stop · cost table
+    RouteMap.astro        key-free Google Maps embed from a coords array
+    PhotoGrid.astro       responsive grid, lazy-loaded, click-to-lightbox
+    ReferenceList.astro   link cards with icon + external-link indicator
+    TagList.astro         hashtag pills
+    DayLayout.astro       assembles all of the above from frontmatter
+    SiteNav.astro         sticky nav with Day 1–5 dots
+  content/trips/osaka-2026/   day-1.md … day-5.md
+  content.config.ts       trip collection schema
+  layouts/BaseLayout.astro    HTML shell, fonts, footer
+  pages/
+    index.astro           trip index with day cards
+    osaka-2026/[day].astro  one page per day → /osaka-2026/day-1 … day-5
+  styles/global.css       Tailwind theme + hand-drawn surfaces
+plugins/remark-todo.mjs   turns `{{ TODO }}` markers into styled spans
+scripts/gen-placeholders.mjs  generates placeholder images
 ```
+
+## Images
+
+The repo ships with **generated placeholder images** so the build works before
+real photos exist. To use real photos:
+
+1. Resize source images to **max 1600px wide** before committing.
+2. Drop them into `src/assets/osaka-2026/day-N/` using the same filenames
+   (`hero.jpg`, `photo-1.jpg`, …) — frontmatter paths stay unchanged.
+3. Hero images are cropped **3:2**; grid thumbnails **1:1**.
+
+`astro:assets` converts them to responsive WebP at build time.
+
+## Content
+
+Each day is a Markdown file. Frontmatter drives every component (`stats`,
+`timeline`, `coords`, `references`, `tags`, …); the Markdown body is the
+write-up. Days 1 & 5 are written; Days 2–4 use `{{ TODO }}` markers and
+`callout` / `todo-block` blocks for pending decisions.
 
 ## Deployment
 
-Pushing to `main` runs `.github/workflows/deploy.yml`, which builds with
-Bun and publishes `dist/` to GitHub Pages.
+Pushing to `main` runs `.github/workflows/deploy.yml`, which builds with Bun
+and publishes `dist/` to GitHub Pages.
 
-> **One-time setup:** in the repo, go to **Settings → Pages → Build and
-> deployment → Source** and select **GitHub Actions**.
-
-The `site` and `base` in [`astro.config.mjs`](astro.config.mjs) are set
-for the `z4go/z4go` repo. If you fork or rename, update them to match.
+> **One-time setup:** this site targets the **org root** (`z4go.github.io`).
+> The repo must be named `z4go.github.io`, and in **Settings → Pages → Build
+> and deployment → Source** select **GitHub Actions**. `astro.config.mjs` uses
+> `site: 'https://z4go.github.io'` with no `base`.

@@ -1,0 +1,66 @@
+---
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  stats: { steps: number; spent: string; stops: number; photos: number };
+  pending?: boolean;
+  lang?: Lang;
+}
+
+const { stats, pending = false, lang = 'en' } = Astro.props;
+const s = t(lang);
+const dash = '—';
+
+const cards = [
+  {
+    icon: '👟',
+    label: s.statSteps,
+    value:
+      pending || stats.steps === 0 ? dash : stats.steps.toLocaleString('en-US'),
+    tint: 'bg-cf-amber',
+  },
+  {
+    icon: '💴',
+    label: s.statSpent,
+    value: pending ? dash : stats.spent,
+    tint: 'bg-leaf/25',
+  },
+  {
+    icon: '📍',
+    label: s.statStops,
+    value: pending || stats.stops === 0 ? dash : String(stats.stops),
+    tint: 'bg-sky/25',
+  },
+  {
+    icon: '📷',
+    label: s.statPhotos,
+    value: pending || stats.photos === 0 ? dash : String(stats.photos),
+    tint: 'bg-berry/20',
+  },
+];
+
+const rotation = ['-rotate-1', 'rotate-1', 'rotate-1', '-rotate-1'];
+---
+
+<section class="mx-auto max-w-4xl px-4 mt-8">
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
+    {
+      cards.map((card, i) => (
+        <div class:list={['sketch pop-sm lift p-4 text-center', rotation[i]]}>
+          <div
+            class:list={[
+              'mx-auto mb-2 grid place-items-center w-11 h-11 rounded-full border-2 border-ink text-xl',
+              card.tint,
+            ]}
+          >
+            {card.icon}
+          </div>
+          <div class="font-hand text-3xl leading-none">{card.value}</div>
+          <div class="text-xs uppercase tracking-wide text-ink-2 mt-1">
+            {card.label}
+          </div>
+        </div>
+      ))
+    }
+  </div>
+</section>

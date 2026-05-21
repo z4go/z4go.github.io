@@ -1,0 +1,62 @@
+---
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  day: number;
+  title: string;
+  date: Date;
+  location: string;
+  weather: string;
+  image: ImageMetadata;
+  alt: string;
+  status: 'done' | 'todo';
+  lang?: Lang;
+}
+
+const { day, title, date, location, weather, image, alt, status, lang = 'en' } =
+  Astro.props;
+
+const s = t(lang);
+const dateLabel = date.toLocaleDateString(s.locale, {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+});
+---
+
+<header class="mx-auto max-w-4xl px-4 pt-8">
+  <div class="sketch pop overflow-hidden">
+    <div class="relative">
+      <Image
+        src={image}
+        alt={alt}
+        widths={[480, 768, 1200, 1600]}
+        sizes="(max-width: 820px) 100vw, 780px"
+        format="webp"
+        class="w-full aspect-[3/2] object-cover"
+      />
+      <span class="absolute top-3 left-3 pill">{s.dayLabel} {day}</span>
+      <span
+        class:list={[
+          'absolute top-3 right-3 pill',
+          status === 'done' ? 'bg-leaf text-paper' : 'bg-cf-amber',
+        ]}
+      >
+        {status === 'done' ? s.logged : s.planning}
+      </span>
+    </div>
+    <div class="p-5 sm:p-7 border-t-2 border-ink">
+      <p class="font-hand text-xl text-ink-2">{dateLabel}</p>
+      <h1 class="text-4xl sm:text-5xl mt-1">
+        <span class="scribble">{title}</span>
+      </h1>
+      <div class="mt-4 flex flex-wrap gap-2">
+        <span class="pill">📍 {location}</span>
+        <span class="pill">{weather}</span>
+      </div>
+    </div>
+  </div>
+</header>

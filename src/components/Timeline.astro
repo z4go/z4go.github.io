@@ -1,0 +1,52 @@
+---
+import { t, type Lang } from '../lib/i18n';
+
+interface Props {
+  items: { time: string; stop: string; cost: string }[];
+  lang?: Lang;
+}
+
+const { items, lang = 'en' } = Astro.props;
+const s = t(lang);
+---
+
+<section class="mx-auto max-w-4xl px-4 mt-12">
+  <h2 class="text-3xl mb-4"><span class="scribble">{s.timeline}</span></h2>
+  {
+    items.length === 0 ? (
+      <p class="sketch p-4 text-ink-2">{s.timelineEmpty}</p>
+    ) : (
+      <div class="sketch pop overflow-hidden">
+        <table class="w-full border-collapse text-left">
+          <thead>
+            <tr class="bg-cf text-paper font-hand text-lg">
+              <th class="px-3 sm:px-4 py-2 w-20 sm:w-28">{s.colTime}</th>
+              <th class="px-3 sm:px-4 py-2">{s.colStop}</th>
+              <th class="px-3 sm:px-4 py-2 text-right w-20 sm:w-28">
+                {s.colCost}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {items.map((item, i) => (
+              <tr
+                class:list={[
+                  'border-t-2 border-dashed border-ink/30',
+                  i % 2 === 1 ? 'bg-paper/60' : '',
+                ]}
+              >
+                <td class="px-3 sm:px-4 py-3 font-hand text-lg whitespace-nowrap align-top">
+                  {item.time}
+                </td>
+                <td class="px-3 sm:px-4 py-3 align-top">{item.stop}</td>
+                <td class="px-3 sm:px-4 py-3 text-right font-hand text-lg whitespace-nowrap align-top">
+                  {item.cost}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )
+  }
+</section>

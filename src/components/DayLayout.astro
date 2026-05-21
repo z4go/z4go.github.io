@@ -1,0 +1,100 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import TripHero from './TripHero.astro';
+import DayStats from './DayStats.astro';
+import Timeline from './Timeline.astro';
+import RouteMap from './RouteMap.astro';
+import PhotoGrid from './PhotoGrid.astro';
+import ReferenceList from './ReferenceList.astro';
+import TagList from './TagList.astro';
+import { t } from '../lib/i18n';
+
+interface Props {
+  entry: CollectionEntry<'trips'>;
+}
+
+const { entry } = Astro.props;
+const d = entry.data;
+const lang = d.lang;
+const s = t(lang);
+const pending = d.status === 'todo';
+
+const allDays = (await getCollection('trips')).sort(
+  (a, b) => a.data.day - b.data.day,
+);
+const index = allDays.findIndex((x) => x.id === entry.id);
+const prev = allDays[index - 1];
+const next = allDays[index + 1];
+const pathOf = (e: CollectionEntry<'trips'>) =>
+  `/osaka-2026/${e.id.split('/').pop()}`;
+---
+
+<BaseLayout
+  title={`${s.dayLabel} ${d.day}: ${d.title} — z4go`}
+  description={d.summary}
+  currentDay={d.day}
+  lang={lang}
+>
+  <article class="pb-6">
+    <TripHero
+      day={d.day}
+      title={d.title}
+      date={d.date}
+      location={d.location}
+      weather={d.weather}
+      image={d.hero}
+      alt={d.heroAlt}
+      status={d.status}
+      lang={lang}
+    />
+
+    <DayStats stats={d.stats} pending={pending} lang={lang} />
+
+    <div class="mx-auto max-w-4xl px-4 mt-12">
+      <div
+        class="prose prose-stone max-w-none prose-headings:font-hand prose-headings:font-normal prose-a:text-cf-dark prose-a:decoration-cf-amber prose-a:decoration-2 prose-img:rounded-xl"
+      >
+        <slot />
+      </div>
+    </div>
+
+    <Timeline items={d.timeline} lang={lang} />
+    <RouteMap coords={d.coords} lang={lang} />
+    <PhotoGrid
+      photos={d.photos}
+      dayTitle={`${s.dayLabel} ${d.day}`}
+      lang={lang}
+    />
+    <ReferenceList references={d.references} lang={lang} />
+    <TagList tags={d.tags} />
+
+    <nav
+      class="mx-auto max-w-4xl px-4 mt-14 flex justify-between gap-3 font-hand text-lg"
+    >
+      {
+        prev ? (
+          <a href={pathOf(prev)} class="pill lift">
+            ← {s.dayLabel} {prev.data.day}
+          </a>
+        ) : (
+          <a href="/" class="pill lift">
+            ← {s.tripIndex}
+          </a>
+        )
+      }
+      {
+        next ? (
+          <a href={pathOf(next)} class="pill lift">
+            {s.dayLabel} {next.data.day} →
+          </a>
+        ) : (
+          <a href="/" class="pill lift">
+            {s.tripIndex} →
+          </a>
+        )
+      }
+    </nav>
+  </article>
+</BaseLayout>

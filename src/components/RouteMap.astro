@@ -1,0 +1,62 @@
+---
+import { t, type Lang } from '../lib/i18n';
+
+interface Coord {
+  label: string;
+  lat: number;
+  lng: number;
+}
+
+interface Props {
+  coords: Coord[];
+  lang?: Lang;
+}
+
+const { coords, lang = 'en' } = Astro.props;
+const s = t(lang);
+
+// Build a key-free Google Maps embed. One point → a marker; multiple points →
+// a classic directions embed (saddr/daddr with `+to:` waypoints).
+let mapSrc: string | null = null;
+if (coords.length === 1) {
+  const c = coords[0];
+  mapSrc = `https://maps.google.com/maps?q=${c.lat},${c.lng}&z=13&output=embed`;
+} else if (coords.length > 1) {
+  const saddr = `${coords[0].lat},${coords[0].lng}`;
+  const daddr = coords
+    .slice(1)
+    .map((c) => `${c.lat},${c.lng}`)
+    .join('+to:');
+  mapSrc = `https://maps.google.com/maps?saddr=${saddr}&daddr=${daddr}&output=embed`;
+}
+---
+
+<section class="mx-auto max-w-4xl px-4 mt-12">
+  <h2 class="text-3xl mb-4"><span class="scribble">{s.routeMap}</span></h2>
+  {
+    mapSrc ? (
+      <div class="sketch pop overflow-hidden">
+        <iframe
+          title={s.routeMap}
+          src={mapSrc}
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="w-full aspect-[4/3] sm:aspect-[16/9] border-0 block"
+        />
+        <ol class="border-t-2 border-ink p-4 flex flex-wrap gap-2">
+          {coords.map((c, i) => (
+            <li class="pill">
+              <span class="font-hand text-cf-dark">{i + 1}</span>
+              {c.label}
+            </li>
+          ))}
+        </ol>
+      </div>
+    ) : (
+      <div class="todo-block">
+        <span class="todo-marker">TODO</span>
+        <p class="mt-2">{s.routeEmpty}</p>
+      </div>
+    )
+  }
+</section>
