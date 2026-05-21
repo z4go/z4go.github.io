@@ -1,0 +1,16 @@
+# Editor / tooling
+/.vscode
+/.claude
+
+# Dependencies
+node_modules/
+
+# Astro build output
+dist/
+.astro/
+
+# Logs & env
+*.log
+.env
+.env.production
+.DS_Store

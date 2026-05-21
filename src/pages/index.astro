@@ -1,0 +1,60 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TripCard from '../components/TripCard.astro';
+import { trips } from '../data/trips';
+
+const totalDays = trips.reduce((sum, t) => sum + t.days.length, 0);
+const countries = new Set(trips.map((t) => t.country)).size;
+---
+
+<Layout title="z4go — Plan your next adventure">
+  <section class="hero">
+    <div class="container hero__inner">
+      <span class="hero__eyebrow">Travel planner</span>
+      <h1>Plan your next adventure, day by day.</h1>
+      <p>
+        z4go keeps every trip in one place — itineraries, timings and notes,
+        laid out so you always know what comes next.
+      </p>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <strong>{trips.length}</strong>
+          <span>Trips planned</span>
+        </div>
+        <div class="hero__stat">
+          <strong>{countries}</strong>
+          <span>Countries</span>
+        </div>
+        <div class="hero__stat">
+          <strong>{totalDays}</strong>
+          <span>Days mapped</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="trips">
+    <div class="container">
+      <div class="section__head">
+        <h2>Your trips</h2>
+        <p>Pick a trip to see the full itinerary.</p>
+      </div>
+      <div class="trip-grid">
+        {trips.map((trip) => <TripCard trip={trip} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head">
+        <h2>About z4go</h2>
+        <p>
+          A small, fast static site built with Astro and Bun. Trips live in a
+          single data file — edit it and the pages rebuild automatically. No
+          backend, no cost: it ships straight to GitHub Pages.
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>

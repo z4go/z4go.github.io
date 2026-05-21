@@ -1,0 +1,89 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { trips, type Trip } from '../../data/trips';
+import { url } from '../../lib/url';
+
+export function getStaticPaths() {
+  return trips.map((trip) => ({
+    params: { slug: trip.slug },
+    props: { trip },
+  }));
+}
+
+interface Props {
+  trip: Trip;
+}
+
+const { trip } = Astro.props;
+
+const fmtLong = (d: string) =>
+  new Date(d).toLocaleDateString('en-US', {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+  });
+
+const tagLabel: Record<string, string> = {
+  sight: 'Sightseeing',
+  food: 'Food',
+  transport: 'Transport',
+  stay: 'Stay',
+  activity: 'Activity',
+};
+---
+
+<Layout
+  title={`${trip.title} — z4go`}
+  description={trip.summary}
+>
+  <section
+    class="trip-hero"
+    style={`background: linear-gradient(135deg, ${trip.gradient[0]}, ${trip.gradient[1]});`}
+  >
+    <div class="container">
+      <a class="back-link" href={url('/')}>← All trips</a>
+      <div class="trip-hero__emoji" aria-hidden="true">{trip.emoji}</div>
+      <h1>{trip.title}</h1>
+      <p class="trip-hero__dest">📍 {trip.destination}, {trip.country}</p>
+      <div class="trip-facts">
+        <span class="fact">🗓️ {fmtLong(trip.start)} – {fmtLong(trip.end)}</span>
+        <span class="fact">📋 {trip.days.length} days</span>
+        <span class="fact">👥 {trip.travelers} travelers</span>
+        <span class="fact">💰 {trip.budget}</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <h2>Itinerary</h2>
+        <p>{trip.summary}</p>
+      </div>
+
+      {
+        trip.days.map((day) => (
+          <article class="day">
+            <div class="day__head">
+              <span class="day__label">{day.label}</span>
+              <span class="day__title">{day.summary}</span>
+              <span class="day__date">{fmtLong(day.date)}</span>
+            </div>
+            <ul class="timeline">
+              {day.activities.map((act) => (
+                <li>
+                  <span class="timeline__time">{act.time}</span>
+                  <div>
+                    <span class="timeline__title">{act.title}</span>
+                    {act.note && <span class="timeline__note">{act.note}</span>}
+                    <span class={`tag tag--${act.tag}`}>{tagLabel[act.tag]}</span>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</Layout>
