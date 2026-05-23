@@ -2,9 +2,37 @@ import { defineCollection } from 'astro:content';
 import { z } from 'astro:schema';
 import { glob } from 'astro/loaders';
 
-// One Markdown file per trip day. Frontmatter drives every component.
+// Two collections rooted at the same folder, split by glob depth:
+//   src/content/trips/<slug>.md         → trip metadata  (collection: trips)
+//   src/content/trips/<slug>/day-N.md   → day entries    (collection: days)
 const trips = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/trips' }),
+  loader: glob({ pattern: '*.md', base: './src/content/trips' }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      location: z.string(),
+      startDate: z.coerce.date(),
+      endDate: z.coerce.date(),
+      summary: z.string(),
+      travellers: z.number().int().positive().default(1),
+      cover: image(),
+      coverAlt: z.string().default('Trip cover image'),
+      status: z.enum(['planning', 'live', 'done']).default('planning'),
+      tags: z.array(z.string()).default([]),
+      decisions: z
+        .array(
+          z.object({
+            kind: z.enum(['todo', 'warn']),
+            label: z.string(),
+            day: z.number().int().positive(),
+          }),
+        )
+        .default([]),
+    }),
+});
+
+const days = defineCollection({
+  loader: glob({ pattern: '*/*.md', base: './src/content/trips' }),
   schema: ({ image }) =>
     z.object({
       day: z.number().int().positive(),
@@ -55,4 +83,4 @@ const trips = defineCollection({
     }),
 });
 
-export const collections = { trips };
+export const collections = { trips, days };

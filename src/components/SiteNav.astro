@@ -2,51 +2,52 @@
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
-  days: CollectionEntry<'trips'>[];
+  days: CollectionEntry<'days'>[];
   currentDay?: number;
 }
 
 const { days, currentDay } = Astro.props;
-const dayPath = (d: CollectionEntry<'trips'>) =>
-  `/osaka-2026/${d.id.split('/').pop()}`;
+const dayPath = (d: CollectionEntry<'days'>) => `/${d.id}`;
 ---
 
 <header class="sticky top-0 z-40 border-b-2 border-ink bg-paper/90 backdrop-blur">
-  <nav class="mx-auto max-w-4xl px-4 h-16 flex items-center justify-between gap-3">
+  <nav class="mx-auto max-w-4xl px-3 sm:px-4 h-14 sm:h-16 flex items-center justify-between gap-2 sm:gap-3">
     <a href="/" class="flex items-center gap-2 shrink-0" aria-label="z4go — home">
       <span
-        class="grid place-items-center w-9 h-9 border-[2.5px] border-ink bg-cf text-paper text-lg pop-sm"
+        class="grid place-items-center w-8 h-8 sm:w-9 sm:h-9 border-[2.5px] border-ink bg-cf text-paper text-base sm:text-lg pop-sm"
         style="border-radius:14px 9px 13px 8px/8px 13px 9px 14px"
         aria-hidden="true">✈</span
       >
-      <span class="font-hand text-2xl leading-none">z4go</span>
+      <span class="font-hand text-xl sm:text-2xl leading-none">z4go</span>
     </a>
 
-    <ul class="flex items-center gap-1.5 sm:gap-2">
-      {
-        days.map((d) => {
-          const n = d.data.day;
-          const active = n === currentDay;
-          return (
-            <li>
-              <a
-                href={dayPath(d)}
-                aria-current={active ? 'page' : undefined}
-                title={`Day ${n} — ${d.data.title}`}
-                class:list={[
-                  'grid place-items-center w-9 h-9 font-hand text-lg border-2 border-ink rounded-full transition-transform hover:-translate-y-0.5',
-                  active
-                    ? 'bg-cf text-paper pop-sm'
-                    : 'bg-card hover:bg-cf-amber',
-                  d.data.status === 'todo' && !active ? 'border-dashed' : '',
-                ]}
-              >
-                {n}
-              </a>
-            </li>
-          );
-        })
-      }
-    </ul>
+    {
+      days.length > 0 && (
+        <ul class="flex items-center gap-1 sm:gap-2">
+          {days.map((d) => {
+            const n = d.data.day;
+            const active = n === currentDay;
+            return (
+              <li>
+                <a
+                  href={dayPath(d)}
+                  aria-current={active ? 'page' : undefined}
+                  title={`Day ${n} — ${d.data.title}`}
+                  class:list={[
+                    'grid place-items-center w-7 h-7 sm:w-9 sm:h-9 font-hand text-sm sm:text-lg border-2 border-ink rounded-full transition-transform hover:-translate-y-0.5',
+                    active
+                      ? 'bg-cf text-paper pop-sm'
+                      : 'bg-card hover:bg-cf-amber',
+                    d.data.status === 'todo' && !active ? 'border-dashed' : '',
+                  ]}
+                >
+                  {n}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      )
+    }
   </nav>
 </header>

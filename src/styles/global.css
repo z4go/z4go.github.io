@@ -82,7 +82,9 @@
   }
 }
 
-/* ── Hand-drawn surfaces (plain CSS so they're never purged) ──────────── */
+/* ── Hand-drawn surfaces — in @layer components so Tailwind utilities
+   (e.g. `bg-leaf`, `text-paper`, `bg-[#fff3df]`) can override defaults ── */
+@layer components {
 .sketch {
   border: 2.5px solid var(--color-ink);
   border-radius: 18px 13px 20px 12px / 12px 20px 13px 18px;
@@ -222,3 +224,4 @@
   border: 3px solid #fffdf7;
   border-radius: 14px;
 }
+} /* end @layer components */
