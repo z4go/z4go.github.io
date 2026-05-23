@@ -61,10 +61,12 @@ coords:
     lat: 35.0090
     lng: 135.7665
 photos:
-  - ../../../assets/osaka-2026/day-1/photo-1.jpg
-  - ../../../assets/osaka-2026/day-1/photo-2.jpg
-  - ../../../assets/osaka-2026/day-1/photo-3.jpg
-  - ../../../assets/osaka-2026/day-1/photo-4.jpg
+  - ../../../assets/osaka-2026/day-1/sannenzaka.png
+  - ../../../assets/osaka-2026/day-1/gion.png
+  - ../../../assets/osaka-2026/day-1/hanamikoji.png
+  - ../../../assets/osaka-2026/day-1/fushimi-inari.png
+  - ../../../assets/osaka-2026/day-1/teramachi.png
+  - ../../../assets/osaka-2026/day-1/shake-shack.png
 references:
   - title: JR Haruka Express — timetable & fares
     url: https://www.westjr.co.jp/global/en/travel-information/pass/haruka/

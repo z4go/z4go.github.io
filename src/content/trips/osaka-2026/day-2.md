@@ -63,7 +63,10 @@ coords:
   - label: Osaka Station (Umeda)
     lat: 34.7024
     lng: 135.4959
-photos: []
+photos:
+  - ../../../assets/osaka-2026/day-2/bamboo.png
+  - ../../../assets/osaka-2026/day-2/nakanoshima.png
+  - ../../../assets/osaka-2026/day-2/kameyama.png
 references:
   - title: JR Sagano Line — Kyoto ↔ Saga-Arashiyama
     url: https://www.westjr.co.jp/global/en/travel-information/route/sagano/

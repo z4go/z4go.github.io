@@ -63,6 +63,10 @@ coords:
   - label: Akashi Kaikyo Bridge
     lat: 34.6181
     lng: 135.0218
+photos:
+  - ../../../assets/osaka-2026/day-3/katsuoji.png
+  - ../../../assets/osaka-2026/day-3/meriken.png
+  - ../../../assets/osaka-2026/day-3/harborland.png
 references:
   - title: Katsuo-ji temple — visitor info
     url: https://katsuo-ji-temple.or.jp/en/
