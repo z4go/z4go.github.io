@@ -1,41 +1,32 @@
 ---
 day: 5
-title: KIX Departure
+title: Goodbye Kansai
 date: 2026-11-17
 location: Osaka → KIX
 weather: ☀️ Clear · 18°C
-summary: เช้าสุดท้ายแบบชิล ๆ ในโอซากะ แล้วนั่งรถไฟนันไก Rapi:t กลับสนามบินคันไซเพื่อบินกลับบ้าน
-status: done
+summary: เช้าสั้น ๆ เช็คเอาต์มื้อเช้าแล้วขึ้น JR Haruka กลับสนามบินคันไซ ถึงสนามบินก่อนเที่ยวบินสามชั่วโมง — เช็คอินและตรวจค้นแบบเผื่อเวลาเต็มที่
+status: todo
 hero: ../../../assets/osaka-2026/day-5/hero.jpg
 heroAlt: วิวอ่าวโอซากะจากหน้าต่างรถไฟไปสนามบิน
 stats:
-  steps: 6800
-  spent: "¥7,200"
-  stops: 4
-  photos: 3
+  steps: 0
+  spent: "TBD"
+  stops: 3
+  photos: 0
 timeline:
-  - time: "09:00"
-    stop: มื้อเช้าชิล ๆ กับเดินเล่นรอบย่านเป็นครั้งสุดท้าย
-    cost: "¥1,500"
-  - time: "10:30"
-    stop: เก็บกระเป๋า เช็คเอาต์ ส่งโปสการ์ด
-    cost: "¥260"
-  - time: "11:40"
-    stop: นันไก Rapi:t — นัมบะ → สนามบินคันไซ
-    cost: "¥1,490"
-  - time: "12:25"
-    stop: สนามบินคันไซ อาคาร 1 — เช็คอินและตรวจค้น
-    cost: "—"
-  - time: "15:30"
-    stop: ออกเดินทาง
+  - time: "06:00–07:00"
+    stop: Check-out + Breakfast
+    cost: "TBD"
+  - time: "07:00–09:00"
+    stop: Osaka → KIX (JR Haruka)
+    cost: "¥3,640"
+  - time: "09:00–10:30"
+    stop: KIX — Check-in + Security
     cost: "—"
 coords:
-  - label: Namba Station, Osaka
-    lat: 34.6627
-    lng: 135.5028
-  - label: Tengachaya — Nankai line
-    lat: 34.6447
-    lng: 135.5099
+  - label: Osaka Station (Umeda)
+    lat: 34.7024
+    lng: 135.4959
   - label: Kansai Int'l Airport (KIX)
     lat: 34.4342
     lng: 135.2329
@@ -44,35 +35,29 @@ photos:
   - ../../../assets/osaka-2026/day-5/photo-2.jpg
   - ../../../assets/osaka-2026/day-5/photo-3.jpg
 references:
-  - title: Nankai Rapi:t — airport express guide
-    url: https://www.howto-osaka.com/en/ticket/rapit/
+  - title: JR Haruka Express — Osaka → KIX
+    url: https://www.westjr.co.jp/global/en/travel-information/pass/haruka/
     icon: 🚄
-  - title: Kansai Airport — departures information
+  - title: Kansai Airport — departures
     url: https://www.kansai-airport.or.jp/en
     icon: ✈️
-tags: [osaka2026, osaka, kix, departureday, nankai]
+tags: [osaka2026, osaka, kix, departureday, haruka]
 ---
 
-เช้าสุดท้าย กระเป๋าหนักขึ้น — ถังป๊อปคอร์น Super Nintendo World เก็บแบนไม่ลง —
-และทริปก็จบลงที่เดิมกับที่ทุกทริปคันไซจบ: กลับมาที่ **สนามบินคันไซ**
+เช้าสุดท้าย กระเป๋าหนักขึ้น — และทริปก็จบที่เดิมกับที่ทุกทริปคันไซจบ:
+กลับมาที่ **สนามบินคันไซ**
 
-## เริ่มเช้าแบบไม่รีบ
+## ขั้นตอนเช้า
 
-ไม่ตั้งนาฬิกาปลุก เดินออกไปซื้อกาแฟร้านสะดวกซื้ออีกแก้ว แล้ววนรอบย่าน
-เป็นครั้งสุดท้าย พร้อมหย่อนโปสการ์ดสองสามใบที่พกมาตั้งแต่วันที่ 2
+ตื่นก่อน 06:00 เช็คเอาต์ กินมื้อเช้าเร็ว ๆ แล้วเดินไป Osaka Station
+ขึ้น **JR Haruka** ตรงไปสนามบินคันไซ — 50 นาที direct
 
-## กลับสู่สนามบิน
+> เผื่อเวลาไว้ราว 3 ชั่วโมง: เที่ยวบินระหว่างประเทศที่ Terminal 1 KIX
+> ทั้งเช็คอินและตรวจค้นคาดเดายาก ใช้เวลาเข้าด่านบางคืนนานพอควร
 
-จากนัมบะ รถไฟ **นันไก Rapi:t** วิ่งตรงไปสนามบินในราวสี่สิบนาที — ที่นั่งจอง
-พื้นที่วางกระเป๋าเป็นเรื่องเป็นราว และวิวอ่าวโอซากะส่งท้ายระหว่างทาง
+## ปิดทริป
 
-> เผื่อเวลาไว้หน่อย: เช็คอินเที่ยวบินระหว่างประเทศที่อาคาร 1 สนามบินคันไซ
-> อยากให้ไปถึงราวสามชั่วโมงล่วงหน้า และคิวตรวจค้นก็คาดเดายาก
-
-## สรุปทริปเป็นตัวเลข
-
-ห้าวัน สองคน กับคลังรูปที่เต็มมาก เกียวโตไว้ไหว้วัด เดย์ทริปคันไซกลางทริป
-แล้วโอซากะที่จัดเต็มสุดเหวี่ยงกับยูนิเวอร์แซลสตูดิโอ จังหวะทริป — มาถึงแบบชิล
-กลับแบบชิล หนักกลางทริป — ลงตัวดี
+ห้าวันสองคน เกียวโตเปิดทริปด้วยวัด อาราชิยามะ คัตสึโอจิ-โกเบ-อาคาชิ
+แล้ว USJ ปิดท้าย จังหวะมาเร็ว กลับเร็ว — ลงตัวดี
 
 แล้วเจอกันใหม่ คันไซ 👋

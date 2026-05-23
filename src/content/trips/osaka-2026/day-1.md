@@ -1,34 +1,43 @@
 ---
 day: 1
-title: Touchdown in Kyoto
+title: Arrival & Higashiyama
 date: 2026-11-13
-location: Kyoto
+location: KIX → Kyoto
 weather: ☀️ Clear · 17°C
-summary: ลงเครื่องที่สนามบินคันไซ นั่งรถไฟฮารูกะเข้าเกียวโต เก็บกระเป๋า แล้วใช้เย็นวันแรกเดินเล่นย่านกิอนริมแม่น้ำคาโมะ
-status: done
+summary: ลงเครื่องที่ KIX เช้า ขึ้น Haruka เข้าเกียวโต ฝากกระเป๋า เดินสายฮิงาชิยามะ — คิโยมิซุ-เดระ ซันเน็นซากะ กิอน ฮานามิโคจิ ตบท้ายฟูชิมิอินาริช่วงเย็น มื้อค่ำย่านเทรามาจิ
+status: todo
 hero: ../../../assets/osaka-2026/day-1/hero.jpg
 heroAlt: โคมไฟยามเย็นเรืองแสงตามตรอกย่านกิอนในเกียวโต
 stats:
-  steps: 11200
-  spent: "¥9,400"
-  stops: 5
-  photos: 4
+  steps: 0
+  spent: "¥6,640"
+  stops: 8
+  photos: 0
 timeline:
-  - time: "13:05"
-    stop: ลงเครื่องที่สนามบินคันไซ (KIX) — อาคาร 1
+  - time: "07:30"
+    stop: KIX Arrival — อาคาร 1
     cost: "—"
-  - time: "14:10"
-    stop: รถไฟด่วน JR Haruka → สถานีเกียวโต
+  - time: "07:30–09:00"
+    stop: Immigration — รับกระเป๋า ซื้อ ICOCA & HARUKA package
+    cost: "—"
+  - time: "09:00–10:30"
+    stop: JR Haruka Express → Kyoto Station (75 นาที direct)
     cost: "¥3,640"
-  - time: "15:00"
-    stop: เช็คอินและเก็บกระเป๋าแถวชิโจ-คาวารามาจิ
+  - time: "10:30–11:15"
+    stop: ฝากกระเป๋าโรงแรม / locker
     cost: "—"
-  - time: "16:30"
-    stop: เดินเล่นย่านกิอน — ถนนฮานามิโคจิ และคลองชิราคาวะ
+  - time: "11:15–12:00"
+    stop: Lunch — Shake Shack Kyoto Shijo Karasuma
+    cost: "¥1,500"
+  - time: "12:30–16:30"
+    stop: Higashiyama walk — Kiyomizu-dera · Sannenzaka/Ninenzaka · Gion · Hanamikoji
+    cost: "¥400"
+  - time: "16:45–18:15"
+    stop: Fushimi Inari Taisha
     cost: "—"
-  - time: "18:30"
-    stop: มื้อค่ำคืนแรก — ร้านอิซากายะแบบเคาน์เตอร์
-    cost: "¥5,760"
+  - time: "18:30–19:30"
+    stop: Dinner — Teramachi Street
+    cost: "¥3,000"
 coords:
   - label: Kansai Int'l Airport (KIX)
     lat: 34.4342
@@ -36,12 +45,21 @@ coords:
   - label: Kyoto Station
     lat: 34.9858
     lng: 135.7588
+  - label: Shake Shack — Shijo Karasuma
+    lat: 35.0036
+    lng: 135.7574
+  - label: Kiyomizu-dera
+    lat: 34.9949
+    lng: 135.7849
   - label: Gion — Hanami-koji
     lat: 35.0036
     lng: 135.7752
-  - label: Kamo River — Shijo Bridge
-    lat: 35.0037
-    lng: 135.7689
+  - label: Fushimi Inari Taisha
+    lat: 34.9671
+    lng: 135.7727
+  - label: Teramachi Street
+    lat: 35.0090
+    lng: 135.7665
 photos:
   - ../../../assets/osaka-2026/day-1/photo-1.jpg
   - ../../../assets/osaka-2026/day-1/photo-2.jpg
@@ -51,41 +69,39 @@ references:
   - title: JR Haruka Express — timetable & fares
     url: https://www.westjr.co.jp/global/en/travel-information/pass/haruka/
     icon: 🚆
-  - title: Gion district — walking guide
-    url: https://www.japan-guide.com/e/e3902.html
-    icon: 🏮
-  - title: ICOCA IC card — top-up info
+  - title: ICOCA & HARUKA package
     url: https://www.westjr.co.jp/global/en/ticket/icoca-haruka/
     icon: 💳
-tags: [osaka2026, kyoto, gion, arrivalday, kansai]
+  - title: Kiyomizu-dera — autumn night illumination
+    url: https://www.kiyomizudera.or.jp/en/
+    icon: 🍁
+  - title: Fushimi Inari — visitor info
+    url: https://inari.jp/en/
+    icon: ⛩️
+tags: [osaka2026, kyoto, gion, kiyomizu, fushimiinari, higashiyama, arrivalday]
 ---
 
-ทริปเริ่มต้นตั้งแต่ล้อแตะรันเวย์ที่ **สนามบินนานาชาติคันไซ** ด่านตรวจคนเข้าเมือง
-เร็วมาก — ตู้สแกนใบหน้าที่อาคาร 1 พาเราสองคนผ่านได้ภายในไม่ถึงยี่สิบนาที
-พร้อมกระเป๋าครบ
+วันแรก แลนดิ้งที่ **สนามบินคันไซ (KIX)** เช้ามืด ผ่าน Immigration เสร็จก็ตรง
+เข้า JR Ticket Office รับ **ICOCA & HARUKA package** ที่จองไว้ก่อนบิน
+แล้วขึ้น **Haruka Express** ตรงเข้า Kyoto Station — 75 นาที direct
+ใช้เวลานี้งีบรอบแรกของทริปได้ก่อนเริ่มเดิน
 
-## เข้าเมือง
+## ฝากกระเป๋าก่อน แล้วหาของกินก่อนเดินยาว
 
-เราเติมเงินบัตร **ICOCA** มาก่อนบินแล้ว เลยเหลือแค่ซื้อตั๋วที่นั่งจองของ
-[JR Haruka](https://www.westjr.co.jp/global/en/travel-information/pass/haruka/)
-รถไฟด่วนพาเราจากสนามบินเข้าเกียวโตในราวแปดสิบนาที — กำลังพอให้งีบแรกของทริป
-กับวิวทุ่งนาสีทองเต็มหน้าต่าง
+ก่อน 15:00 ห้องโรงแรมยังไม่พร้อม ส่งกระเป๋าไว้ที่ front desk หรือ locker
+ของสถานี แล้วแวะ **Shake Shack สาขา Shijo Karasuma** เป็นมื้อแรก —
+ใกล้สถานีรถใต้ดิน Karasuma เดินต่อขึ้นไปฮิงาชิยามะได้สบาย
 
-> เคล็ดลับสำหรับสองคน: จองที่นั่ง Haruka ติดกันที่ตู้ขายตั๋วสีเขียว
-> ตู้โดยสารแบบไม่จองที่นั่งเต็มเร็วมากในบ่ายวันศุกร์
+## สายฮิงาชิยามะตอนบ่าย
 
-## เย็นแรกในย่านกิอน
+ช่วง 12:30–16:30 เป็น "บล็อกเดิน" ยาว ๆ ตามลำดับ:
 
-หลังเก็บกระเป๋าแถวชิโจ-คาวารามาจิ เราเดินตรงเข้า **ย่านกิอน** ตอนแสงยังนวล
-ถนนฮานามิโคจิคนเยอะ แต่ตรอกเล็ก ๆ ด้านในไปทาง **คลองชิราคาวะ** กลับเงียบสงบ —
-ต้นหลิว สะพานหิน และไมโกะที่เดินรีบไปทำงานเป็นระยะ
+- **Kiyomizu-dera** — ค่าเข้า ¥400 ช่วงพีคใบไม้แดง night illumination
+  เริ่ม 17:30 (วันนี้เราเดินช่วงกลางวันก่อน)
+- **Sannenzaka / Ninenzaka** — ทางเดินหินผ่านร้านยัตสึฮาชิ
+- **Gion + Hanamikoji** — ตรอกเล็ก ๆ ฝั่ง Shirakawa เงียบกว่า
 
-มื้อค่ำกลายเป็นเซอร์ไพรส์ที่ไม่ได้วางแผน: ร้านอิซากายะเคาน์เตอร์เจ็ดที่นั่ง
-ที่เชฟยกของมาเสิร์ฟเรื่อย ๆ — ปลาซันมะย่าง ไข่หวานดาชิมากิ
-กับสาเกชุดเล็กที่เชฟเลือกให้ ถือเป็นนิมิตหมายที่ดีของอีกห้าวันข้างหน้า
+ตบท้ายด้วย **ฟูชิมิอินาริ** ตอนเย็นก่อนแสงหมด — โทริอิแดงยาวเป็นทางขึ้นเขา
 
-## สิ่งที่เวิร์ก
-
-- ลงเครื่องช่วงต้นบ่าย ทำให้ยังมีเย็นวันแรกเต็ม ๆ ไม่ใช่วันที่เสียเปล่า
-- เดินทางแบบสัมภาระน้อย เลยเดินเล่นย่านกิอนได้ก่อนไปเช็คอิน
-- พกเงินสดไว้สำหรับร้านอิซากายะ — ร้านเคาน์เตอร์เล็ก ๆ ในเกียวโตหลายร้านยังไม่รับบัตร
+> เคล็ดลับ: ซื้อ ICOCA & HARUKA package ออนไลน์ก่อนบิน — ที่ KIX Counter
+> จะรับบัตรกับตั๋วในแถวเดียว ราคา ~¥3,200 ถูกกว่าซื้อแยก

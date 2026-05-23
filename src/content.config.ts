@@ -28,6 +28,19 @@ const trips = defineCollection({
           }),
         )
         .default([]),
+      preplan: z
+        .object({
+          checklist: z
+            .array(
+              z.object({
+                label: z.string(),
+                status: z.enum(['todo', 'done']).default('todo'),
+                note: z.string().optional(),
+              }),
+            )
+            .default([]),
+        })
+        .optional(),
     }),
 });
 

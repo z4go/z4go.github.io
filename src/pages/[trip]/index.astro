@@ -66,6 +66,58 @@ const dayHrefFor = (n: number) => {
     <p class="mt-6 max-w-2xl text-lg text-ink-2">{trip.data.summary}</p>
   </section>
 
+  {
+    trip.data.preplan && trip.data.preplan.checklist.length > 0 && (() => {
+      const list = trip.data.preplan.checklist;
+      const doneCount = list.filter((i) => i.status === 'done').length;
+      return (
+        <section class="mx-auto max-w-4xl px-4 mt-12">
+          <div class="flex flex-wrap items-baseline gap-3 mb-5">
+            <h2 class="text-3xl"><span class="scribble">Pre-trip</span></h2>
+            <span class="pill text-sm">
+              {doneCount}/{list.length} done
+            </span>
+          </div>
+          <p class="text-ink-2 mb-5 max-w-2xl">
+            Bookings and buys to lock in before we fly — once these are
+            done, the rest of the trip just runs.
+          </p>
+          <ul class="sketch sketch-alt pop-sm divide-y-2 divide-ink/15">
+            {list.map((item) => {
+              const done = item.status === 'done';
+              return (
+                <li class="p-3 sm:p-4 flex items-start gap-3 sm:gap-4">
+                  <span
+                    aria-hidden="true"
+                    class:list={[
+                      'grid place-items-center w-7 h-7 sm:w-8 sm:h-8 border-2 border-ink rounded-md font-hand text-lg shrink-0',
+                      done ? 'bg-leaf text-paper' : 'bg-card',
+                    ]}
+                  >
+                    {done ? '✓' : ''}
+                  </span>
+                  <div class="flex-1 min-w-0">
+                    <p
+                      class:list={[
+                        'font-hand text-lg sm:text-xl leading-snug',
+                        done ? 'line-through text-ink-2' : '',
+                      ]}
+                    >
+                      {item.label}
+                    </p>
+                    {item.note && (
+                      <p class="text-sm text-ink-2 mt-0.5">{item.note}</p>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      );
+    })()
+  }
+
   <section class="mx-auto max-w-4xl px-4 mt-12">
     <h2 class="text-3xl mb-5"><span class="scribble">The itinerary</span></h2>
     <div class="grid sm:grid-cols-2 gap-5 sm:gap-6">
