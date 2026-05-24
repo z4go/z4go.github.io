@@ -20,12 +20,15 @@ timeline:
   - time: "07:00–08:00"
     stop: JR Yumesaki / Sakurajima Line → Universal-City Station
     cost: "¥190"
+    transit: 🚆 JR Loop Line · Osaka → Nishikujo · เปลี่ยน Yumesaki → Universal-City (~12 นาที)
   - time: "08:00–17:30"
     stop: USJ — Super Nintendo World (timed entry) + Harry Potter + อื่น ๆ
     cost: "TBD"
+    transit: 🚶 เดินจาก Universal-City Station ~5 นาทีถึงประตูสวน
   - time: "17:30–18:00"
     stop: JR Yumesaki Line → Osaka Station / Umeda
     cost: "¥190"
+    transit: 🚆 Yumesaki + Loop · Universal-City → Osaka (~12 นาที)
   - time: "18:00"
     stop: Dinner — Umeda
     cost: "TBD"

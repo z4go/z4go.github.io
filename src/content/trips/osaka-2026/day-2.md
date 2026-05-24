@@ -17,30 +17,39 @@ timeline:
   - time: "07:30–08:15"
     stop: JR Sagano Line → Saga-Arashiyama Station
     cost: "¥240"
+    transit: 🚆 JR Sagano (San-in) Line · Kyoto → Saga-Arashiyama (~15 นาที direct)
   - time: "08:15–08:45"
     stop: Togetsukyo Bridge · Nakanoshima Bridge
     cost: "—"
+    transit: 🚶 เดินจาก Saga-Arashiyama Station ~10 นาที ลงไปฝั่งแม่น้ำ
   - time: "08:45–09:30"
     stop: Kameyama Park
     cost: "—"
+    transit: 🚶 เดินขึ้นเนินจาก Togetsukyo ~10 นาที
   - time: "09:30–10:15"
     stop: Arashiyama Bamboo Grove
     cost: "—"
+    transit: 🚶 เดินจาก Kameyama Park ~5 นาที (ทางเดียวกัน)
   - time: "10:30–11:00"
     stop: Saga-Arashiyama → Kyoto Station
     cost: "¥240"
+    transit: 🚆 JR Sagano Line · Saga-Arashiyama → Kyoto (~15 นาที)
   - time: "11:00–11:30"
-    stop: Hotel checkout
+    stop: Hotel checkout (Kyoto)
     cost: "—"
+    transit: 🚶 กลับโรงแรมที่ฝากของไว้ → Kyoto Station
   - time: "11:30–13:00"
     stop: JR Haruka → Osaka
     cost: "TBD"
+    transit: 🚆 JR Haruka · Kyoto → Shin-Osaka → Osaka (~30 นาที)
   - time: "13:00–14:00"
     stop: Lunch + hotel check-in (Osaka)
     cost: "TBD"
+    transit: 🚶 ขึ้นกับโรงแรม Namba vs Umeda ที่ตัดสิน
   - time: "14:00–18:00"
     stop: Free time — Osaka
     cost: "TBD"
+    transit: 🚇 Midosuji / Yotsubashi · Umeda ↔ Namba ↔ Shinsaibashi
   - time: "18:00–19:00"
     stop: Dinner
     cost: "TBD"

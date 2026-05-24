@@ -18,29 +18,37 @@ timeline:
     stop: Breakfast
     cost: "TBD"
   - time: "07:00–08:00"
-    stop: Osaka → Katsuo-ji (Midosuji Line → Minoh-Kayano → bus)
+    stop: Osaka → Katsuo-ji
     cost: "TBD"
+    transit: 🚇 Midosuji Line · Umeda → Senri-Chuo · เปลี่ยน Hankyu Bus → Katsuo-ji (~55 นาที, ~¥800)
   - time: "08:00–10:30"
     stop: Katsuo-ji Temple — วัดดารุมะ
     cost: "¥500"
+    transit: 🚶 เดินจากป้ายรถบัสเข้าวัดบนเขา
   - time: "10:30–12:30"
     stop: กลับ Osaka (Umeda) + Lunch
     cost: "TBD"
+    transit: 🚌 Hankyu Bus → Senri-Chuo · 🚇 Midosuji Line กลับ Umeda
   - time: "12:30–13:00"
     stop: JR Kobe Line — Umeda → Kobe-Sannomiya
     cost: "¥420"
+    transit: 🚆 JR Special Rapid · Osaka → Sannomiya (~21 นาที direct)
   - time: "13:00–14:00"
     stop: Meriken Park + Harborland
     cost: "—"
+    transit: 🚶 เดินจาก Sannomiya ~15 นาที ลงไปท่าเรือ หรือ Kobe Loop Bus
   - time: "14:00–14:45"
     stop: Kobe → Akashi Kaikyo Bridge
     cost: "TBD"
+    transit: 🚆 JR Kobe Line · Sannomiya → Maiko (~17 นาที)
   - time: "14:45–16:00"
     stop: Akashi Kaikyo Bridge Exhibition Center
     cost: "¥310"
+    transit: 🚶 เดินจาก Maiko Station ~5 นาที ใต้สะพาน
   - time: "16:00–16:45"
     stop: Akashi → Osaka
     cost: "TBD"
+    transit: 🚆 JR Kobe Line · Maiko → Osaka (~45 นาที direct/transfer)
   - time: "17:00–18:00"
     stop: Dinner — Osaka
     cost: "TBD"

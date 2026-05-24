@@ -24,7 +24,7 @@ const trips = defineCollection({
           z.object({
             kind: z.enum(['todo', 'warn']),
             label: z.string(),
-            day: z.number().int().positive(),
+            day: z.number().int().nonnegative(),
           }),
         )
         .default([]),
@@ -48,7 +48,7 @@ const days = defineCollection({
   loader: glob({ pattern: '*/*.md', base: './src/content/trips' }),
   schema: ({ image }) =>
     z.object({
-      day: z.number().int().positive(),
+      day: z.number().int().nonnegative(),
       title: z.string(),
       date: z.coerce.date(),
       location: z.string(),
@@ -70,6 +70,7 @@ const days = defineCollection({
             time: z.string(),
             stop: z.string(),
             cost: z.string(),
+            transit: z.string().optional(),
           }),
         )
         .default([]),
