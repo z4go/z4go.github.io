@@ -19,7 +19,10 @@ preplan:
       note: Thai Airways · A350-900 · 6h 45m
     - label: Book Kyoto hotel — 13 Nov (1 คืน)
       status: todo
-      note: ใกล้ Kyoto Station — option Vischio / Mitsui Garden / Granvia / Sotetsu Fresa Shijo
+      note: ใกล้ Kyoto Station (mid/budget) — Vischio · Mitsui Garden · Daiwa Roynet · Almont · Sotetsu Fresa
+    - label: Book Osaka hotel — 14–17 Nov (3 คืน)
+      status: todo
+      note: Umeda แนะนำ — Vischio Osaka · Mitsui Garden Premier · Daiwa Roynet Umeda · APA Umeda · Sotetsu Fresa
     - label: Buy Haruka ticket — KIX → Kyoto
       status: todo
       note: ICOCA & HARUKA package — discounted to ~¥3,200
@@ -34,10 +37,19 @@ preplan:
       note: Express Pass ขายหมดเร็ว — ระบุวันที่ 16 พ.ย.
 decisions:
   - kind: todo
-    label: Pick Kyoto hotel — Vischio / Mitsui Garden / Granvia / Sotetsu Fresa
+    label: Pick Kyoto hotel — Vischio / Mitsui Garden / Daiwa Roynet / Almont / Sotetsu Fresa
     day: 1
   - kind: todo
-    label: Osaka hotel zone — Namba vs. Umeda
+    label: Pick Day 1 dinner — yakiniku / ramen / gyukatsu / Pontocho izakaya
+    day: 1
+  - kind: todo
+    label: Pick Osaka hotel — Vischio / Mitsui Garden / Daiwa Roynet (3 คืน, Umeda)
+    day: 2
+  - kind: todo
+    label: Pick Day 2 afternoon combo — A (Castle+Sky) / B (Chill+Sky) / C (Kuromon+Hozenji)
+    day: 2
+  - kind: todo
+    label: Pick Day 2 dinner crawl — Takoyaki + Kushikatsu + Okonomiyaki + Dessert
     day: 2
   - kind: warn
     label: Kobe beef reservation (Sannomiya teppanyaki)

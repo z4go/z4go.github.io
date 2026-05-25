@@ -24,7 +24,7 @@ const full = await Promise.all(
       <h2 class="text-3xl mb-4">
         <span class="scribble">{s.photos}</span>
       </h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4">
+      <div class="flex flex-wrap justify-center gap-3 sm:gap-4">
         {photos.map((photo, i) => (
           <button
             type="button"
@@ -33,6 +33,7 @@ const full = await Promise.all(
             data-caption={`${dayTitle} — ${i + 1}`}
             class:list={[
               'sketch pop-sm lift overflow-hidden block cursor-zoom-in',
+              'w-[calc(50%-0.375rem)] sm:w-[calc(33.333%-0.667rem)]',
               i % 2 === 1 ? 'rotate-1' : '-rotate-1',
             ]}
           >
@@ -43,7 +44,8 @@ const full = await Promise.all(
               sizes="(max-width: 640px) 45vw, 240px"
               format="webp"
               loading="lazy"
-              class="w-full aspect-square object-cover"
+              draggable={false}
+              class="w-full aspect-square object-cover pointer-events-none"
             />
           </button>
         ))}
@@ -51,15 +53,17 @@ const full = await Promise.all(
 
       <dialog class="lightbox" data-lightbox>
         <form method="dialog" class="contents">
-          <button
-            data-close
-            aria-label="Close"
-            class="absolute -top-3 -right-3 z-10 w-10 h-10 rounded-full border-[2.5px] border-ink bg-cf text-paper text-lg font-hand pop-sm"
-          >
-            ✕
-          </button>
+          <div class="lightbox-frame">
+            <button
+              data-close
+              aria-label="Close"
+              class="absolute -top-3 -right-3 z-10 w-10 h-10 rounded-full border-[2.5px] border-ink bg-cf text-paper text-lg font-hand pop-sm"
+            >
+              ✕
+            </button>
+            <img alt="" draggable="false" />
+          </div>
         </form>
-        <img alt="" />
       </dialog>
     </section>
   )
