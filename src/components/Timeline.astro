@@ -2,7 +2,7 @@
 import { t, type Lang } from '../lib/i18n';
 
 interface Props {
-  items: { time: string; stop: string; cost: string }[];
+  items: { time: string; stop: string; cost: string; transit?: string }[];
   lang?: Lang;
 }
 
@@ -38,7 +38,14 @@ const s = t(lang);
                 <td class="px-3 sm:px-4 py-3 font-hand text-lg whitespace-nowrap align-top">
                   {item.time}
                 </td>
-                <td class="px-3 sm:px-4 py-3 align-top">{item.stop}</td>
+                <td class="px-3 sm:px-4 py-3 align-top">
+                  <div>{item.stop}</div>
+                  {item.transit && (
+                    <div class="font-hand text-sm sm:text-base text-ink-2 mt-1 leading-snug">
+                      → {item.transit}
+                    </div>
+                  )}
+                </td>
                 <td class="px-3 sm:px-4 py-3 text-right font-hand text-lg whitespace-nowrap align-top">
                   {item.cost}
                 </td>

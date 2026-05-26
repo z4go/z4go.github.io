@@ -59,6 +59,7 @@ function fontFamily(ttfPath) {
 const FAMILY = fontFamily(FONT_REGULAR) || 'iannnnn-DOG';
 
 const days = [
+  { n: 0, name: 'BKK Red-eye', c1: '#1a1f3a', c2: '#d63346', photos: 0 },
   { n: 1, name: 'Kyoto Arrival', c1: '#d63346', c2: '#fbad41', photos: 4 },
   { n: 2, name: 'Kyoto Temples', c1: '#b3283c', c2: '#e8616f', photos: 0 },
   { n: 3, name: 'Kansai Day Trip', c1: '#d63346', c2: '#fbad41', photos: 0 },

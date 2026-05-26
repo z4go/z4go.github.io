@@ -7,18 +7,26 @@ import { t, type Lang } from '../lib/i18n';
 interface Props {
   title: string;
   description?: string;
+  currentTrip?: string;
   currentDay?: number;
   lang?: Lang;
 }
 
 const {
   title,
-  description = 'A hand-drawn 5-day Osaka & Kansai trip plan — Kyoto temples, a Kansai day trip and Universal Studios Japan.',
+  description = 'A hand-drawn collection of trip plans.',
+  currentTrip,
   currentDay,
   lang = 'en',
 } = Astro.props;
 
-const days = (await getCollection('trips')).sort((a, b) => a.data.day - b.data.day);
+// Day dots in the sticky nav show only when we're inside a trip.
+const tripDays = currentTrip
+  ? (await getCollection('days'))
+      .filter((d) => d.id.startsWith(`${currentTrip}/`))
+      .sort((a, b) => a.data.day - b.data.day)
+  : [];
+
 const year = new Date().getFullYear();
 const s = t(lang);
 ---
@@ -42,7 +50,7 @@ const s = t(lang);
     <title>{title}</title>
   </head>
   <body class="min-h-screen flex flex-col">
-    <SiteNav days={days} currentDay={currentDay} />
+    <SiteNav days={tripDays} currentDay={currentDay} />
     <main class="flex-1">
       <slot />
     </main>

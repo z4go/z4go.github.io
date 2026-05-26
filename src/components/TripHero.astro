@@ -36,7 +36,8 @@ const dateLabel = date.toLocaleDateString(s.locale, {
         widths={[480, 768, 1200, 1600]}
         sizes="(max-width: 820px) 100vw, 780px"
         format="webp"
-        class="w-full aspect-[3/2] object-cover"
+        draggable={false}
+        class="w-full aspect-[16/9] sm:aspect-[21/9] max-h-[360px] object-cover"
       />
       <span class="absolute top-3 left-3 pill">{s.dayLabel} {day}</span>
       <span

@@ -1,0 +1,208 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { t } from '../../lib/i18n';
+
+export async function getStaticPaths() {
+  const trips = await getCollection('trips');
+  return trips.map((entry) => ({
+    params: { trip: entry.id },
+    props: { entry },
+  }));
+}
+
+type Props = { entry: CollectionEntry<'trips'> };
+
+const { entry: trip } = Astro.props;
+const lang = 'en';
+const s = t(lang);
+
+const days = (await getCollection('days'))
+  .filter((d) => d.id.startsWith(`${trip.id}/`))
+  .sort((a, b) => a.data.day - b.data.day);
+
+const dayPath = (d: CollectionEntry<'days'>) => `/${d.id}`;
+
+const fmt = (date: Date, withYear = false) =>
+  date.toLocaleDateString(s.locale, {
+    day: 'numeric',
+    month: 'short',
+    ...(withYear ? { year: 'numeric' } : {}),
+  });
+
+const dateRange = `${fmt(trip.data.startDate)} – ${fmt(trip.data.endDate, true)}`;
+const loggedCount = days.filter((d) => d.data.status === 'done').length;
+
+const dayHrefFor = (n: number) => {
+  const match = days.find((d) => d.data.day === n);
+  return match ? dayPath(match) : `/${trip.id}/`;
+};
+---
+
+<BaseLayout
+  title={`${trip.data.title} — z4go`}
+  description={trip.data.summary}
+  currentTrip={trip.id}
+  lang={lang}
+>
+  <section class="mx-auto max-w-4xl px-4 pt-10 sm:pt-14">
+    <a href="/" class="font-hand text-lg text-ink-2 hover:text-cf-dark">← All trips</a>
+    <p class="font-hand text-2xl text-cf-dark rotate-[-1.5deg] mt-3">
+      ✈ a hand-drawn trip plan
+    </p>
+    <h1 class="text-5xl sm:text-7xl mt-2 leading-[1.1]">
+      <span class="scribble">{trip.data.title}</span>
+    </h1>
+    <div class="mt-5 flex flex-wrap gap-2">
+      <span class="pill">🗓️ {dateRange}</span>
+      <span class="pill">👥 {trip.data.travellers} travellers</span>
+      <span class="pill">📍 {trip.data.location}</span>
+      <span class="pill bg-cf-amber">
+        📓 {loggedCount}/{days.length} days logged
+      </span>
+    </div>
+    <p class="mt-6 max-w-2xl text-lg text-ink-2">{trip.data.summary}</p>
+  </section>
+
+  {
+    trip.data.preplan && trip.data.preplan.checklist.length > 0 && (() => {
+      const list = trip.data.preplan.checklist;
+      const doneCount = list.filter((i) => i.status === 'done').length;
+      return (
+        <section class="mx-auto max-w-4xl px-4 mt-12">
+          <div class="flex flex-wrap items-baseline gap-3 mb-5">
+            <h2 class="text-3xl"><span class="scribble">Pre-trip</span></h2>
+            <span class="pill text-sm">
+              {doneCount}/{list.length} done
+            </span>
+          </div>
+          <p class="text-ink-2 mb-5 max-w-2xl">
+            Bookings and buys to lock in before we fly — once these are
+            done, the rest of the trip just runs.
+          </p>
+          <ul class="sketch sketch-alt pop-sm divide-y-2 divide-ink/15">
+            {list.map((item) => {
+              const done = item.status === 'done';
+              return (
+                <li class="p-3 sm:p-4 flex items-start gap-3 sm:gap-4">
+                  <span
+                    aria-hidden="true"
+                    class:list={[
+                      'grid place-items-center w-7 h-7 sm:w-8 sm:h-8 border-2 border-ink rounded-md font-hand text-lg shrink-0',
+                      done ? 'bg-leaf text-paper' : 'bg-card',
+                    ]}
+                  >
+                    {done ? '✓' : ''}
+                  </span>
+                  <div class="flex-1 min-w-0">
+                    <p
+                      class:list={[
+                        'font-hand text-lg sm:text-xl leading-snug',
+                        done ? 'line-through text-ink-2' : '',
+                      ]}
+                    >
+                      {item.label}
+                    </p>
+                    {item.note && (
+                      <p class="text-sm text-ink-2 mt-0.5">{item.note}</p>
+                    )}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      );
+    })()
+  }
+
+  <section class="mx-auto max-w-4xl px-4 mt-12">
+    <h2 class="text-3xl mb-5"><span class="scribble">The itinerary</span></h2>
+    <div class="grid sm:grid-cols-2 gap-5 sm:gap-6">
+      {
+        days.map((d, i) => (
+          <a
+            href={dayPath(d)}
+            class:list={[
+              'sketch pop lift overflow-hidden flex flex-col',
+              i % 2 === 0 ? 'sketch-alt' : '',
+            ]}
+          >
+            <div class="relative">
+              <Image
+                src={d.data.hero}
+                alt={d.data.heroAlt}
+                widths={[320, 520, 768]}
+                sizes="(max-width: 640px) 100vw, 380px"
+                format="webp"
+                draggable={false}
+                class="w-full aspect-[3/2] object-cover border-b-2 border-ink"
+              />
+              <span class="absolute top-3 left-3 pill font-bold">
+                {s.dayLabel} {d.data.day}
+              </span>
+              <span
+                class:list={[
+                  'absolute top-3 right-3 pill',
+                  d.data.status === 'done'
+                    ? 'bg-leaf text-paper'
+                    : 'bg-cf-amber',
+                ]}
+              >
+                {d.data.status === 'done' ? s.logged : s.planning}
+              </span>
+            </div>
+            <div class="p-5 flex flex-col flex-1">
+              <p class="font-hand text-lg text-ink-2">
+                {fmt(d.data.date, true)}
+              </p>
+              <h3 class="text-2xl mt-0.5">{d.data.title}</h3>
+              <p class="mt-2 text-ink-2 flex-1">{d.data.summary}</p>
+              <div class="mt-4 flex items-center justify-between gap-2">
+                <span class="pill text-sm">📍 {d.data.location}</span>
+                <span class="font-hand text-lg text-cf-dark">Read day →</span>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  {
+    trip.data.decisions.length > 0 && (
+      <section class="mx-auto max-w-4xl px-4 mt-14">
+        <h2 class="text-3xl mb-2">
+          <span class="scribble">Still cooking</span>
+        </h2>
+        <p class="text-ink-2 mb-5">
+          Bookings and choices that aren't locked in yet — tap one to jump to
+          the day.
+        </p>
+        <div class="grid sm:grid-cols-2 gap-3 sm:gap-4">
+          {trip.data.decisions.map((item) => (
+            <a
+              href={dayHrefFor(item.day)}
+              class:list={[
+                'sketch pop-sm lift p-4 flex items-center gap-3',
+                item.kind === 'warn' ? 'bg-[#fff3df]' : '',
+              ]}
+            >
+              <span class="text-2xl" aria-hidden="true">
+                {item.kind === 'warn' ? '⚠️' : '✎'}
+              </span>
+              <span class="flex-1 font-hand text-lg leading-tight">
+                {item.label}
+              </span>
+              <span class="pill text-sm shrink-0">
+                {s.dayLabel} {item.day}
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>

@@ -82,7 +82,9 @@
   }
 }
 
-/* ── Hand-drawn surfaces (plain CSS so they're never purged) ──────────── */
+/* ── Hand-drawn surfaces — in @layer components so Tailwind utilities
+   (e.g. `bg-leaf`, `text-paper`, `bg-[#fff3df]`) can override defaults ── */
+@layer components {
 .sketch {
   border: 2.5px solid var(--color-ink);
   border-radius: 18px 13px 20px 12px / 12px 20px 13px 18px;
@@ -207,18 +209,50 @@
 .lightbox {
   border: none;
   background: transparent;
-  max-width: 96vw;
-  max-height: 96vh;
   padding: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  inset: 0;
+}
+
+.lightbox[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+html:has(.lightbox[open]) {
+  overflow: hidden;
 }
 
 .lightbox::backdrop {
   background: rgba(20, 18, 15, 0.82);
 }
 
-.lightbox img {
+.lightbox-frame {
+  position: relative;
+  display: inline-block;
   max-width: 92vw;
   max-height: 86vh;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+.lightbox img {
+  display: block;
+  max-width: 92vw;
+  max-height: 86vh;
+  width: auto;
+  height: auto;
   border: 3px solid #fffdf7;
   border-radius: 14px;
 }
+} /* end @layer components */

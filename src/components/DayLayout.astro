@@ -12,7 +12,7 @@ import TagList from './TagList.astro';
 import { t } from '../lib/i18n';
 
 interface Props {
-  entry: CollectionEntry<'trips'>;
+  entry: CollectionEntry<'days'>;
 }
 
 const { entry } = Astro.props;
@@ -20,20 +20,22 @@ const d = entry.data;
 const lang = d.lang;
 const s = t(lang);
 const pending = d.status === 'todo';
+const tripSlug = entry.id.split('/')[0];
 
-const allDays = (await getCollection('trips')).sort(
-  (a, b) => a.data.day - b.data.day,
-);
+const allDays = (await getCollection('days'))
+  .filter((x) => x.id.startsWith(`${tripSlug}/`))
+  .sort((a, b) => a.data.day - b.data.day);
 const index = allDays.findIndex((x) => x.id === entry.id);
 const prev = allDays[index - 1];
 const next = allDays[index + 1];
-const pathOf = (e: CollectionEntry<'trips'>) =>
-  `/osaka-2026/${e.id.split('/').pop()}`;
+const pathOf = (e: CollectionEntry<'days'>) => `/${e.id}`;
+const tripIndexPath = `/${tripSlug}/`;
 ---
 
 <BaseLayout
   title={`${s.dayLabel} ${d.day}: ${d.title} — z4go`}
   description={d.summary}
+  currentTrip={tripSlug}
   currentDay={d.day}
   lang={lang}
 >
@@ -79,7 +81,7 @@ const pathOf = (e: CollectionEntry<'trips'>) =>
             ← {s.dayLabel} {prev.data.day}
           </a>
         ) : (
-          <a href="/" class="pill lift">
+          <a href={tripIndexPath} class="pill lift">
             ← {s.tripIndex}
           </a>
         )
@@ -90,7 +92,7 @@ const pathOf = (e: CollectionEntry<'trips'>) =>
             {s.dayLabel} {next.data.day} →
           </a>
         ) : (
-          <a href="/" class="pill lift">
+          <a href={tripIndexPath} class="pill lift">
             {s.tripIndex} →
           </a>
         )

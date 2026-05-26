@@ -4,14 +4,17 @@ import type { CollectionEntry } from 'astro:content';
 import DayLayout from '../../components/DayLayout.astro';
 
 export async function getStaticPaths() {
-  const entries = await getCollection('trips');
-  return entries.map((entry) => ({
-    params: { day: entry.id.split('/').pop()! },
-    props: { entry },
-  }));
+  const days = await getCollection('days');
+  return days.map((entry) => {
+    const [trip, day] = entry.id.split('/');
+    return {
+      params: { trip, day },
+      props: { entry },
+    };
+  });
 }
 
-type Props = { entry: CollectionEntry<'trips'> };
+type Props = { entry: CollectionEntry<'days'> };
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
