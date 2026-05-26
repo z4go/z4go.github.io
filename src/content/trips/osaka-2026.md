@@ -51,13 +51,13 @@ decisions:
   - kind: todo
     label: Pick Day 2 dinner crawl — Takoyaki + Kushikatsu + Okonomiyaki + Dessert
     day: 2
-  - kind: warn
-    label: Kobe beef reservation (Sannomiya teppanyaki)
+  - kind: todo
+    label: Pick Day 3 dinner — Steakland Kobe / Kushikatsu Daruma Umeda / Shokudogai
     day: 3
   - kind: warn
-    label: USJ Express Pass — pick date 16 Nov
+    label: Buy USJ Express Pass 7 + 1-Day Studio Pass — date 16 Nov (sold out fast)
     day: 4
-  - kind: warn
-    label: Super Nintendo World timed entry slot
+  - kind: todo
+    label: Pick Day 4 dinner — Shin-Umeda Shokudogai / Citywalk / Torikizoku (late)
     day: 4
 ---
