@@ -1,63 +1,59 @@
 ---
 day: 3
-title: Katsuo-ji · Akashi Bridge
+title: Daruma Day — Katsuoji + Minoh Falls
 date: 2026-11-15
-location: Osaka · Minoo · Akashi
+location: Osaka · Minoo
 weather: ☀️ Clear · 16°C
-summary: เดย์ทริป 2 จุดเข้มข้น — เช้าขึ้น Midosuji Line ไป Katsuo-ji วัดดารุมะใบไม้แดง · บ่ายต่อ JR Special Rapid ไป Maiko ดูสะพานยาวที่สุดในโลก + เดินทาง Maiko Marine Promenade (กระจกใส 47 ม. เหนือทะเล) + sunset · กลับโอซากะมื้อค่ำ
+summary: เช้าขึ้น Midosuji Line ไปวัดดารุมะ Katsuo-ji บนเขามิโนะ · เดินป่าหรือนั่งบัสต่อมา Minoh Park กินมื้อเที่ยง maple tempura specialty + เดินทางเลียบลำธาร 2.7 กม. ขึ้นน้ำตก Minoh 33 ม. กลาง momiji peak · กลับโอซากะพักแล้วลง Shinsekai กิน Daruma Kushikatsu ร้านดั้งเดิม 1929 — daruma วัด → Daruma คุชิคัตสึ
 status: todo
 hero: ../../../assets/osaka-2026/day-3/hero.jpg
 heroAlt: ตุ๊กตาดารุมะเรียงรายตามทางเดินวัดบนเขา
 stats:
   steps: 0
-  spent: "TBD"
-  stops: 11
+  spent: "¥7,000"
+  stops: 10
   photos: 0
 timeline:
-  - time: "06:30–07:00"
-    stop: Breakfast
+  - time: "07:00–07:45"
+    stop: Breakfast + เตรียมตัว
     cost: "TBD"
-    transit: 🏨 ในโรงแรม
-  - time: "07:00–08:00"
+    transit: 🏨 ในโรงแรม · ใส่รองเท้าเดินป่า · เผื่อ jacket ลมเย็นบนเขา
+  - time: "07:45–09:00"
     stop: Osaka → Katsuo-ji
-    cost: "¥730"
-    transit: 🚇 Midosuji Line · Umeda → Minoh-Kayano (~30 นาที, ¥430) · เปลี่ยน Hankyu Bus 29 → Katsuo-ji (~25 นาที, ¥300)
-  - time: "08:00–10:30"
-    stop: Katsuo-ji Temple — วัดดารุมะ + ใบไม้แดง
+    cost: "¥860"
+    transit: "🚇 Midosuji Line · Umeda → Minoh-Kayano (~30 นาที, ¥430) · เปลี่ยน Hankyu Bus 29 → Katsuo-ji (~25 นาที, ¥430)"
+  - time: "09:00–11:00"
+    stop: 🎎 Katsuo-ji — วัดดารุมะบนเขา + ใบไม้แดง
     cost: "¥500"
-    transit: 🚶 เดินจากป้ายรถบัสเข้าวัดบนเขา · loop ขึ้น-ลงตาม path
-  - time: "10:30–12:00"
-    stop: กลับ Osaka (Umeda)
-    cost: "¥730"
-    transit: 🚌 Hankyu Bus 29 → Minoh-Kayano · 🚇 Midosuji กลับ Umeda
-  - time: "12:00–13:00"
-    stop: Lunch — Umeda (เลือก quick option)
-    cost: "TBD"
-    transit: 🚶 ใกล้สถานี · Ichiran / LUCUA / Grand Front
-  - time: "13:00–13:45"
-    stop: Osaka → Maiko (Akashi Bridge)
-    cost: "¥780"
-    transit: 🚆 JR Special Rapid · Osaka → Sannomiya (~21 นาที) · เปลี่ยน JR Sanyo Local → Maiko (~14 นาที)
-  - time: "13:45–15:15"
-    stop: Maiko Marine Promenade — เดินบนกระจกใต้สะพาน
-    cost: "¥260"
-    transit: 🚶 เดินจาก Maiko Station ~5 นาที · กระจกใส 47 ม.เหนือทะเล · สะพานยาวที่สุดในโลก (1,991 ม.)
-  - time: "15:15–16:00"
-    stop: Akashi Kaikyo Bridge Exhibition Center
-    cost: "¥310"
-    transit: 🚶 ติดกับ Promenade · indoor exhibit + bridge model
-  - time: "16:00–17:00"
-    stop: Sunset photography + Akashiyaki snack
-    cost: "¥500"
-    transit: 🚶 sunset ~16:50 · bridge silhouette · Akashiyaki (ทาคุยากิต้นกำเนิด) ใกล้สถานี
-  - time: "17:00–17:45"
-    stop: Maiko → Osaka
-    cost: "¥780"
-    transit: 🚆 JR Sanyo Local → Sannomiya · เปลี่ยน Special Rapid → Osaka (~45 นาที)
-  - time: "18:00–19:30"
-    stop: Dinner — Umeda
-    cost: "TBD"
-    transit: 🚶 ใกล้โรงแรม · เลือกจาก Steakland Kobe / Kushikatsu Daruma / izakaya
+    transit: 🚶 daruma เรียงรายเป็นพัน ๆ ทั่วเขา · Mizuko Jizo + Tenkozan viewpoint + Bell of Wisdom
+  - time: "11:00–12:30"
+    stop: Hike ป่า Katsuoji → Minoh Park (หรือ Bus กลับ)
+    cost: "—"
+    transit: 🥾 ทางเดินป่า 90 นาที downhill ผ่านโขดหิน + momiji · หรือ Hankyu Bus กลับลงไป Minoh-Eki ก็ได้
+  - time: "12:30–13:30"
+    stop: Lunch — Minoh maple tempura specialty
+    cost: "¥1,500"
+    transit: 🍁 momiji-tempura ใบเมเปิ้ลทอดน้ำตาล · Hashimoto-tei / Ryuanji teahouse · มี soba + yudofu ด้วย
+  - time: "13:30–15:00"
+    stop: 🍁 Minoh Falls trail — เลียบลำธาร 2.7 กม.
+    cost: "—"
+    transit: 🚶 ทางเรียบปูหิน เลียบแม่น้ำ Minoh · ผ่านวัด Ryuanji + Saiko-ji · ไปจบน้ำตก 33 ม.
+  - time: "15:00–15:45"
+    stop: เดินกลับ Minoh Station
+    cost: "—"
+    transit: 🚶 2.7 กม. ลงเขา · ผ่าน Minoh Park gate
+  - time: "15:45–17:00"
+    stop: Hankyu Minoh Line → Umeda + พักโรงแรม
+    cost: "¥280"
+    transit: 🚆 Hankyu Minoh → Ishibashi-Handai → Umeda (~30 นาที) · พัก 1 ชม.ที่โรงแรม
+  - time: "18:00–18:30"
+    stop: Midosuji Line → Dobutsuen-mae (Shinsekai)
+    cost: "¥240"
+    transit: 🚇 Umeda → Dobutsuen-mae (~15 นาที) · Exit 1 → Tsutenkaku tower แสง neon
+  - time: "18:30–20:30"
+    stop: 🍢 Shinsekai walk + Daruma Kushikatsu (ร้านดั้งเดิม 1929)
+    cost: "¥3,000"
+    transit: 🚶 ตรอก Janjan Yokocho + ร้านดั้งเดิม Daruma Sohonten · daruma → Daruma!
 coords:
   - label: Umeda Station
     lat: 34.7024
@@ -68,15 +64,26 @@ coords:
   - label: Katsuo-ji Temple
     lat: 34.8606
     lng: 135.4869
-  - label: Maiko Station
-    lat: 34.6321
-    lng: 135.0349
-  - label: Akashi Kaikyo Bridge — Maiko Marine Promenade
-    lat: 34.6181
-    lng: 135.0218
+  - label: Minoh Park entrance
+    lat: 34.8412
+    lng: 135.4716
+  - label: Minoh Falls (箕面大滝)
+    lat: 34.8557
+    lng: 135.4719
+  - label: Minoh Station (Hankyu)
+    lat: 34.8264
+    lng: 135.4695
+  - label: Tsutenkaku Tower (Shinsekai)
+    lat: 34.6525
+    lng: 135.5063
+  - label: Daruma Sohonten (Shinsekai original)
+    lat: 34.6519
+    lng: 135.5060
 photos:
   - ../../../assets/osaka-2026/day-3/katsuoji.png
-  - ../../../assets/osaka-2026/day-3/akashi.png
+  - ../../../assets/osaka-2026/day-3/minoh-falls.png
+  - ../../../assets/osaka-2026/day-3/maple-tempura.png
+  - ../../../assets/osaka-2026/day-3/shinsekai.png
 references:
   - title: Katsuo-ji temple — visitor info + daruma history
     url: https://katsuo-ji-temple.or.jp/en/
@@ -84,38 +91,46 @@ references:
   - title: Hankyu Bus 29 — Minoh-Kayano → Katsuo-ji timetable
     url: https://bus.hankyu.co.jp/global/en/
     icon: 🚌
-  - title: Maiko Marine Promenade — glass walkway under bridge
-    url: https://www.jb-honshi.co.jp/maiko-marine-promenade/en/
-    icon: 🌉
-  - title: Akashi Kaikyo Bridge Exhibition Center
-    url: https://www.jb-honshi.co.jp/english/bridgeworld/
-    icon: 🌉
-  - title: Akashiyaki — origin of takoyaki
-    url: https://www.japan-guide.com/e/e3526.html
-    icon: 🐙
-  - title: JR Sanyo Line — Sannomiya ↔ Maiko timetable
-    url: https://www.westjr.co.jp/global/en/travel-information/route/sanyo/
+  - title: Minoh Park — Falls trail + maple tempura
+    url: https://www.mino-park.jp/
+    icon: 🍁
+  - title: Minoh Falls hike guide
+    url: https://www.japan-guide.com/e/e4014.html
+    icon: 🥾
+  - title: Shinsekai + Tsutenkaku — visitor guide
+    url: https://www.japan-guide.com/e/e4006.html
+    icon: 🗼
+  - title: Daruma Kushikatsu — origin + double-dip rule
+    url: https://kushikatu-daruma.com/en/
+    icon: 🍢
+  - title: Hankyu Minoh Line — Minoh → Umeda timetable
+    url: https://www.hankyu.co.jp/global/en/
     icon: 🚆
-tags: [osaka2026, katsuoji, daruma, minoh, autumn, akashi, akashibridge, suspensionbridge, daytrip]
+tags: [osaka2026, katsuoji, daruma, minoh, minohfalls, autumn, shinsekai, kushikatsu, daytrip]
 ---
 
-วันนี้เน้น 2 จุด — เช้า **Katsuo-ji วัดดารุมะ** + บ่าย **Akashi Bridge สะพานยาวที่สุดในโลก**
-ทั้งสองคนละทิศจาก Osaka แต่ใช้เวลาต่อจุด ~45 นาที พอ ๆ กัน
+วันนี้ธีม **"Daruma Day"** — เริ่มที่วัด daruma บนเขา Mino จบที่ร้าน Daruma Kushikatsu ดั้งเดิม
+ของโอซากะ · ระหว่างกลางคือ **Minoh Park** ป่าธรรมชาติของคนโอซากะเอง + น้ำตก 33 ม.
+กลาง momiji peak พ.ย.
+
+ตัด Akashi/Kobe ทิ้งทั้งหมด — ไม่เสียเวลานั่งรถไฟ 2 ชม. กลับมาเย็นแล้วเหนื่อย ·
+รวมศูนย์อยู่ในเขต Osaka + Minoh ทำให้เก็บแรงไว้ได้สำหรับ USJ Day 4
 
 <div class="callout">
   <strong>📋 Day 3 — ของที่ลืมง่าย</strong>
   <ul>
-    <li><strong>🍁 Katsuo-ji ใบไม้แดงพีค 14–17 พ.ย.</strong> — คนน้อยกว่า Kyoto · ภาพหายาก</li>
-    <li><strong>🎎 Daruma "wish doll"</strong> — ซื้อตา 1 ข้างทาเอง พอสมหวังค่อยทาอีกข้าง · ฝากของขึ้นจริงที่วัดเลยก็ได้</li>
+    <li><strong>🥾 รองเท้าเดินป่า</strong> — เดินรวม ~6 กม. (Minoh Falls trail + เผื่อ hike จาก Katsuoji) · ไม่ใช่ hardcore แต่ทางหินขึ้นลง</li>
+    <li><strong>🍁 Katsuo-ji + Minoh ใบไม้แดงพีค 14–17 พ.ย.</strong> — ที่นี่คนโอซากะมาดู momiji ไม่ต้องไปแย่ง Kyoto</li>
+    <li><strong>🎎 Daruma "wish doll"</strong> — ซื้อตา 1 ข้างทาเอง พอสมหวังค่อยทาอีกข้าง · ฝากที่วัดเลยก็ได้</li>
     <li><strong>🚌 Hankyu Bus 29</strong> — จาก Minoh-Kayano ทุก 30 นาที · จ่ายเงินสดหรือ ICOCA</li>
-    <li><strong>🌉 Maiko Marine Promenade</strong> — เปิด 09:00–18:00 · last entry 17:30 · ¥260 เดินใต้สะพานบนกระจกใส 47 ม.</li>
-    <li><strong>🌅 Sunset 15 พ.ย. ~16:50</strong> — bridge silhouette ที่ Maiko · ห้ามพลาด</li>
-    <li><strong>🐙 Akashiyaki</strong> — ทาคุยากิต้นกำเนิดอยู่ที่นี่ · ไข่เยอะกว่า · จิ้มน้ำซุปดาชิ ไม่ใช่ซอสโอซากะ</li>
-    <li><strong>🧥 เสื้อกันลม</strong> — Maiko ริมทะเล · ลมแรงขึ้นช่วง sunset · พ.ย. หนาวกว่าในเมือง 2-3°C</li>
+    <li><strong>🍁 Momiji tempura</strong> — ใบเมเปิ้ลทอดน้ำตาล specialty ของ Minoh · กินระหว่างเดินเล่นก็ได้ ¥300/ห่อ</li>
+    <li><strong>🥾 ทาง Katsuoji → Minoh Falls</strong> — มีเส้น hiking 90 นาที forest trail · ถ้าไม่อยาก hike ใช้ Hankyu Bus กลับลงไปก็ได้</li>
+    <li><strong>🍢 Daruma Kushikatsu rule</strong> — ห้ามจิ้มซอสซ้ำ (double-dip)! · มีถ้วยซอสกลางโต๊ะ · ใครจุ่มแล้วห้ามจุ่มอีก · มีกะหล่ำดิบฟรี</li>
+    <li><strong>🧥 เสื้อกันลม</strong> — Katsuoji บนเขา + Minoh ในป่า · พ.ย. หนาวกว่าในเมือง 3-4°C</li>
   </ul>
 </div>
 
-## ภาคเช้า — Katsuo-ji วัดดารุมะ (08:00–10:30)
+## ภาคเช้า — Katsuo-ji วัดดารุมะ (09:00–11:00)
 
 ออกจาก Umeda ทาง **Midosuji Line** ลงปลายทาง **Minoh-Kayano** (extension ใหม่ 2024)
 ต่อ **Hankyu Bus 29** ขึ้นวัดบนเขาประมาณ 25 นาที
@@ -124,58 +139,70 @@ tags: [osaka2026, katsuoji, daruma, minoh, autumn, akashi, akashibridge, suspens
 ทั่วเขา — ตามทางเดิน ในซอกหิน ในแอ่งน้ำ · ใบไม้แดงกลางพ.ย. จัดเต็มเหมือนเกียวโต
 แต่คนน้อยกว่ามาก
 
-### 🎎 กิจกรรมที่ Katsuo-ji (2.5 ชม.)
+### 🎎 กิจกรรมที่ Katsuo-ji (2 ชม.)
 
 - **🎎 ซื้อ Daruma + ทาตา 1 ข้าง** (¥500–3,000 ตามขนาด) — เลือกสีตามคำขอ:
   แดง = ความฝัน · ทอง = เงิน · ขาว = ความรัก · ดำ = ปัดเป่าโรค
   ทาตาซ้ายตอนซื้อ + ทาตาขวาเมื่อสมหวัง
 - **🍁 ภาพ Mizuko Jizo** — ดารุมะวางในแอ่งน้ำ + ใบไม้แดง · iconic photo spot ของวัด
 - **🥾 เดินขึ้น Tenkozan viewpoint** — 15 นาทีจาก main hall · พาโนรามาวัดเต็ม
-- **🔔 ตี Bell of Wisdom** — main hall · ¥100 บริจาค · ดังก้องทั่วเขา
+- **🔔 ตี Bell of Wisdom** — main hall · ¥100 บริจาค
 - **🍵 Tea house ที่วัด** — matcha + wagashi ¥600 · นั่งพักหลังเดิน
 - **📿 Omamori (เครื่องราง)** — luck charm · เลือก safe travel · ¥500–1,000
-- **🙏 Goma kigan** — เขียนคำขอบนแท่งไม้ · พระเผาให้ ¥300
 
-## ภาคบ่าย — Akashi Bridge (13:45–17:00)
+## ภาคบ่าย — Minoh Park + น้ำตก (12:30–15:30)
 
-กลับเข้า Umeda กินมื้อเที่ยงเร็ว ๆ แล้วขึ้น **JR Special Rapid** ไป **Sannomiya**
-เปลี่ยน Local เดินทางต่ออีก 14 นาทีลง **Maiko Station** — เดินใต้สะพานไม่ถึง 5 นาที
+มี 2 ทางเลือกจาก Katsuoji ลง Minoh Park:
 
-### 🌉 กิจกรรมที่ Maiko (3 ชม.)
+- **🥾 Forest hike** — ทาง trail 90 นาที downhill ผ่านป่า + โขดหิน + momiji
+  · ทางเรียบ ๆ ไม่ใช่ hardcore · เหมาะถ้าอยาก "ของจริง"
+- **🚌 Hankyu Bus กลับ** — บัส 29 กลับลงไป Minoh-Kayano → Hankyu local train ไป Minoh Station (15 นาที)
+  · เหมาะถ้าเหนื่อยจาก Katsuoji + อยากเก็บแรงไว้ Day 4 USJ
 
-- **🌊 Maiko Marine Promenade** (¥260) — เดินกระจกใส 250 ม. · 47 ม. เหนือทะเล · ดูคลื่นลอด
-- **🏛️ Akashi Bridge Exhibition Center** (¥310) — model สะพานก่อสร้าง · video time-lapse · ห้องประวัติ
-- **🏖️ Maiko Park เดินชายหาด** — ใต้สะพานจริง · มุมเงยมองสะพานยาวสุด ๆ
-- **📸 Sunset photography 16:30–17:00** — bridge silhouette + เรือผ่านช่องสะพาน · มุมดีที่สุดจากชายหาดฝั่งตะวันออก
-- **🛍️ ของฝาก** ที่ shop ใน Exhibition Center — bridge postcards, model, T-shirt
+### 🍁 Lunch — Maple tempura (12:30–13:30)
 
-### 🐙 Akashiyaki ก่อนกลับ (~16:30–17:00)
+specialty ที่หาที่อื่นไม่ได้: **ใบเมเปิ้ลทอดน้ำตาล** (momiji tempura) — ใส่ใบเมเปิ้ลในแป้งทอด
+หวานกรอบ · มี shops หลายร้านในย่าน Minoh Park gate
 
-ทาคุยากิต้นกำเนิดอยู่ที่ Akashi — ลูกใหญ่กว่า ใส่ไข่เยอะ จิ้มน้ำซุปดาชิ ไม่ใช่ซอส
-ร้านดังใกล้ Maiko / Akashi Station:
+- **Hashimoto-tei (橋本亭)** — ร้านเก่าแก่ in-park · มี soba + yudofu + momiji tempura set
+- **Ryuanji teahouse** — ติดทาง trail · matcha + maple snacks · บรรยากาศชา
+- **Konjaku-an** — fresh momiji tempura ห่อกระดาษ ¥300 · เดินกินก็ได้
 
-- **🥇 Hisago (ひさご)** — เก่าแก่ที่สุดในย่าน · 7 นาทีจาก Akashi Station · ¥600/15 ลูก
-- **🥈 Matsumura-shoten (松村商店)** — local favorite · ไส้แปลก (cheese, kimchi) · ใกล้ Maiko
-- **🥉 Tako-no-michi (たこの道)** — popular กับ tourist · queue ไม่นาน
+### 🍁 Minoh Falls trail (13:30–15:00)
 
-ขึ้นรถไฟกลับ ~17:00 ถึง Osaka 17:45 พักหน่อยก่อน dinner
+จาก Minoh Park gate เดินตามทางปูหินเลียบ **แม่น้ำ Minoh** ขึ้นไปประมาณ 2.7 กม.
+ทางเรียบ ๆ ส่วนใหญ่ flat · 60 นาที one-way · ผ่าน:
 
-<div class="todo-block">
-  <strong>ยังไม่สรุป — Dinner Day 3 (~18:00–19:30 ที่ Umeda)</strong>
-  <p>กลับโรงแรมแล้วเดินใกล้ ๆ · Day 2 ไป Dotonbori แล้ว วันนี้ stay Umeda สบาย ๆ</p>
+- **Ryuanji + Saiko-ji** — วัดเล็ก ๆ ระหว่างทาง
+- **Minoh Insect Museum** — ผ่านได้ (เด็ก ๆ ชอบ)
+- **เครื่องอ่านเสียงนกเสริฟ์** — ป้าย QR ตามจุดตามทาง
+- **น้ำตก Minoh (箕面大滝) 33 ม.** — จุดหมายปลายทาง · เลือกได้ระหว่าง 100 best waterfalls ของญี่ปุ่น · momiji peak ฉาก postcard
 
-  <p><strong>🥩 Kobe beef (skip Kobe + ยังกินได้):</strong></p>
-  <ul>
-    <li><strong>Steakland Kobe — Umeda branch</strong> — Kobe beef teppanyaki ราคา reasonable (¥3,000–6,000) · มี lunch set</li>
-    <li><strong>Misono Osaka</strong> — origin ของ teppanyaki style · จองดีกว่า · pricier ¥8,000+</li>
-  </ul>
+จากน้ำตกเดินกลับลงเส้นทางเดิม 60 นาทีถึง Minoh Station — ขึ้น **Hankyu Minoh Line**
+2 sta ไป Ishibashi-Handai เปลี่ยน **Hankyu Kyoto Line** ตรงไป Umeda · 30 นาที total
 
-  <p><strong>🍢 Casual / Local:</strong></p>
-  <ul>
-    <li><strong>Kushikatsu Daruma Umeda</strong> — สาขา Umeda ของ Dotonbori original · ¥2,000–3,000</li>
-    <li><strong>Ohatsu Tenjin Yokocho</strong> — ตรอกอิซาคายะใต้ Umeda Sky · pub-crawl style</li>
-    <li><strong>Shin-Umeda Shokudogai</strong> — food alley ใต้สถานี · ramen/yakitori/teishoku 30+ ร้าน</li>
-  </ul>
+## ภาคเย็น — Shinsekai + Daruma Kushikatsu (18:00–20:30)
 
-  <p>{{ TODO: เลือก 1 — ถ้าอยาก Kobe beef → Steakland · ถ้า casual → Shin-Umeda Shokudogai }}</p>
-</div>
+กลับ Umeda พักโรงแรม 1 ชม. (15:45–17:30) · ก่อนออก Shinsekai ตอนเย็น
+
+**Shinsekai (新世界)** = ย่าน retro Osaka ทศวรรษ 1910 รอบ Tsutenkaku tower
+ป้าย neon ใหญ่ + ป้ายร้านเป็นรูปสัตว์/อาหาร · ตรอก **Janjan Yokocho** เต็มไปด้วย
+ร้านเก่าแก่หลายสิบปี
+
+### 🍢 Daruma Sohonten (元祖串かつ だるま 総本店)
+
+**ร้านคุชิคัตสึต้นกำเนิดของโอซากะ** เปิดปี 1929 — ตำนานเล่าว่าผู้ก่อตั้ง **Yagi-san**
+หัวล้านเหมือนตุ๊กตา daruma ที่ภริยาเรียกแกว่า "Daruma" จึงตั้งชื่อร้าน
+
+- **ที่อยู่:** Shinsekai, Naniwa-ku · เดิน 5 นาทีจาก Dobutsuen-mae Station Exit 1
+- **เปิด:** 11:00–22:30 · เย็นคิว ~30 นาที · บ่ายอาจรอน้อยกว่า
+- **เมนู:** kushikatsu ~14 ประเภท · ¥130–250/ไม้ · order tablet ภาษาอังกฤษได้
+- **กฎ "no double-dip":** ถ้วยซอสกลางโต๊ะ → จิ้มได้ครั้งเดียวต่อไม้ · กะหล่ำดิบฟรีใช้ตักซอสได้
+- **คาดงบ:** ¥2,500–3,500/คน อิ่ม + เบียร์ 1 แก้ว
+
+### ก่อนกลับ — Tsutenkaku tower
+
+หลังกินเดินผ่าน **Tsutenkaku tower** (108 ม., สร้างปี 1956) · ขึ้นไปข้างบนได้
+(¥1,000) — แต่ระดับสายตาก็เห็น neon ของย่านได้ครบ · ถ่ายภาพข้างล่างก็พอ
+
+กลับ Umeda ทาง Midosuji Line · ถึงโรงแรม ~21:00 · พักก่อน USJ Day 4 ตื่น 06:30

@@ -3,7 +3,7 @@ title: Osaka & Kansai
 location: Kyoto · Kansai · Osaka
 startDate: 2026-11-12
 endDate: 2026-11-17
-summary: ทริปวนคันไซในเดือนพฤศจิกายน — ขึ้น TG622 ดึกวันที่ 12 ลงเกียวโตเช้า 13 ช่วงใบไม้แดง วันสองแวะอาราชิยามะก่อนย้ายไปโอซากะ เดย์ทริปคัตสึโอจิ+โกเบ+อาคาชิ ปิดท้ายด้วย USJ ก่อนบินกลับจาก KIX
+summary: ทริปวนคันไซในเดือนพฤศจิกายน — ขึ้น TG622 ดึกวันที่ 12 ลงเกียวโตเช้า 13 ช่วงใบไม้แดง วันสองเก็บอาราชิยามะ+ซะกะ-โทรีโมโตะ+โทฟุกุจิ ย้ายไปโอซากะตอนเย็น Daruma Day ที่คัตสึโอจิ+น้ำตกมิโนะ ปิดท้ายด้วย USJ ก่อนบินกลับจาก KIX
 travellers: 2
 cover: ../../assets/osaka-2026/day-1/hero.jpg
 coverAlt: Evening lanterns glowing along a Gion side street in Kyoto
@@ -18,8 +18,8 @@ preplan:
       status: done
       note: Thai Airways · A350-900 · 6h 45m
     - label: Book Kyoto hotel — 13 Nov (1 คืน)
-      status: todo
-      note: ใกล้ Kyoto Station (mid/budget) — Vischio · Mitsui Garden · Daiwa Roynet · Almont · Sotetsu Fresa
+      status: done
+      note: Hotel Keihan Kyoto Ekiminami · Standard Twin · breakfast included · ฿6,998.88 paid
     - label: Book Osaka hotel — 14–17 Nov (3 คืน)
       status: todo
       note: Umeda แนะนำ — Vischio Osaka · Mitsui Garden Premier · Daiwa Roynet Umeda · APA Umeda · Sotetsu Fresa
@@ -37,22 +37,19 @@ preplan:
       note: Express Pass ขายหมดเร็ว — ระบุวันที่ 16 พ.ย.
 decisions:
   - kind: todo
-    label: Pick Kyoto hotel — Vischio / Mitsui Garden / Daiwa Roynet / Almont / Sotetsu Fresa
-    day: 1
-  - kind: todo
-    label: Pick Day 1 dinner — yakiniku / ramen / gyukatsu / Pontocho izakaya
+    label: Pick Day 1 dinner — Kyoto Ramen Koji / Porta / LUCUA / Kyoto Tower Sando
     day: 1
   - kind: todo
     label: Pick Osaka hotel — Vischio / Mitsui Garden / Daiwa Roynet (3 คืน, Umeda)
     day: 2
   - kind: todo
-    label: Pick Day 2 afternoon combo — A (Castle+Sky) / B (Chill+Sky) / C (Kuromon+Hozenji)
+    label: Pick Day 2 lunch — Shōrai-an / Yudofu Sagano / Tenryu-ji Shigetsu
     day: 2
   - kind: todo
     label: Pick Day 2 dinner crawl — Takoyaki + Kushikatsu + Okonomiyaki + Dessert
     day: 2
   - kind: todo
-    label: Pick Day 3 dinner — Steakland Kobe / Kushikatsu Daruma Umeda / Shokudogai
+    label: Pick Day 3 — hike vs bus จาก Katsuoji → Minoh Falls
     day: 3
   - kind: warn
     label: Buy USJ Express Pass 7 + 1-Day Studio Pass — date 16 Nov (sold out fast)

@@ -60,9 +60,18 @@ const FAMILY = fontFamily(FONT_REGULAR) || 'iannnnn-DOG';
 
 const days = [
   { n: 0, name: 'BKK Red-eye', c1: '#1a1f3a', c2: '#d63346', photos: 0 },
-  { n: 1, name: 'Kyoto Arrival', c1: '#d63346', c2: '#fbad41', photos: 4 },
-  { n: 2, name: 'Kyoto Temples', c1: '#b3283c', c2: '#e8616f', photos: 0 },
-  { n: 3, name: 'Kansai Day Trip', c1: '#d63346', c2: '#fbad41', photos: 0 },
+  {
+    n: 1, name: 'Kyoto Arrival', c1: '#d63346', c2: '#fbad41', photos: 4,
+    named: ['kamogawa-delta', 'demachi-futaba', 'yasaka-pagoda', 'kodai-ji', 'pontocho'],
+  },
+  {
+    n: 2, name: 'Kyoto Temples', c1: '#b3283c', c2: '#e8616f', photos: 0,
+    named: ['tenryuji', 'otagi', 'tofukuji', 'dotonbori'],
+  },
+  {
+    n: 3, name: 'Daruma Day', c1: '#d63346', c2: '#fbad41', photos: 0,
+    named: ['minoh-falls', 'maple-tempura', 'shinsekai'],
+  },
   { n: 4, name: 'Osaka USJ', c1: '#e8616f', c2: '#b3283c', photos: 0 },
   { n: 5, name: 'KIX Departure', c1: '#fbad41', c2: '#d63346', photos: 3 },
 ];
@@ -106,11 +115,17 @@ async function emit(rel, w, h, c1, c2, big, label) {
   console.log('  ✓ src/assets/osaka-2026/' + rel);
 }
 
+const titleCase = (s) =>
+  s.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+
 console.log(`Generating placeholder images (font: ${FAMILY})…`);
 for (const d of days) {
   await emit(`day-${d.n}/hero.jpg`, 1600, 1067, d.c1, d.c2, `Day ${d.n}`, d.name);
   for (let i = 1; i <= d.photos; i++) {
     await emit(`day-${d.n}/photo-${i}.jpg`, 1200, 1200, d.c2, d.c1, `D${d.n}`, `Photo ${i}`);
+  }
+  for (const slug of d.named || []) {
+    await emit(`day-${d.n}/${slug}.png`, 1200, 1200, d.c2, d.c1, `D${d.n}`, titleCase(slug));
   }
 }
 console.log('Done.');
