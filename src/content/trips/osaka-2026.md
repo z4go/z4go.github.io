@@ -21,8 +21,8 @@ preplan:
       status: done
       note: Hotel Keihan Kyoto Ekiminami · Standard Twin · breakfast included · ฿6,998.88 paid
     - label: Book Osaka hotel — 14–17 Nov (3 คืน)
-      status: todo
-      note: Umeda แนะนำ — Vischio Osaka · Mitsui Garden Premier · Daiwa Roynet Umeda · APA Umeda · Sotetsu Fresa
+      status: done
+      note: DEL style Osaka Shin Umeda by Daiwa Roynet · Hollywood Twin · breakfast included × 3 mornings · ¥64,169 paid at hotel · Fukushima Ward (direct JR Yumesaki to USJ)
     - label: Buy Haruka ticket — KIX → Kyoto
       status: todo
       note: ICOCA & HARUKA package — discounted to ~¥3,200
@@ -32,6 +32,9 @@ preplan:
       status: todo
     - label: Buy Haruka ticket — Osaka → KIX
       status: todo
+    - label: Reserve Tofuku-ji Tsutenkyo autumn timed entry — 14 Nov afternoon
+      status: todo
+      note: Pre-book 13:30 or 14:00 slot via tofukuji.jp/english or Klook (¥1,000–1,200/คน, walk-in queue 30-90 นาที)
     - label: Buy USJ tickets (+ Express Pass + Nintendo World timed entry)
       status: todo
       note: Express Pass ขายหมดเร็ว — ระบุวันที่ 16 พ.ย.
@@ -39,9 +42,6 @@ decisions:
   - kind: todo
     label: Pick Day 1 dinner — Kyoto Ramen Koji / Porta / LUCUA / Kyoto Tower Sando
     day: 1
-  - kind: todo
-    label: Pick Osaka hotel — Vischio / Mitsui Garden / Daiwa Roynet (3 คืน, Umeda)
-    day: 2
   - kind: todo
     label: Pick Day 2 lunch — Shōrai-an / Yudofu Sagano / Tenryu-ji Shigetsu
     day: 2

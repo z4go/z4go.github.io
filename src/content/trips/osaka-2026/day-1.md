@@ -4,7 +4,7 @@ title: Arrival · Kamogawa Delta · Higashiyama
 date: 2026-11-13
 location: KIX → Kyoto
 weather: ☀️ Clear · 17°C
-summary: ลงเครื่องที่ KIX เช้า ขึ้น Haruka เข้าเกียวโต ฝากกระเป๋าโรงแรมแล้วบัสไป Kamogawa Delta ช่วงเที่ยงแสงดี · กิน mochi Demachi Futaba ก่อนต่อ Higashiyama 3 ไอคอน (เจดีย์ยาซากะ คิโยมิซุ ซันเน็นซากะ) · พักงีบสั้น ๆ ก่อนกินดินเนอร์ใกล้ Kyoto Station — chill ๆ ฟื้น jet-lag
+summary: ลงเครื่องที่ KIX เช้า ขึ้น Haruka เข้าเกียวโต ฝากกระเป๋าโรงแรมแล้วบัสไป Demachiyanagi กิน mochi Demachi Futaba ก่อน · ต่อ Kamogawa Delta บ่ายต้นแสงยังจัด · เดินสายฮิงาชิยามะ 3 ไอคอน (เจดีย์ยาซากะ คิโยมิซุ ซันเน็นซากะ) · พักงีบสั้น ๆ ก่อนกินดินเนอร์ใกล้ Kyoto Station — chill ๆ ฟื้น jet-lag
 status: todo
 hero: ../../../assets/osaka-2026/day-1/hero.jpg
 heroAlt: บรรยากาศตรอกเก่าในย่านฮิงาชิยามะ เกียวโตยามเย็น
@@ -26,30 +26,37 @@ timeline:
     stop: JR Haruka Express → Kyoto Station
     cost: "¥3,640"
     transit: 🚆 JR Haruka direct · KIX → Kyoto (75 นาที)
-  - time: "10:30–11:00"
-    stop: Kyoto hotel (TBD) — ฝากกระเป๋า
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=Kyoto+Station&travelmode=transit
+  - time: "10:30–11:20"
+    stop: Hotel Keihan Ekiminami — ฝากกระเป๋า
     cost: "—"
-    transit: 🚶 ขึ้นกับโรงแรมที่เลือก — แนะนำใกล้ Kyoto Station เดิน 3–5 นาที
-  - time: "11:20–13:00"
+    transit: "🅰️ Kyoto Station central → 🅱️ Hotel Keihan Ekiminami · 1. ออกจาก Haruka platform 30 ตามป้าย Hachijoguchi (ใต้) ~10 นาที 2. ออก Hachijoguchi East Exit · 3. เดินตรงลงใต้ตามถนน Higashi-Kujo Muromachi-dori ~7 นาที (~600 ม.) · 4. ฝากของหน้า front desk · 5. กลับ Bus Terminal ฝั่งเหนือ (Karasuma Central Exit) อีก 15 นาที"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station&destination=Hotel+Keihan+Kyoto+Ekiminami&travelmode=walking
+  - time: "11:20–12:40"
+    stop: 🍡 Lunch — Demachi Futaba mochi + soba/udon ย่าน
+    cost: "¥1,730"
+    transit: "🅰️ Kyoto Station Bus B2 → 🅱️ Demachi Futaba · 1. ออกฝั่ง Karasuma Central Exit (เหนือ) · 2. Bus Terminal stop B2 — City Bus 4 หรือ 205 (ปลายทาง Kamigamo / Kitaoji) · 3. ขึ้นบัส tap ICOCA · 4. ลง Demachiyanagi Eki-mae (8 stops, ~20 นาที, ¥230) · 5. เดินตามคลอง Takano-gawa ~5 นาที → Demachi Futaba"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station&destination=Demachi+Futaba&travelmode=transit
+  - time: "12:40–14:00"
     stop: 🌊 Kamogawa Delta — Y-merge + stepping stones (เต่า/นก)
-    cost: "¥230"
-    transit: 🚌 City Bus 4/205 · Kyoto Station B2 → Demachiyanagi (~20 นาที, ¥230) · ใช้ ICOCA สะดวก · noon light · เดินตลิ่ง chill 90 นาที
-  - time: "13:00–14:00"
-    stop: Lunch — Demachi Futaba mochi + soba/udon ย่าน
-    cost: "¥1,500"
-    transit: 🍡 Demachi Futaba ร้าน mochi เปิดปี 1899 · ไส้ถั่วแดง · queue ~30 นาที · ร้าน soba/udon ใกล้ ๆ ทาน main
+    cost: "—"
+    transit: "🅰️ Demachi Futaba → 🅱️ Kamogawa Delta · 1. ออกจากร้าน หันหน้าทางทิศใต้ · 2. เดินตรงไปคลอง Kamogawa ~3 นาที · 3. ข้ามถนน Kawabata-dori · 4. ลงตลิ่ง Kamogawa Park ~2 นาที (~400 ม. total) · stepping stones เห็นได้จากตลิ่ง"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Demachi+Futaba&destination=Kamogawa+Delta&travelmode=walking
   - time: "14:30–15:30"
     stop: Yasaka Pagoda (Hokan-ji) + เดิน Yasaka-dori
     cost: "¥220"
-    transit: 🚆 Keihan Line · Demachiyanagi → Gion-Shijo (6 นาที, ¥220) · เดินขึ้น Yasaka 10 นาที · ตรอกหิน + เจดีย์ 5 ชั้น
+    transit: "🅰️ Kamogawa Delta → 🅱️ Yasaka Pagoda · 1. เดินจาก Delta → Demachiyanagi Station Keihan ~5 นาที · 2. ลง Keihan Main Line ทิศ Yodoyabashi-bound (ใต้) · 3. นั่ง 3 stops ลง Gion-Shijo (6 นาที, ¥220) · 4. ออก Exit 6 (East side) · 5. เดินขึ้นถนน Shijo-dori → ผ่าน Yasaka Shrine · 6. เลี้ยวขวาที่ Higashioji-dori → Yasaka-dori → เจดีย์ (~10 นาที, 700 ม.)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kamogawa+Delta&destination=Yasaka+Pagoda&travelmode=transit
   - time: "15:30–16:30"
     stop: Kiyomizu-dera — ระเบียงไม้ + น้ำมนต์ Otowa (golden hour)
     cost: "¥400"
-    transit: 🚶 เดินขึ้นจาก Yasaka-dori ~10 นาที · momiji peak + golden hour 15:30-16:50
+    transit: "🅰️ Yasaka Pagoda → 🅱️ Kiyomizu-dera · 1. เดินขึ้นทิศตะวันออก ตามตรอก Yasaka-dori · 2. เลี้ยวซ้ายเข้า Ninenzaka (ตรอกหินผ่านร้าน yatsuhashi) · 3. ขึ้นต่อไป Sannenzaka (ทางลาดชันขึ้น) · 4. สุดทาง = ประตู Kiyomizu-zaka → ประตูแดง Niomon ของ Kiyomizu-dera (~10 นาที, 700 ม. เดินขึ้นเขา)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Yasaka+Pagoda&destination=Kiyomizu-dera&travelmode=walking
   - time: "16:30–17:30"
     stop: Sannenzaka เดิน chill ลง → Karasuma Line กลับโรงแรม
     cost: "¥220"
-    transit: 🚶 ตรอกหินผ่านร้าน yatsuhashi → เดินผ่าน Gion ไป Kawaramachi (~15 นาที) · 🚇 Karasuma Line · Kawaramachi → Kyoto Station (1 stop, ¥220)
+    transit: "🅰️ Kiyomizu-dera → 🅱️ Hotel · 1. ออกประตู Niomon ลง Sannenzaka chill 10 นาที (ตรอกหิน) · 2. ลง Ninenzaka ต่อ 5 นาที · 3. ออกที่ Higashioji-dori → เดินตรงไปทิศตะวันตกผ่าน Gion 15 นาที (ผ่าน Hanamikoji เห็นได้) · 4. ถึง Kawaramachi Station (Hankyu/Karasuma) · 5. ลง Karasuma Line ทิศใต้ → Kyoto Station (1 stop, 3 นาที, ¥220) · 6. ออก Hachijoguchi East → เดินกลับโรงแรม ~7 นาที"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kiyomizu-dera&destination=Kyoto+Station&travelmode=transit
   - time: "17:30–18:30"
     stop: Hotel check-in + งีบ 60 นาที + อาบน้ำ
     cost: "—"
@@ -57,7 +64,8 @@ timeline:
   - time: "18:30–20:00"
     stop: Dinner — Kyoto Station area (Kyoto Ramen Koji / Porta / LUCUA)
     cost: "¥2,500"
-    transit: 🍜 เดินจากโรงแรม ~5 นาที · ไม่ต้องนั่ง subway อีก · กลับโรงแรม 20:30 → นอน 21:30
+    transit: "🅰️ Hotel → 🅱️ Kyoto Ramen Koji · 1. ออกโรงแรม เดินทิศเหนือกลับ Kyoto Station Hachijoguchi (7 นาที) · 2. ทะลุเข้าสถานี + ขึ้น escalator ไปชั้น 10 (Kyoto Station Bldg West Wing) · 3. Kyoto Ramen Koji 10 ร้านดังทั่วญี่ปุ่น · เลือกตามอารมณ์ · กลับโรงแรม 20:30 → นอน 21:30"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Hotel+Keihan+Kyoto+Ekiminami&destination=Kyoto+Ramen+Koji&travelmode=walking
 coords:
   - label: Kansai Int'l Airport (KIX)
     lat: 34.4342
@@ -136,8 +144,12 @@ tags: [osaka2026, kyoto, kamogawadelta, demachi, kiyomizu, higashiyama, arrivald
 
 ## ฝากกระเป๋าที่โรงแรมก่อน
 
-จาก Kyoto Station เดินตรงไปโรงแรม (เลือกใกล้สถานีไว้) — เช็คอินจริงคือบ่าย 15:00
-แต่ฝากกระเป๋าที่ front desk ได้เลย · ใช้ **ICOCA tap-in** ขึ้นบัส 4 หรือ 205 ตรงไป
+Haruka ถึง Kyoto Station 10:30 — เดินทะลุสถานีไปฝั่ง **Hachijoguchi (ใต้)**
+ประมาณ 10 นาที แล้วเดินอีก 7 นาทีถึง **Keihan Ekiminami** · check-in จริง 15:00
+แต่ฝากกระเป๋าหน้า front desk ได้เลย — เสร็จเดินกลับ Kyoto Station ฝั่งเหนือ
+อีก ~15 นาที (รวม drop bags ใช้เวลา ~50 นาที total)
+
+ใช้ **ICOCA tap-in** ขึ้นบัส 4 หรือ 205 จาก Bus Stop B2 ตรงไป
 **Demachiyanagi** — จุดเริ่ม Kamogawa Delta + lunch ย่าน
 
 <div class="callout">
@@ -153,7 +165,16 @@ tags: [osaka2026, kyoto, kamogawadelta, demachi, kiyomizu, higashiyama, arrivald
   </ul>
 </div>
 
-## เที่ยงที่ Kamogawa Delta + Demachi area
+## หิวก่อน — Lunch Demachi Futaba ก่อนเดิน Delta
+
+หลังบินกลางคืน + Haruka + drop bags = ราว 11:40 ถึง Demachiyanagi หิวจัดแล้ว · กินก่อน
+เดินเล่นริมน้ำ:
+
+- **Demachi Futaba (出町ふたば)** — ร้านมจิดังโลก เปิดปี 1899 · ไส้ถั่วแดงเทพ ¥220/ลูก
+  · queue ~30 นาที กลางวัน · กินอุ่น ๆ ที่ร้านได้
+- **ร้าน soba/udon local** — ใกล้ ๆ · ทาน main course ¥1,000–1,500
+
+อิ่มแล้วเดิน 5 นาทีไป Delta:
 
 **Kamogawa Delta (鴨川デルタ)** = จุดบรรจบของแม่น้ำ Kamo + Takano เป็นรูป Y · เป็น
 **สวนสาธารณะ Kyoto Prefectural Kamogawa Park** เปิดทั้งปี ฟรี · เด่นที่ **stepping stones รูปเต่า + นก**
@@ -163,11 +184,7 @@ tags: [osaka2026, kyoto, kamogawadelta, demachi, kiyomizu, higashiyama, arrivald
 - **Anime spot** — *The Eccentric Family* + *Tamako Market* (ที่คุยเรื่อง cartoon)
 - **คนเกียวโตเอง** ไป picnic / นั่งกินขนม · ทัวริสต์ต่างชาติแทบไม่มา
 - **พ.ย. = momiji peak** ริมแม่น้ำ + ฟ้าใส
-- **noon light** ดีที่สุด — แสงเข้าตรง stepping stones ไม่มีเงา
-
-หลังเดิน Delta ~1 ชม. แวะ **Demachi Futaba (出町ふたば)** ร้านมจิดังโลก เปิดปี 1899
-อยู่ใกล้ ๆ — ไส้ถั่วแดงเทพ ¥220/ลูก · queue 30 นาที กลางวัน · กินอุ่น ๆ ที่ร้านได้
-รอบ ๆ มีร้าน soba/udon local ทาน main course ได้
+- **บ่ายต้น 12:40–14:00** = แสงยังจัด ไม่ค่อยมีเงา (sunset 16:50 อีกไกล)
 
 ## สายฮิงาชิยามะใต้ — 3 ไอคอน core (chill version)
 

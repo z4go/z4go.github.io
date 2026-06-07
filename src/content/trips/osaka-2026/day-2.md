@@ -4,13 +4,13 @@ title: Arashiyama → Tofuku-ji → Osaka
 date: 2026-11-14
 location: Kyoto → Osaka
 weather: ⛅ Partly cloudy · 15°C
-summary: ตื่น 06:00 กิน breakfast โรงแรม Keihan 07:00 แล้วขึ้น JR Sagano เข้าอาราชิยามะให้ทันป่าไผ่ก่อนคนแน่น · เก็บ Tenryu-ji เสร็จเดินขึ้นเหนือซะกะ-โทรีโมโตะ (รูปแกะหิน 8,000 องค์) + มื้อเที่ยงยุโดฟุ · บ่ายกลับ Tofuku-ji ดู Tsutenkyo bridge เหนือ momiji valley · ย้ายโอซากะตอนเย็น Dotonbori food crawl
+summary: ตื่น 06:00 กิน breakfast โรงแรม Keihan 07:00 แล้วขึ้น JR Sagano เข้าอาราชิยามะให้ทันป่าไผ่ก่อนคนแน่น · เก็บ Tenryu-ji เสร็จเดินขึ้น Saga-Toriimoto preserved street (บ้าน machiya เอโดะ + Adashino + Jojakko-ji) + มื้อเที่ยงยุโดฟุ · บ่ายกลับ Tofuku-ji ดู Tsutenkyo bridge เหนือ momiji valley · ย้ายโอซากะตอนเย็น Dotonbori food crawl
 status: todo
 hero: ../../../assets/osaka-2026/day-2/hero.jpg
 heroAlt: ใบเมเปิลสีแดงเหนือสวนวัดในเกียวโต
 stats:
   steps: 0
-  spent: "¥10,000"
+  spent: "¥9,700"
   stops: 13
   photos: 0
 timeline:
@@ -25,47 +25,62 @@ timeline:
   - time: "07:30–07:45"
     stop: Checkout + เดินไป Kyoto Station
     cost: "—"
-    transit: 🚶 ฝากกระเป๋าหน้า front desk · เดินไปสถานี ~7 นาที
+    transit: "🅰️ Hotel Keihan Ekiminami → 🅱️ Kyoto Station · 1. Checkout + ฝากกระเป๋าหน้า front desk · 2. ออกประตู → เดินทิศเหนือตาม Higashi-Kujo Muromachi-dori · 3. เข้า Hachijoguchi East Exit ~7 นาที (~600 ม.)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Hotel+Keihan+Kyoto+Ekiminami&destination=Kyoto+Station&travelmode=walking
   - time: "07:45–08:00"
     stop: JR Sagano Line → Saga-Arashiyama
     cost: "¥240"
-    transit: 🚆 JR Sagano (San-in) Line · Kyoto → Saga-Arashiyama (~15 นาที direct)
+    transit: "🅰️ Kyoto Station → 🅱️ Saga-Arashiyama · 1. ทะลุไปฝั่งเหนือ Karasuma Central Exit · 2. ตามป้าย JR Sagano (San-in) Line — Platform 32/33 (ใต้สถานี) · 3. ขึ้นรถ Local ปลายทาง Sonobe/Kameoka · 4. นั่ง 5 stops, 15 นาที direct · 5. ลง Saga-Arashiyama Station"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station&destination=Saga-Arashiyama+Station&travelmode=transit
   - time: "08:10–09:30"
     stop: 🎋 Bamboo Grove + Togetsukyo Bridge — ก่อน 10:00 ยังคนน้อย
     cost: "—"
-    transit: 🚶 เดินจากสถานี ~10 นาที · soft morning light · ทัวร์ใหญ่ยังมาไม่ทัน
+    transit: "🅰️ Saga-Arashiyama Station → 🅱️ Bamboo Grove · 1. ออกจากสถานี เดินทิศใต้ตาม Sagano Tenryu-ji Susukino-uma ~10 นาที · 2. ผ่าน Tenryu-ji north side · 3. เข้าทางเหนือของป่าไผ่ · soft morning light · ทัวร์ใหญ่ยังมาไม่ทัน"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=Arashiyama+Bamboo+Grove&travelmode=walking
   - time: "09:30–10:30"
     stop: Tenryu-ji — UNESCO zen garden
     cost: "¥500"
-    transit: 🚶 ออกจากบามบูทางใต้เข้าประตูเหนือ Tenryu-ji ได้เลย · Sōgenchi pond
-  - time: "10:30–12:00"
-    stop: Saga-Toriimoto walk — Otagi + Adashino + Jojakko-ji
-    cost: "¥1,300"
-    transit: 🚶 เดินขึ้นเหนือ ~20 นาที · Otagi 1,200 รากุยะแกะหิน · Adashino 8,000 พระพุทธรูปหิน · Jojakko-ji วัดเขา
-  - time: "12:00–13:00"
+    transit: "🅰️ Bamboo Grove → 🅱️ Tenryu-ji · 1. ออกจากบามบูทางใต้ — ประตูเหนือ Tenryu-ji อยู่ติดกัน · 2. ซื้อบัตรเข้า garden ¥500 (หรือ +¥300 main hall) · 3. ชม Sōgenchi pond + reflection ภูเขา"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Arashiyama+Bamboo+Grove&destination=Tenryu-ji&travelmode=walking
+  - time: "10:30–11:30"
+    stop: Saga-Toriimoto preserved street + Adashino + Jojakko-ji
+    cost: "¥1,000"
+    transit: "🅰️ Tenryu-ji → 🅱️ Saga-Toriimoto · 1. ออกประตูเหนือ Tenryu-ji · 2. เดินไปทิศเหนือตาม Saga-Toriimoto Hozu-michi ~15 นาที (1 กม. ขึ้นเขาเบา ๆ) · 3. preserved street — บ้านไม้ machiya เก่าสมัยเอโดะ + ป้ายไม้ traditional · 4. Adashino Nenbutsuji (8,000 หินพุทธ ¥500) · 5. Jojakko-ji วัดเขา momiji ¥500 · ตัด Otagi (อยู่บนสุดเขา) ออก = chill ขึ้น"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tenryu-ji&destination=Saga-Toriimoto&travelmode=walking
+  - time: "11:30–12:45"
     stop: Yudofu lunch — Shōrai-an / Yudofu Sagano
     cost: "¥2,500"
-    transit: 🍲 เต้าหู้ต้มอาราชิยามะ specialty · กิน slow · บรรยากาศบ้านไม้
-  - time: "13:00–13:30"
-    stop: JR Sagano back → Kyoto Station + เก็บกระเป๋า
-    cost: "¥240"
-    transit: 🚆 Saga-Arashiyama → Kyoto · เก็บของจากโรงแรม ~10 นาที walk
-  - time: "13:45–15:15"
+    transit: "🅰️ Saga-Toriimoto → 🅱️ Yudofu restaurant · 1. เดินลงเขาผ่าน Saga-Toriimoto กลับลง Sagano area · 2. Shōrai-an อยู่ใกล้ Tenryu-ji ฝั่งเหนือ · 3. หรือ Yudofu Sagano ฝั่งใต้บามบู · 4. กิน slow 1 ชม. บรรยากาศบ้านไม้"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Jojakko-ji&destination=Shorai-an&travelmode=walking
+  - time: "13:00–13:25"
+    stop: JR Sagano back → Kyoto Station → JR Nara → Tofuku-ji
+    cost: "¥390"
+    transit: "🅰️ Saga-Arashiyama → 🅱️ Tofuku-ji (ไม่แวะ hotel · ไม่ลากกระเป๋าเข้าวัด) · 1. เดินกลับ Saga-Arashiyama Station ~5 นาที · 2. JR Sagano Line Kyoto-bound (5 stops, 15 นาที, ¥240) · 3. ที่ Kyoto Station เปลี่ยน JR Nara Line Platform 9/10 · 4. นั่ง 1 stop (2 นาที, ¥150) ลง Tofuku-ji Station · 5. เดินตามป้าย Tofuku-ji ~5 นาที"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=Tofuku-ji&travelmode=transit
+  - time: "13:30–15:00"
     stop: 🍁 Tofuku-ji — Tsutenkyo bridge เหนือ momiji valley + Komyo-in
     cost: "¥900"
-    transit: 🚆 JR Nara Line · Kyoto → Tofuku-ji (1 stop, 2 นาที, ¥150) · special autumn period
-  - time: "15:15–15:45"
-    stop: JR back → Kyoto Station + JR Special Rapid → Osaka
-    cost: "¥720"
-    transit: 🚆 Tofuku-ji → Kyoto (¥150) · เปลี่ยน Special Rapid → Osaka (29 นาที, ¥570)
-  - time: "16:15–18:00"
-    stop: Walk to Osaka hotel — Check-in + Rest
+    transit: "🚶 ¥600 Tsutenkyo bridge + main hall (+¥300 Hojo garden) · Komyo-in sub-temple +¥500 · เดินวัด 90 นาที ไม่มีกระเป๋ามาขัด"
+  - time: "15:00–15:40"
+    stop: JR back → Hotel เก็บกระเป๋า → กลับ Kyoto Station
+    cost: "¥150"
+    transit: "🅰️ Tofuku-ji → 🅱️ Hotel → 🅲 Kyoto Station · 1. JR Nara Line ทิศ Kyoto (1 stop, 2 นาที, ¥150) · 2. ที่ Kyoto Station ออก Hachijoguchi East Exit · 3. เดินไป Hotel Keihan ~7 นาที · 4. รับกระเป๋าจาก front desk (โชว์ใบ tag) · 5. เดินกลับ Kyoto Station ~7 นาที · 6. ทะลุไป Platform 6/7/8 (Tokaido/Kyoto Line)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tofuku-ji&destination=Hotel+Keihan+Kyoto+Ekiminami&travelmode=transit
+  - time: "15:45–16:15"
+    stop: JR Special Rapid → Osaka (Umeda)
+    cost: "¥570"
+    transit: "🅰️ Kyoto Station → 🅱️ Osaka Station · 1. Platform 6/7/8 → JR Tokaido/Kyoto Line · 2. ขึ้น Special Rapid ปลายทาง Himeji/Aboshi (ทุก 15 นาที) · 3. นั่ง direct 29 นาที, ¥570 · 4. ลง Osaka Station (= Umeda area)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station&destination=Osaka+Station&travelmode=transit
+  - time: "16:15–17:45"
+    stop: Walk to DEL style Shin Umeda — Check-in + Rest
     cost: "—"
-    transit: 🛌 Umeda hotel check-in 15:00 sharp · พัก 1.5 ชม.ก่อนออก Dotonbori
-  - time: "18:00–21:00"
+    transit: "🅰️ Osaka Station → 🅱️ DEL style Shin Umeda (Fukushima Ward) · 1. ออก Osaka Station West Exit · 2. เดินตะวันตกตาม Osaka Underground Connection ~15 นาที (1.2 กม.) · 3. หรือทาง JR Loop Line 1 stop → JR Fukushima Station (¥140, 2 นาที) + เดิน 5 นาที · 4. Check-in 14:00 ผ่านมาแล้ว · 5. พัก 1.5 ชม.ก่อน Dotonbori"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Osaka+Station&destination=DEL+style+Osaka+Shin+Umeda&travelmode=walking
+  - time: "17:45–21:00"
     stop: Dotonbori food crawl + dinner
     cost: "¥3,500"
-    transit: 🚇 Midosuji Line · Umeda → Namba (~9 นาที, ¥240) · Exit 14 → Glico + Ebisubashi
+    transit: "🅰️ DEL style Shin Umeda → 🅱️ Dotonbori · 1. เดินไป JR Fukushima Station (5 นาที) · 2. JR Loop Line 1 stop → Osaka Station (¥140) · 3. เปลี่ยน Midosuji Line · 4. นั่ง 3 stops, 9 นาที, ¥240 ลง Namba · 5. ออก Exit 14 → ตรงเข้า Dotonbori-suji + Ebisubashi Bridge + Glico"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=DEL+style+Osaka+Shin+Umeda&destination=Dotonbori&travelmode=transit
 coords:
   - label: Saga-Arashiyama Station
     lat: 35.0192
@@ -79,9 +94,6 @@ coords:
   - label: Tenryu-ji Temple
     lat: 35.0156
     lng: 135.6739
-  - label: Otagi Nenbutsuji
-    lat: 35.0395
-    lng: 135.6627
   - label: Adashino Nenbutsuji
     lat: 35.0316
     lng: 135.6675
@@ -117,9 +129,6 @@ references:
   - title: Tenryu-ji — UNESCO zen garden
     url: https://www.tenryuji.com/en/
     icon: 🏯
-  - title: Otagi Nenbutsuji — 1,200 stone rakan figures
-    url: https://www.otagiji.com/
-    icon: 🪨
   - title: Adashino Nenbutsuji — 8,000 stone buddhas
     url: https://www.nenbutsuji.jp/
     icon: 🪨
@@ -137,8 +146,8 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, 
 
 วันสองตื่นเช้า — **06:00 wake, 07:00 breakfast โรงแรม, 08:10 ป่าไผ่ Arashiyama**
 ก่อนทัวร์ใหญ่มาถึง · ตรอกบามบูช่วง 08:00–10:00 = คน 1/4 ของช่วงเที่ยง · ภาพยังโล่ง
-แสงเช้านวล ๆ · จบครึ่งวันที่ Tenryu-ji แล้วเดินขึ้นเหนือไป **Saga-Toriimoto** บนเขา
-— รูปแกะหินรากุยะ 1,200 องค์ + พระพุทธรูปหิน 8,000 องค์ เกือบไม่มีนักท่องเที่ยว · จบมื้อเที่ยง yudofu บ้านไม้
+แสงเช้านวล ๆ · จบครึ่งวันที่ Tenryu-ji แล้วเดินขึ้นเหนือไป **Saga-Toriimoto preserved street** บนเขา
+— บ้าน machiya สมัยเอโดะ + Adashino Nenbutsuji 8,000 พระพุทธรูปหิน + Jojakko-ji วัดเขา (ตัด Otagi ออก = chill ขึ้น) · จบมื้อเที่ยง yudofu บ้านไม้
 
 บ่ายกลับ Kyoto Station เก็บกระเป๋า แวะ **Tofuku-ji** วัดใหญ่ใต้ station — **Tsutenkyo bridge**
 ข้ามหุบเขา momiji = ภาพใบไม้แดงเกียวโตที่สวยที่สุดของฤดูกาล · แล้วขึ้น **JR Special Rapid**
@@ -149,7 +158,7 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, 
   <ul>
     <li><strong>⏰ ตื่น 06:00 sharp</strong> — Arashiyama ก่อน 10:00 ยังคนน้อย · หลัง 10:30 = wall of people · ตื่นเช้าชนะเกม</li>
     <li><strong>🍳 Hotel breakfast 07:00 sharp</strong> — Keihan Ekiminami WESTERN buffet · รวมในราคาห้อง · กิน 30 นาที หรือ takeout ไปกินบน train</li>
-    <li><strong>🏨 Hotel checkout 07:30</strong> — เช็คเอาต์เช้าฝากของหน้า front desk · กลับมาเอา 13:00</li>
+    <li><strong>🏨 Hotel checkout 07:30 + ฝากของ front desk</strong> — Keihan Ekiminami น่าจะรับฝากต่อหลัง checkout ฟรี (chain ญี่ปุ่นมาตรฐาน) · กลับมาเอา 13:00 · <strong>backup ถ้าไม่รับ:</strong> 🔒 Coin locker Kyoto Station Hachijoguchi ¥700 × 2 = ¥1,400 · ICOCA tap เปิด-ปิด</li>
     <li><strong>🪨 Saga-Toriimoto เดิน 20 นาทีขึ้นเขา</strong> — Otagi เปิด 08:00 · Adashino + Jojakko-ji เปิด 09:00</li>
     <li><strong>🍲 Yudofu ต้องนั่งกิน slow</strong> — เผื่อ 60 นาที · ไม่ใช่ fast food · Shōrai-an queue สั้น</li>
     <li><strong>🍁 Tofuku-ji Tsutenkyo special autumn period</strong> — กลาง พ.ย.–ต้น ธ.ค. มี timed entry · ¥600 = bridge + main hall, +¥300 ถ้าเข้า Hojo garden</li>
@@ -160,11 +169,77 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, 
   </ul>
 </div>
 
+<div class="callout">
+  <strong>🎫 วิธีซื้อตั๋ว Day 2 — รวบยอด</strong>
+
+  <p><strong>🚆 JR ทุกขา + Subway Osaka = ICOCA tap-in (ใช้บัตรเดียวจาก Day 1)</strong></p>
+  <ul>
+    <li>JR Sagano Kyoto ↔ Saga-Arashiyama (¥240 × 2)</li>
+    <li>JR Nara Kyoto ↔ Tofuku-ji (¥150 × 2)</li>
+    <li>JR Special Rapid Kyoto → Osaka (¥570)</li>
+    <li>Osaka Metro Midosuji Umeda → Namba (¥240)</li>
+    <li>= แตะ tap ผ่านตัว gate ไม่ต้องซื้อตั๋วกระดาษ · เร็วกว่า + ส่วนลด ¥10–20/ขา</li>
+  </ul>
+
+  <p><strong>⚠️ Tofuku-ji Autumn Tsutenkyo = ต้องจองล่วงหน้า</strong></p>
+  <ul>
+    <li><strong>ช่วงพีค พ.ย. 8 – ธ.ค. 7</strong> (วันที่เราไป 14 พ.ย. ตรงช่วงนี้แน่ ๆ)</li>
+    <li><strong>Timed-entry slot ทุก 30 นาที</strong> · จำกัดคนต่อรอบ</li>
+    <li>จองล่วงหน้าผ่าน <a href="https://tofukuji.jp/english/" target="_blank">tofukuji.jp/english</a> หรือ <a href="https://www.klook.com/" target="_blank">Klook</a></li>
+    <li><strong>walk-in queue 30–90 นาทีในวันพีค</strong> — ต้องจองดีกว่า</li>
+    <li>เลือก slot <strong>13:30 หรือ 14:00</strong> ตรงกับแผน Day 2</li>
+    <li>ราคา ~¥1,000–1,200 (รวม Tsutenkyo + main hall) · cash หรือ pre-paid online</li>
+  </ul>
+
+  <p><strong>🏯 วัดอื่น ๆ — walk-in ที่ประตู (cash หรือ card)</strong></p>
+  <ul>
+    <li>Tenryu-ji ¥500 (garden) · +¥300 main hall · เปิด 08:30</li>
+    <li>Adashino Nenbutsuji ¥500 · เปิด 09:00 · cash only · last entry 16:30</li>
+    <li>Jojakko-ji ¥500 · เปิด 09:00 · cash · last entry 17:00</li>
+  </ul>
+
+  <p><strong>💴 Cash เผื่อ Day 2:</strong> ~¥3,000/คน (¥1,000 วัด + ¥500 mochi + ¥1,500 lunch yudofu)</p>
+
+  <p><strong>📲 หรือใช้ Klook/KKday รวมทุกอย่าง</strong> — pre-book Tofuku-ji + ICOCA top-up ก่อนบินจากไทย · ราคาเท่ากับซื้อหน้างาน แต่ได้ slot guarantee</p>
+</div>
+
 ## เช็คเอาต์ก่อนเดินทาง (สำคัญ)
 
 โรงแรมญี่ปุ่นส่วนใหญ่ **checkout ภายใน 10:00 หรือ 11:00 sharp** — late fee ¥1,000–3,000
 แผนเลยให้เช็คเอาต์ **ตอนเช้าก่อนออกไปอาราชิยามะ** แล้ว **ฝากกระเป๋าที่ front desk**
-(บริการฟรีทุกโรงแรม) · ตอน 12:30 กลับมาเอาของได้เลย ไม่ต้องลุ้นเวลา
+(บริการฟรีทุกโรงแรม) · ตอน 13:00 กลับมาเอาของได้เลย ไม่ต้องลุ้นเวลา
+
+<div class="callout">
+  <strong>💬 พูดอังกฤษกับ front desk — luggage storage</strong>
+
+  <p><strong>1. ⭐ ถามก่อน — ฝากได้ไหม?</strong></p>
+  <blockquote>
+    "Excuse me, do you accept luggage storage after checkout?"<br/>
+    หรือสั้นกว่า: "Can I leave my luggage here after I check out?"
+  </blockquote>
+  <p>→ ถ้าตอบ <em>"Yes, of course"</em> = OK ใช้แผน A · ถ้า <em>"Sorry, we don't"</em> = ไป coin locker Kyoto Station แทน</p>
+
+  <p><strong>2. ถ้า OK — บอกเวลากลับมาเอา:</strong></p>
+  <blockquote>
+    "Great, thank you! I'll come back to pick it up around <strong>1 PM (one PM)</strong>."<br/>
+    "Until what time can I pick it up?" (เผื่อกลับช้า)
+  </blockquote>
+
+  <p><strong>3. ตอนกลับมาเอา:</strong></p>
+  <blockquote>
+    "Hi, I'd like to pick up my luggage."<br/>
+    "I checked out this morning. The name is <strong>[Sakkarin / Saowaluk]</strong>."
+  </blockquote>
+
+  <p><strong>📝 หมายเหตุ:</strong> ถ้ารับ จะให้ใบ tag (claim ticket) มาเก็บไว้ · ตอนกลับมาโชว์ tag = รับกระเป๋าได้</p>
+
+  <p><strong>🇯🇵 Backup ภาษาญี่ปุ่น (ถ้าพนักงานไม่เข้าใจ):</strong></p>
+  <blockquote>
+    <strong>ถามก่อน:</strong> "Nimotsu, azukatte moraemasu ka?" (荷物、預かってもらえますか？) = ฝากของได้ไหม<br/>
+    <strong>ถ้า OK:</strong> "Gogo ichi-ji ni torini kimasu." (午後1時に取りに来ます) = บ่ายโมงมาเอา<br/>
+    <strong>ตอนกลับมา:</strong> "Nimotsu, onegai shimasu." (荷物、お願いします) = ขอกระเป๋าหน่อย
+  </blockquote>
+</div>
 
 ## เช้า Arashiyama — ป่าไผ่ก่อนคน + Saga-Toriimoto
 
@@ -179,12 +254,13 @@ buffet แบบนั่งกินจริง 30 นาที · 07:30 check
   · soft morning light · เก็บภาพป่าไผ่ คนน้อย · ทัวร์ใหญ่ยังมาไม่ถึง
 - **🏯 Tenryu-ji** — 09:30–10:30 · เปิด 08:30 sharp · Sōgenchi pond
   สะท้อนภูเขา + momiji · UNESCO zen garden
-- **🪨 Saga-Toriimoto walk** — 10:30–12:00 · เดินขึ้นเหนือจาก Tenryu-ji ~20 นาที:
-  - **Otagi Nenbutsuji** (¥300) — 1,200 รากุยะแกะหินใบหน้าตลก ๆ · เกือบไม่มีคนเลย
+- **🪨 Saga-Toriimoto preserved street** — 10:30–11:30 · เดินขึ้นเหนือจาก Tenryu-ji ~15 นาที:
+  - **Preserved street** — บ้านไม้ machiya สมัยเอโดะ · ป้ายไม้ traditional · feel หมู่บ้านโบราณ
   - **Adashino Nenbutsuji** (¥500) — 8,000 พระพุทธรูปหินเล็ก · บรรยากาศขลัง
   - **Jojakko-ji** (¥500) — วัดบนเขา momiji ระดับ S-tier · คนน้อย
+  - *ตัด **Otagi Nenbutsuji** ออก (อยู่บนสุดเขา) — เก็บแรงไว้ Tofuku-ji + Day 3 ดีกว่า*
 
-### 🍲 Yudofu lunch (12:00–13:00)
+### 🍲 Yudofu lunch (11:30–12:45)
 
 เต้าหู้ต้มอาราชิยามะ specialty — กินใน Saga area:
 
@@ -192,12 +268,12 @@ buffet แบบนั่งกินจริง 30 นาที · 07:30 check
 - **Yudofu Sagano (湯豆腐 嵯峨野)** — origin · ¥3,800/set premium course · บรรยากาศบ้านสวน
 - **Tenryu-ji Shigetsu** — vegetarian shojin ryori ในวัด · ต้องจอง · ¥4,500
 
-## บ่าย Tofuku-ji + ย้ายโอซากะ
+## บ่าย Tofuku-ji + เก็บกระเป๋า + ย้ายโอซากะ
 
-13:00 ขึ้น JR Sagano กลับ Kyoto Station เก็บกระเป๋าจากโรงแรม (เช็คเอาต์เสร็จตั้งแต่เช้า)
-แล้วขึ้น **JR Nara Line** 1 stop (2 นาที) ลง **Tofuku-ji Station** เดินอีก 5 นาที
+13:00 ขึ้น JR Sagano กลับ Kyoto Station → **ไปต่อ JR Nara Line 1 stop ลง Tofuku-ji
+เลย ไม่แวะ hotel ยัง** (ไม่ลากกระเป๋าเข้าวัด) · เดินอีก 5 นาทีถึงประตูวัด
 
-### 🍁 Tofuku-ji (13:45–15:15)
+### 🍁 Tofuku-ji (13:30–15:00)
 
 **Tsutenkyo bridge** ข้ามหุบเขา momiji — อันดับ 1 momiji bridge ของเกียวโต ·
 special autumn period กลาง พ.ย.–ต้น ธ.ค. · timed entry · ¥600 = bridge + main hall
@@ -206,29 +282,29 @@ special autumn period กลาง พ.ย.–ต้น ธ.ค. · timed entry 
 - **Hojo zen garden** (+¥300) — 4 ทิศ rock garden + moss
 - **Komyo-in** sub-temple (¥300) — สวนทรายขาว · เกือบไม่มีคน · ใกล้กับ Tofuku-ji main
 
-จบเดินกลับ Kyoto Station 15:15 → ขึ้น **JR Special Rapid** ตรงไปโอซากะ 29 นาที ¥570
-ไม่ต้อง transfer · ถึง Osaka Station 16:15 พอดี check-in โรงแรม Umeda + พัก 1.5 ชม.ก่อน Dotonbori
+### 🎒 เก็บกระเป๋า (15:00–15:40)
 
-<div class="todo-block">
-  <strong>ยังไม่สรุป — โรงแรม Umeda 3 คืน (14–17 พ.ย.)</strong>
-  <p>เลือก <strong>Umeda</strong> เพราะ Day 3 ออก Midosuji ไป Minoh-Kayano · Day 4 ขึ้น JR Yumesaki ไป USJ · Day 5 ขึ้น JR Haruka กลับ KIX
-  — ทุก leg เริ่ม Osaka Station · Dotonbori ก็แค่ Midosuji 9 นาทีไปเที่ยวเย็นได้</p>
+จบ Tofuku-ji → JR Nara กลับ Kyoto Station → **เดิน Hachijoguchi East ไปโรงแรม
+~7 นาที → รับกระเป๋าจาก front desk (โชว์ใบ tag) → เดินกลับ ~7 นาที** · ทุก leg
+อยู่ฝั่งใต้สถานี ไม่ต้องเปลี่ยน floor
 
-  <p><strong>💰 Mid (~¥13,000–18,000/คืน × 3 = ~¥45–55k):</strong></p>
+### ย้าย Osaka (15:45–16:15)
+
+ขึ้น **JR Special Rapid** ตรงไปโอซากะ 29 นาที ¥570 ไม่ต้อง transfer · ถึง Osaka
+Station 16:15 → walk to Umeda hotel + Check-in + พัก 1.5 ชม.ก่อน Dotonbori
+
+<div class="callout">
+  <strong>✅ จองแล้ว — DEL style Osaka Shin Umeda by Daiwa Roynet</strong>
   <ul>
-    <li><strong>Hotel Vischio Osaka by Granvia</strong> — เดิน 5 นาทีจาก Osaka Station · JR-owned · ใหม่ · breakfast ดี</li>
-    <li><strong>Mitsui Garden Hotel Osaka Premier</strong> — Hokoen · onsen ชั้นบน + view · เดิน 8 นาที</li>
-    <li><strong>Hotel Monterey Osaka</strong> — Nishi-Umeda · ดีไซน์ European · เดิน 5 นาที</li>
+    <li><strong>วันเข้าพัก:</strong> 14–17 พ.ย. 2026 (3 คืน) · check-in 14:00 · check-out ก่อน 11:00</li>
+    <li><strong>ห้อง:</strong> Hollywood Twin · เตียงเดี่ยว 2 เตียง · ปลอดบุหรี่</li>
+    <li><strong>🍳 Breakfast:</strong> ✅ Included 3 เช้า (15, 16, 17 พ.ย.) สำหรับ 2 คน</li>
+    <li><strong>💴 ราคา total:</strong> ¥64,169 (~฿14,245) · ภาษีรวม · ชำระที่โรงแรม</li>
+    <li><strong>ที่อยู่:</strong> 6 Chome-16-1 Fukushima, Fukushima Ward · เปิด 2020 · design hotel</li>
+    <li><strong>🛁 อ่างน้ำ:</strong> ส่วนตัวในห้อง (ไม่มี 大浴場 ส่วนกลาง)</li>
+    <li><strong>📍 Location bonus:</strong> ใกล้ <strong>JR Fukushima Station</strong> = Day 4 USJ ตรงไปได้เลย (JR Yumesaki Line direct!)</li>
+    <li><strong>Free cancel:</strong> ก่อน 12 พ.ย. 23:59</li>
   </ul>
-
-  <p><strong>💵 Budget (~¥8,000–12,000/คืน × 3 = ~¥27–36k):</strong></p>
-  <ul>
-    <li><strong>Daiwa Roynet Hotel Osaka-Umeda</strong> — chain reliable · เดิน 5 นาที · ห้องกว้างกว่า budget ทั่วไป</li>
-    <li><strong>APA Hotel Umeda-eki Mae</strong> — chain ดัง · ราคามิตร · ห้องเล็กแต่ครบ</li>
-    <li><strong>Sotetsu Fresa Inn Osaka-Umeda</strong> — chain · เดิน 7 นาที · breakfast OK</li>
-  </ul>
-
-  <p>{{ TODO: เทียบราคา 3 คืน บน Trip.com / Booking แล้วจอง }}</p>
 </div>
 
 ## มื้อค่ำ — Dotonbori food crawl
@@ -242,13 +318,13 @@ Midosuji Line จาก Umeda 9 นาที ลง **Namba** → ขึ้น�
 ### ลำดับ crawl แนะนำ (เบา → หนัก → หวาน)
 
 <div class="callout">
-  <strong>🍽️ Crawl flow (~18:00–21:00)</strong>
+  <strong>🍽️ Crawl flow (~17:45–21:00)</strong>
   <ul>
-    <li><strong>18:00–18:30</strong> — เดิน Ebisubashi Bridge · ถ่ายรูป <strong>Glico runner</strong> + Dotonbori canal</li>
-    <li><strong>18:30–19:00</strong> — 🐙 <strong>Takoyaki</strong> 1 box ยืนกิน</li>
-    <li><strong>19:00–19:30</strong> — 🍢 <strong>Kushikatsu</strong> counter seat ~30 นาที</li>
-    <li><strong>19:30–20:30</strong> — 🥞 <strong>Okonomiyaki</strong> sit-down main course</li>
-    <li><strong>20:30–21:00</strong> — 🍡 <strong>Dessert</strong> ปิดท้าย · เดินกลับ Namba</li>
+    <li><strong>17:45–18:15</strong> — เดิน Ebisubashi Bridge · ถ่ายรูป <strong>Glico runner</strong> + Dotonbori canal</li>
+    <li><strong>18:15–18:45</strong> — 🐙 <strong>Takoyaki</strong> 1 box ยืนกิน</li>
+    <li><strong>18:45–19:15</strong> — 🍢 <strong>Kushikatsu</strong> counter seat ~30 นาที</li>
+    <li><strong>19:15–20:15</strong> — 🥞 <strong>Okonomiyaki</strong> sit-down main course</li>
+    <li><strong>20:15–21:00</strong> — 🍡 <strong>Dessert</strong> ปิดท้าย · เดินกลับ Namba</li>
   </ul>
 </div>
 

@@ -15,13 +15,14 @@ stats:
   photos: 0
 timeline:
   - time: "06:30–07:30"
-    stop: Breakfast + pack day-bag
+    stop: Breakfast (DEL style buffet) + pack day-bag
     cost: "—"
-    transit: 🏨 Hotel breakfast 06:30 เปิดพอดี · เอาแค่ของจำเป็น (ID, IC, money, power bank)
+    transit: 🍳 Breakfast buffet 07:00 sharp (รวมในราคา) · เอาแค่ของจำเป็น (ID, IC, money, power bank)
   - time: "07:30–08:30"
-    stop: JR Loop + Yumesaki → Universal-City Station
+    stop: DEL style → JR Fukushima → Universal-City Station (direct!)
     cost: "¥190"
-    transit: 🚆 JR Loop · Osaka → Nishikujo · เปลี่ยน Yumesaki → Universal-City (~12 นาที) · เดินถึงประตู ~5 นาที
+    transit: "🅰️ DEL style → 🅱️ USJ · 1. เดิน 5 นาทีไป JR Fukushima Station · 2. JR Yumesaki/Sakurajima Line direct ทิศ Sakurajima (ไม่ต้องเปลี่ยน Osaka Station!) · 3. นั่ง 4 stops (~12 นาที, ¥190) ลง Universal-City Station · 4. เดิน 5 นาทีถึงประตู USJ ⭐ flow ลื่นกว่าเดิม"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=JR+Fukushima+Station+Osaka&destination=Universal+City+Station&travelmode=transit
   - time: "08:30–09:00"
     stop: USJ Main Gate — queue + bag check
     cost: "—"
@@ -43,13 +44,14 @@ timeline:
     cost: "TBD"
     transit: "🌃 Super Nintendo World illumination (sunset 16:50) · Mario Kart night version · Hogsmeade lights · WaterWorld evening show"
   - time: "19:00–19:30"
-    stop: USJ → Osaka Station / Umeda
+    stop: USJ → JR Fukushima Station (direct กลับ)
     cost: "¥190"
-    transit: 🚆 Yumesaki → Nishikujo → JR Loop → Osaka (~12 นาที)
+    transit: "🅰️ USJ → 🅱️ DEL style · 1. เดิน 5 นาทีไป Universal-City Station · 2. JR Yumesaki direct ทิศ Osaka (4 stops, ~12 นาที, ¥190) ไม่ต้องเปลี่ยน · 3. ลง JR Fukushima Station · 4. เดิน 5 นาทีถึงโรงแรม"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Universal+City+Station&destination=DEL+style+Osaka+Shin+Umeda&travelmode=transit
   - time: "19:30–21:00"
-    stop: Dinner — Umeda (late dinner)
+    stop: Dinner — Fukushima area (ใกล้โรงแรม)
     cost: "TBD"
-    transit: 🚶 ใกล้โรงแรม · เลือกร้านที่ปิดดึก · Day 5 ตื่น 05:30 เก็บแรงให้พอ
+    transit: 🚶 ย่าน Fukushima มีร้าน izakaya local เปิดดึก · หรือ Shin-Umeda Shokudogai (เดิน 15 นาที) · Day 5 ตื่น 05:30 เก็บแรง
 coords:
   - label: Osaka Station / Umeda
     lat: 34.7024

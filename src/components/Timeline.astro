@@ -2,7 +2,13 @@
 import { t, type Lang } from '../lib/i18n';
 
 interface Props {
-  items: { time: string; stop: string; cost: string; transit?: string }[];
+  items: {
+    time: string;
+    stop: string;
+    cost: string;
+    transit?: string;
+    mapUrl?: string;
+  }[];
   lang?: Lang;
 }
 
@@ -16,43 +22,54 @@ const s = t(lang);
     items.length === 0 ? (
       <p class="sketch p-4 text-ink-2">{s.timelineEmpty}</p>
     ) : (
-      <div class="sketch pop overflow-hidden">
-        <table class="w-full border-collapse text-left">
-          <thead>
-            <tr class="bg-cf text-paper font-hand text-lg">
-              <th class="px-3 sm:px-4 py-2 w-20 sm:w-28">{s.colTime}</th>
-              <th class="px-3 sm:px-4 py-2">{s.colStop}</th>
-              <th class="px-3 sm:px-4 py-2 text-right w-20 sm:w-28">
-                {s.colCost}
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            {items.map((item, i) => (
-              <tr
-                class:list={[
-                  'border-t-2 border-dashed border-ink/30',
-                  i % 2 === 1 ? 'bg-paper/60' : '',
-                ]}
-              >
-                <td class="px-3 sm:px-4 py-3 font-hand text-lg whitespace-nowrap align-top">
-                  {item.time}
-                </td>
-                <td class="px-3 sm:px-4 py-3 align-top">
-                  <div>{item.stop}</div>
-                  {item.transit && (
-                    <div class="font-hand text-sm sm:text-base text-ink-2 mt-1 leading-snug">
-                      → {item.transit}
-                    </div>
+      <div class="sketch pop">
+        {/* Desktop header (sm+) */}
+        <div class="hidden sm:grid sm:grid-cols-[7rem_1fr_7rem] bg-cf text-paper font-hand text-lg rounded-t-[16px_10px]">
+          <div class="px-4 py-2">{s.colTime}</div>
+          <div class="px-4 py-2">{s.colStop}</div>
+          <div class="px-4 py-2 text-right">{s.colCost}</div>
+        </div>
+
+        {items.map((item, i) => (
+          <div
+            class:list={[
+              'border-t-2 border-dashed border-ink/30 sm:grid sm:grid-cols-[7rem_1fr_7rem]',
+              i % 2 === 1 ? 'bg-paper/60' : '',
+            ]}
+          >
+            {/* Mobile: time + cost on one row (card header). Desktop: separate columns. */}
+            <div class="flex sm:block items-baseline justify-between gap-3 px-3 sm:px-4 py-2 sm:py-3 bg-cf/10 sm:bg-transparent border-b border-dashed border-ink/20 sm:border-b-0">
+              <div class="font-hand text-lg whitespace-nowrap">{item.time}</div>
+              <div class="font-hand text-lg whitespace-nowrap sm:hidden text-cf-dark">
+                {item.cost}
+              </div>
+            </div>
+            {/* Stop + transit (main content) */}
+            <div class="px-3 sm:px-4 py-3 break-words">
+              <div>{item.stop}</div>
+              {item.transit && (
+                <div class="font-hand text-sm sm:text-base text-ink-2 mt-1 leading-snug break-words">
+                  → {item.transit}
+                  {item.mapUrl && (
+                    <a
+                      href={item.mapUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="inline-flex items-center gap-0.5 ml-1.5 px-1.5 py-0.5 border-2 border-ink rounded-md bg-sky/20 hover:bg-sky/40 text-ink text-xs sm:text-sm whitespace-nowrap leading-none align-middle"
+                      aria-label="Open route in Google Maps"
+                    >
+                      🗺️ map
+                    </a>
                   )}
-                </td>
-                <td class="px-3 sm:px-4 py-3 text-right font-hand text-lg whitespace-nowrap align-top">
-                  {item.cost}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+                </div>
+              )}
+            </div>
+            {/* Cost — desktop only (mobile shows it in the time row above) */}
+            <div class="hidden sm:block px-4 py-3 text-right font-hand text-lg whitespace-nowrap">
+              {item.cost}
+            </div>
+          </div>
+        ))}
       </div>
     )
   }

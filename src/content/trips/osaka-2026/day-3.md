@@ -15,13 +15,14 @@ stats:
   photos: 0
 timeline:
   - time: "07:00–07:45"
-    stop: Breakfast + เตรียมตัว
-    cost: "TBD"
-    transit: 🏨 ในโรงแรม · ใส่รองเท้าเดินป่า · เผื่อ jacket ลมเย็นบนเขา
-  - time: "07:45–09:00"
-    stop: Osaka → Katsuo-ji
-    cost: "¥860"
-    transit: "🚇 Midosuji Line · Umeda → Minoh-Kayano (~30 นาที, ¥430) · เปลี่ยน Hankyu Bus 29 → Katsuo-ji (~25 นาที, ¥430)"
+    stop: Breakfast (DEL style buffet) + เตรียมตัว
+    cost: "—"
+    transit: 🍳 Breakfast buffet ในโรงแรม รวมในราคา · ใส่รองเท้าเดินป่า · เผื่อ jacket ลมเย็นบนเขา
+  - time: "07:45–09:15"
+    stop: DEL style Shin Umeda → Katsuo-ji
+    cost: "¥1,000"
+    transit: "🅰️ DEL style → 🅱️ Katsuo-ji · 1. เดิน 15 นาทีไป Osaka Station / Umeda · 2. Midosuji Line · Umeda → Minoh-Kayano (~30 นาที, ¥430) · 3. เปลี่ยน Hankyu Bus 29 → Katsuo-ji (~25 นาที, ¥430)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=DEL+style+Osaka+Shin+Umeda&destination=Katsuoji+Temple&travelmode=transit
   - time: "09:00–11:00"
     stop: 🎎 Katsuo-ji — วัดดารุมะบนเขา + ใบไม้แดง
     cost: "¥500"
@@ -43,13 +44,15 @@ timeline:
     cost: "—"
     transit: 🚶 2.7 กม. ลงเขา · ผ่าน Minoh Park gate
   - time: "15:45–17:00"
-    stop: Hankyu Minoh Line → Umeda + พักโรงแรม
+    stop: Hankyu Minoh Line → DEL style Shin Umeda + พักโรงแรม
     cost: "¥280"
-    transit: 🚆 Hankyu Minoh → Ishibashi-Handai → Umeda (~30 นาที) · พัก 1 ชม.ที่โรงแรม
+    transit: "🅰️ Minoh Station → 🅱️ DEL style · 1. Hankyu Minoh Line ทิศ Ishibashi-Handai · 2. เปลี่ยน Hankyu Kyoto Line ทิศ Osaka-Umeda (~30 นาที, ¥280) · 3. ลง Umeda → เดิน 15 นาทีไป DEL style (Fukushima Ward) · พัก 1 ชม."
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Minoh+Station&destination=DEL+style+Osaka+Shin+Umeda&travelmode=transit
   - time: "18:00–18:30"
-    stop: Midosuji Line → Dobutsuen-mae (Shinsekai)
-    cost: "¥240"
-    transit: 🚇 Umeda → Dobutsuen-mae (~15 นาที) · Exit 1 → Tsutenkaku tower แสง neon
+    stop: DEL style → Dobutsuen-mae (Shinsekai)
+    cost: "¥390"
+    transit: "🅰️ DEL style → 🅱️ Shinsekai · 1. เดิน 5 นาทีไป JR Fukushima Station · 2. JR Loop Line 1 stop → Osaka Station (¥140) · 3. เปลี่ยน Midosuji Line ลง Dobutsuen-mae (~15 นาที, ¥240, 7 stops) · 4. Exit 1 → Tsutenkaku tower"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=DEL+style+Osaka+Shin+Umeda&destination=Tsutenkaku+Tower&travelmode=transit
   - time: "18:30–20:30"
     stop: 🍢 Shinsekai walk + Daruma Kushikatsu (ร้านดั้งเดิม 1929)
     cost: "¥3,000"

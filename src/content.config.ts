@@ -71,6 +71,7 @@ const days = defineCollection({
             stop: z.string(),
             cost: z.string(),
             transit: z.string().optional(),
+            mapUrl: z.string().url().optional(),
           }),
         )
         .default([]),

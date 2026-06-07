@@ -15,17 +15,19 @@ stats:
   photos: 0
 timeline:
   - time: "05:30–06:30"
-    stop: Check-out + pack
+    stop: Check-out + pack (DEL style Shin Umeda)
     cost: "—"
-    transit: 🏨 โรงแรมญี่ปุ่น checkout 11:00 sharp · เราออกเช้ามาก ไม่มีปัญหา
+    transit: 🏨 Checkout ก่อน 11:00 · เราออกเช้ามาก ไม่มีปัญหา · พิจารณา skip breakfast (เปิด 07:00 sharp ไม่ทันรถไฟ)
   - time: "06:30–07:00"
-    stop: Walk → Osaka Station + Konbini breakfast
-    cost: "¥500"
-    transit: 🏪 Lawson / Family Mart ในสถานี · onigiri + coffee + sandwich (24/7 เปิด)
+    stop: DEL style → Osaka Station + Konbini breakfast
+    cost: "¥640"
+    transit: "🅰️ DEL style → 🅱️ Osaka Station · 1. ออกโรงแรมพร้อมกระเป๋า · 2. เลือก: เดิน 15 นาที → Osaka Station OR JR Fukushima → Osaka Station 1 stop (¥140 + 5 นาที walk) ⭐ แนะนำขั้น 2 ถ้ากระเป๋าเยอะ · 3. แวะ Lawson/Family Mart ในสถานี · onigiri + coffee (~¥500)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=DEL+style+Osaka+Shin+Umeda&destination=Osaka+Station&travelmode=transit
   - time: "07:00–08:00"
     stop: JR Haruka → KIX
     cost: "¥3,640"
-    transit: 🚆 JR Haruka direct · Osaka → KIX (~50 นาที) · กินบนรถไฟได้
+    transit: "🅰️ Osaka Station → 🅱️ KIX · 1. Platform 11 (Haruka) · 2. JR Haruka direct ไป Kansai Int'l Airport (~50 นาที) · 3. กินบนรถไฟได้ · 4. ถึง KIX ~08:00"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Osaka+Station&destination=Kansai+International+Airport&travelmode=transit
   - time: "08:00–08:30"
     stop: KIX — ICOCA refund + Tax-free Customs (ถ้ามี)
     cost: "—"
