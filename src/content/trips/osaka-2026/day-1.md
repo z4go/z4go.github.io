@@ -10,7 +10,7 @@ hero: ../../../assets/osaka-2026/day-1/hero.jpg
 heroAlt: บรรยากาศตรอกเก่าในย่านฮิงาชิยามะ เกียวโตยามเย็น
 stats:
   steps: 0
-  spent: "¥9,000"
+  spent: "¥5,360"
   stops: 10
   photos: 0
 timeline:
@@ -19,13 +19,13 @@ timeline:
     cost: "—"
     transit: ✈️ TG622 · A350-900 · 5h 21m จาก BKK
   - time: "07:20–09:00"
-    stop: Immigration — รับกระเป๋า ซื้อ ICOCA & HARUKA package
+    stop: Immigration — รับกระเป๋า แลก ICOCA & HARUKA voucher
     cost: "—"
-    transit: 🚶 เดินใน Terminal 1 · ทาง JR Ticket Office ชั้น 2
+    transit: "🅰️ Plane → 🅱️ JR Ticket Office · 1. ผ่าน Immigration · 2. รับกระเป๋า + ผ่าน Customs · 3. ออกฝั่ง Arrival → ขึ้น escalator ชั้น 2 · 4. JR Ticket Office (สีน้ำเงิน 'Midori no Madoguchi') · 5. โชว์ Klook e-voucher + passport · 6. รับ ICOCA card × 2 + Haruka voucher 2 ใบ (Day 1 outbound + Day 5 return)"
   - time: "09:00–10:30"
-    stop: JR Haruka Express → Kyoto Station
-    cost: "¥3,640"
-    transit: 🚆 JR Haruka direct · KIX → Kyoto (75 นาที)
+    stop: JR Haruka Express → Kyoto Station (voucher non-reserved)
+    cost: "—"
+    transit: "🅰️ KIX → 🅱️ Kyoto Station · 1. ลงไปชั้น JR Haruka platform · 2. แสดง voucher Day 1 (outbound) · 3. **Non-reserved seat** = ขึ้นรอบไหนก็ได้ · 4. Haruka direct ไป Kyoto (75 นาที) · 5. ระหว่างทางพักหลับงีบรอบแรกของทริป"
     mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kansai+International+Airport&destination=Kyoto+Station&travelmode=transit
   - time: "10:30–11:20"
     stop: Hotel Keihan Ekiminami — ฝากกระเป๋า
@@ -253,8 +253,9 @@ Haruka ถึง Kyoto Station 10:30 — เดินทะลุสถานี
   <p>{{ TODO: เลือก 1 ตัวเลือก — recommend default: Kyoto Ramen Koji ชั้น 10 (view + Kyoto specialty) }}</p>
 </div>
 
-> เคล็ดลับ ICOCA: ซื้อ **ICOCA & HARUKA package** ออนไลน์ก่อนบิน — ที่ KIX Counter
-> จะรับบัตรกับตั๋วในแถวเดียว ราคา ~¥3,200 ถูกกว่าซื้อแยก
+> เคล็ดลับ ICOCA: pre-book **ICOCA & HARUKA round-trip** บน Klook ก่อนบิน (¥4,400/คน · ฿1,000-1,100)
+> — ที่ KIX JR Ticket Office แลก voucher → รับบัตร ICOCA + Haruka 2 ใบ (Day 1 + Day 5) ในแถวเดียว
+> · เลือก **non-reserved** = ขึ้นรอบไหนก็ได้ flex เวลา (โดยเฉพาะ Day 5 ตอนเร่ง)
 
 > เคล็ดลับ transit: Day 1 ใช้ **ICOCA tap-in** กับ Bus + Keihan + Karasuma Line รวม ¥670/คน
 > · ไวกว่าซื้อตั๋วเที่ยวต่อเที่ยว · **1-day Bus pass ¥700** ไม่คุ้มเพราะใช้ bus แค่ขาเดียว

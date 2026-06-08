@@ -23,15 +23,9 @@ preplan:
     - label: Book Osaka hotel — 14–17 Nov (3 คืน)
       status: done
       note: DEL style Osaka Shin Umeda by Daiwa Roynet · Hollywood Twin · breakfast included × 3 mornings · ¥64,169 paid at hotel · Fukushima Ward (direct JR Yumesaki to USJ)
-    - label: Buy Haruka ticket — KIX → Kyoto
+    - label: Pre-book ICOCA & HARUKA round-trip package — Klook/KKday
       status: todo
-      note: ICOCA & HARUKA package — discounted to ~¥3,200
-    - label: Buy ICOCA card
-      status: todo
-    - label: Buy Haruka ticket — Kyoto → Osaka
-      status: todo
-    - label: Buy Haruka ticket — Osaka → KIX
-      status: todo
+      note: ¥4,400/คน round-trip · KIX→Kyoto + Osaka→KIX + ICOCA included · เลือก **non-reserved seat** (ขึ้นรอบไหนก็ได้ flex เวลา) · Klook pre-book = ฿1,000-1,100/คน, ไม่ต้องคุยอังกฤษหน้าเคาน์เตอร์ตอน Day 1 jet-lag · แลก voucher ที่ JR Ticket Office KIX หลัง Immigration
     - label: Reserve Tofuku-ji Tsutenkyo autumn timed entry — 14 Nov afternoon
       status: todo
       note: Pre-book 13:30 or 14:00 slot via tofukuji.jp/english or Klook (¥1,000–1,200/คน, walk-in queue 30-90 นาที)
@@ -52,9 +46,9 @@ decisions:
     label: Pick Day 3 — hike vs bus จาก Katsuoji → Minoh Falls
     day: 3
   - kind: warn
-    label: Buy USJ Express Pass 7 + 1-Day Studio Pass — date 16 Nov (sold out fast)
+    label: Pre-book USJ Express Pass 7 + Studio Pass on Klook — 16 Nov (sold out 1-2 months ahead in peak)
     day: 4
   - kind: todo
-    label: Pick Day 4 dinner — Shin-Umeda Shokudogai / Citywalk / Torikizoku (late)
+    label: Pick Day 4 dinner — Fukushima izakaya / Shin-Umeda Shokudogai / Citywalk
     day: 4
 ---
