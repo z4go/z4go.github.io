@@ -70,7 +70,7 @@ const days = [
   },
   {
     n: 3, name: 'Daruma Day', c1: '#d63346', c2: '#fbad41', photos: 0,
-    named: ['minoh-falls', 'maple-tempura', 'shinsekai'],
+    named: ['sumiyoshi-taisha', 'abeno-harukas', 'shinsekai'],
   },
   { n: 4, name: 'Osaka USJ', c1: '#e8616f', c2: '#b3283c', photos: 0 },
   { n: 5, name: 'KIX Departure', c1: '#fbad41', c2: '#d63346', photos: 3 },

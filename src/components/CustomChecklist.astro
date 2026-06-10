@@ -1,0 +1,268 @@
+---
+interface Props {
+  storageKey?: string;
+  title?: string;
+}
+
+const { storageKey = 'osaka-2026-custom-checklist', title = 'My Checklist' } =
+  Astro.props;
+---
+
+<section
+  class="mx-auto max-w-4xl px-4 mt-12"
+  data-checklist
+  data-storage-key={storageKey}
+>
+  <div class="flex flex-wrap items-baseline gap-3 mb-5">
+    <h2 class="text-3xl"><span class="scribble">{title}</span></h2>
+    <span class="pill text-sm" data-count>0/0 done</span>
+    <button
+      type="button"
+      class="pill text-sm bg-cf-amber hover:bg-cf-amber/70 ml-auto"
+      data-share
+      aria-label="Copy share link with embedded checklist state"
+    >
+      🔗 Share link
+    </button>
+    <button
+      type="button"
+      class="pill text-sm hover:bg-paper-2"
+      data-clear
+      aria-label="Clear all items"
+    >
+      🗑 Clear
+    </button>
+  </div>
+  <p class="text-ink-2 mb-5 max-w-2xl">
+    Personal list — saved in your browser (localStorage) and shareable via a
+    link that embeds the current state. Add anything you need to remember.
+  </p>
+
+  <ul
+    class="sketch sketch-alt pop-sm divide-y-2 divide-ink/15 mb-4"
+    data-items
+  >
+    <li class="p-4 font-hand text-ink-2 text-center" data-empty>
+      No items yet — add one below ↓
+    </li>
+  </ul>
+
+  <form class="flex flex-col sm:flex-row gap-2" data-form>
+    <input
+      type="text"
+      class="sketch sketch-alt px-4 py-2 flex-1 bg-card font-sans text-base focus:outline-none focus:bg-paper"
+      placeholder="Add item — e.g. Buy USJ Pass 7 on Klook"
+      data-input
+      maxlength="200"
+      required
+    />
+    <button
+      type="submit"
+      class="sketch pop-sm bg-cf text-paper font-hand text-lg px-5 py-2 hover:bg-cf-dark whitespace-nowrap"
+    >
+      + Add
+    </button>
+  </form>
+
+  <p
+    class="font-hand text-sm text-leaf mt-3 opacity-0 transition-opacity"
+    data-toast
+    aria-live="polite"
+  ></p>
+</section>
+
+<script>
+  type Item = { text: string; done: boolean };
+
+  document.querySelectorAll<HTMLElement>('[data-checklist]').forEach((root) => {
+    const storageKey = root.dataset.storageKey!;
+    const itemsEl = root.querySelector<HTMLUListElement>('[data-items]')!;
+    const emptyEl = root.querySelector<HTMLElement>('[data-empty]')!;
+    const formEl = root.querySelector<HTMLFormElement>('[data-form]')!;
+    const inputEl = root.querySelector<HTMLInputElement>('[data-input]')!;
+    const countEl = root.querySelector<HTMLElement>('[data-count]')!;
+    const shareEl = root.querySelector<HTMLButtonElement>('[data-share]')!;
+    const clearEl = root.querySelector<HTMLButtonElement>('[data-clear]')!;
+    const toastEl = root.querySelector<HTMLElement>('[data-toast]')!;
+
+    let items: Item[] = [];
+
+    function escapeHtml(s: string) {
+      return s.replace(
+        /[&<>"']/g,
+        (c) =>
+          ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;',
+          })[c]!,
+      );
+    }
+
+    function loadFromHash(): Item[] | null {
+      const hash = window.location.hash;
+      const match = hash.match(/cl=([^&]+)/);
+      if (!match) return null;
+      try {
+        const json = atob(decodeURIComponent(match[1]));
+        const parsed = JSON.parse(json);
+        if (
+          Array.isArray(parsed) &&
+          parsed.every(
+            (i) =>
+              typeof i?.text === 'string' && typeof i?.done === 'boolean',
+          )
+        ) {
+          return parsed;
+        }
+      } catch (e) {
+        /* fall through */
+      }
+      return null;
+    }
+
+    function loadFromStorage(): Item[] {
+      try {
+        const data = localStorage.getItem(storageKey);
+        return data ? JSON.parse(data) : [];
+      } catch (e) {
+        return [];
+      }
+    }
+
+    function save() {
+      try {
+        localStorage.setItem(storageKey, JSON.stringify(items));
+      } catch (e) {
+        /* storage full or disabled */
+      }
+    }
+
+    function shareUrl(): string {
+      const json = JSON.stringify(items);
+      const encoded = encodeURIComponent(btoa(unescape(encodeURIComponent(json))));
+      return `${window.location.origin}${window.location.pathname}#cl=${encoded}`;
+    }
+
+    function toast(msg: string) {
+      toastEl.textContent = msg;
+      toastEl.style.opacity = '1';
+      setTimeout(() => {
+        toastEl.style.opacity = '0';
+      }, 2500);
+    }
+
+    function render() {
+      const doneCount = items.filter((i) => i.done).length;
+      countEl.textContent = `${doneCount}/${items.length} done`;
+
+      if (items.length === 0) {
+        emptyEl.style.display = '';
+        itemsEl
+          .querySelectorAll('li:not([data-empty])')
+          .forEach((el) => el.remove());
+        return;
+      }
+      emptyEl.style.display = 'none';
+      itemsEl
+        .querySelectorAll('li:not([data-empty])')
+        .forEach((el) => el.remove());
+
+      items.forEach((item, i) => {
+        const li = document.createElement('li');
+        li.className = 'p-3 sm:p-4 flex items-start gap-3 sm:gap-4 group';
+        li.innerHTML = `
+          <button
+            type="button"
+            data-toggle="${i}"
+            aria-label="Toggle item"
+            class="grid place-items-center w-7 h-7 sm:w-8 sm:h-8 border-2 border-ink rounded-md font-hand text-lg shrink-0 ${
+              item.done ? 'bg-leaf text-paper' : 'bg-card hover:bg-paper-2'
+            }"
+          >${item.done ? '✓' : ''}</button>
+          <p class="flex-1 min-w-0 font-hand text-lg sm:text-xl leading-snug break-words ${
+            item.done ? 'line-through text-ink-2' : ''
+          }">${escapeHtml(item.text)}</p>
+          <button
+            type="button"
+            data-delete="${i}"
+            aria-label="Delete item"
+            class="opacity-0 group-hover:opacity-100 focus:opacity-100 text-cf-dark hover:text-cf font-hand text-xl shrink-0 px-2"
+          >×</button>
+        `;
+        itemsEl.appendChild(li);
+      });
+    }
+
+    function init() {
+      // Hash takes precedence — for shared links
+      const fromHash = loadFromHash();
+      if (fromHash) {
+        items = fromHash;
+        save();
+        // Clear hash so refresh doesn't keep overwriting localStorage
+        history.replaceState(
+          null,
+          '',
+          window.location.pathname + window.location.search,
+        );
+        toast('✓ Loaded shared checklist');
+      } else {
+        items = loadFromStorage();
+      }
+      render();
+    }
+
+    itemsEl.addEventListener('click', (e) => {
+      const t = e.target as HTMLElement;
+      if (t.dataset.toggle !== undefined) {
+        const i = Number(t.dataset.toggle);
+        items[i].done = !items[i].done;
+        save();
+        render();
+      } else if (t.dataset.delete !== undefined) {
+        const i = Number(t.dataset.delete);
+        items.splice(i, 1);
+        save();
+        render();
+      }
+    });
+
+    formEl.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const text = inputEl.value.trim();
+      if (!text) return;
+      items.push({ text, done: false });
+      inputEl.value = '';
+      save();
+      render();
+    });
+
+    shareEl.addEventListener('click', async () => {
+      if (items.length === 0) {
+        toast('Add an item first');
+        return;
+      }
+      const url = shareUrl();
+      try {
+        await navigator.clipboard.writeText(url);
+        toast('✓ Share link copied to clipboard');
+      } catch (e) {
+        prompt('Copy this share link:', url);
+      }
+    });
+
+    clearEl.addEventListener('click', () => {
+      if (items.length === 0) return;
+      if (!confirm(`Clear all ${items.length} items?`)) return;
+      items = [];
+      save();
+      render();
+      toast('Cleared');
+    });
+
+    init();
+  });
+</script>
