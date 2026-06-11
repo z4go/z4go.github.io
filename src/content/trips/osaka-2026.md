@@ -50,6 +50,9 @@ preplan:
     - label: TG622 online check-in (24 hr ก่อนบิน 11 พ.ย. 23:59)
       status: todo
       note: เช็คอินผ่าน TG Mobile หรือ thaiairways.com · เลือกที่นั่ง · download boarding pass
+    - label: ⭐ Visit Japan Web (VJW) registration × 2
+      status: todo
+      note: vjw.digital.go.jp · ฟรี · 15 นาที/คน · Immigration QR (ฟ้า) + Customs QR (ส้ม) + Tax-free eligibility · ทำ 2 อาทิตย์-1 เดือนก่อนบิน · save QR ลง phone + screenshot backup · ผ่านด่าน KIX เร็วกว่ากระดาษ 3 เท่า
 decisions:
   - kind: todo
     label: Pick Day 1 dinner — Kyoto Ramen Koji / Porta / LUCUA / Kyoto Tower Sando
