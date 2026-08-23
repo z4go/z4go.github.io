@@ -1,17 +1,17 @@
 ---
 day: 2
-title: Arashiyama → Tofuku-ji → Osaka
+title: Arashiyama → teamLab → Osaka
 date: 2026-11-14
 location: Kyoto → Osaka
 weather: ⛅ Partly cloudy · 15°C
-summary: ตื่น 06:00 กิน breakfast โรงแรม Keihan 07:00 แล้วขึ้น JR Sagano เข้าอาราชิยามะให้ทันป่าไผ่ก่อนคนแน่น · เก็บ Tenryu-ji เสร็จเดินขึ้น Saga-Toriimoto preserved street (บ้าน machiya เอโดะ + Adashino + Jojakko-ji) + มื้อเที่ยงยุโดฟุ · บ่ายกลับ Tofuku-ji ดู Tsutenkyo bridge เหนือ momiji valley · ย้ายโอซากะตอนเย็น Dotonbori food crawl
+summary: ตื่น 06:00 กิน breakfast โรงแรม Keihan 07:00 แล้วขึ้น JR Sagano เข้าอาราชิยามะให้ทันป่าไผ่ก่อนคนแน่น · เก็บ Tenryu-ji เสร็จเดินขึ้น Saga-Toriimoto preserved street (บ้าน machiya เอโดะ + Adashino + Jojakko-ji) + มื้อเที่ยงยุโดฟุ · บ่ายกลับ Kyoto Station เข้า teamLab Biovortex พิพิธภัณฑ์ดิจิทัลอาร์ตใหญ่ที่สุดในญี่ปุ่น · ย้ายโอซากะตอนเย็น Dotonbori food crawl
 status: todo
 hero: ../../../assets/osaka-2026/day-2/hero.jpg
 heroAlt: ใบเมเปิลสีแดงเหนือสวนวัดในเกียวโต
 stats:
   steps: 0
-  spent: "¥9,700"
-  stops: 13
+  spent: "¥12,150"
+  stops: 14
   photos: 0
 timeline:
   - time: "06:00–07:00"
@@ -52,31 +52,31 @@ timeline:
     cost: "¥2,500"
     transit: "🅰️ Saga-Toriimoto → 🅱️ Yudofu restaurant · 1. เดินลงเขาผ่าน Saga-Toriimoto กลับลง Sagano area · 2. Shōrai-an อยู่ใกล้ Tenryu-ji ฝั่งเหนือ · 3. หรือ Yudofu Sagano ฝั่งใต้บามบู · 4. กิน slow 1 ชม. บรรยากาศบ้านไม้"
     mapUrl: https://www.google.com/maps/dir/?api=1&origin=Jojakko-ji&destination=Shorai-an&travelmode=walking
-  - time: "13:00–13:25"
-    stop: JR Sagano back → Kyoto Station → JR Nara → Tofuku-ji
-    cost: "¥390"
-    transit: "🅰️ Saga-Arashiyama → 🅱️ Tofuku-ji (ไม่แวะ hotel · ไม่ลากกระเป๋าเข้าวัด) · 1. เดินกลับ Saga-Arashiyama Station ~5 นาที · 2. JR Sagano Line Kyoto-bound (5 stops, 15 นาที, ¥240) · 3. ที่ Kyoto Station เปลี่ยน JR Nara Line Platform 9/10 · 4. นั่ง 1 stop (2 นาที, ¥150) ลง Tofuku-ji Station · 5. เดินตามป้าย Tofuku-ji ~5 นาที"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=Tofuku-ji&travelmode=transit
-  - time: "13:30–15:00"
-    stop: 🍁 Tofuku-ji — Tsutenkyo bridge เหนือ momiji valley + Komyo-in
-    cost: "¥900"
-    transit: "🚶 ¥600 Tsutenkyo bridge + main hall (+¥300 Hojo garden) · Komyo-in sub-temple +¥500 · เดินวัด 90 นาที ไม่มีกระเป๋ามาขัด"
-  - time: "15:00–15:40"
-    stop: JR back → Hotel เก็บกระเป๋า → กลับ Kyoto Station
-    cost: "¥150"
-    transit: "🅰️ Tofuku-ji → 🅱️ Hotel → 🅲 Kyoto Station · 1. JR Nara Line ทิศ Kyoto (1 stop, 2 นาที, ¥150) · 2. ที่ Kyoto Station ออก Hachijoguchi East Exit · 3. เดินไป Hotel Keihan ~7 นาที · 4. รับกระเป๋าจาก front desk (โชว์ใบ tag) · 5. เดินกลับ Kyoto Station ~7 นาที · 6. ทะลุไป Platform 6/7/8 (Tokaido/Kyoto Line)"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tofuku-ji&destination=Hotel+Keihan+Kyoto+Ekiminami&travelmode=transit
-  - time: "15:45–16:15"
+  - time: "13:00–13:30"
+    stop: JR Sagano back → Kyoto Station → เดินไป teamLab
+    cost: "¥240"
+    transit: "🅰️ Saga-Arashiyama → 🅱️ teamLab Biovortex · 1. เดินกลับ Saga-Arashiyama Station ~5 นาที · 2. JR Sagano Line Kyoto-bound (5 stops, 15 นาที, ¥240) · 3. ที่ Kyoto Station ออก Hachijo East Gate (ฝั่งใต้) · 4. เดินลงใต้ ~10 นาที ถึง teamLab Biovortex — ทางเดียวกับโรงแรม Keihan"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=teamLab+Biovortex+Kyoto&travelmode=transit
+  - time: "13:30–16:30"
+    stop: 🌌 teamLab Biovortex Kyoto — digital art museum ใหญ่ที่สุดในญี่ปุ่น
+    cost: "¥3,600"
+    transit: "🎫 ต้องจองรอบเวลาล่วงหน้า (ตั๋วเปิดขาย 2–3 เดือนก่อน) · เปิด 09:00–21:00 เข้าได้ถึง 19:30 · 50+ ชิ้นงาน interactive เปลี่ยนตามคนดู · เดินชม 3 ชม. · มีล็อกเกอร์ฝากของ"
+  - time: "16:30–17:00"
+    stop: เก็บกระเป๋าที่ Keihan → กลับ Kyoto Station
+    cost: "—"
+    transit: "🅰️ teamLab → 🅱️ Hotel Keihan → 🅲 Kyoto Station · 1. เดินจาก teamLab ไปโรงแรม ~5 นาที (อยู่ย่าน Higashi-Kujo เดียวกัน) · 2. รับกระเป๋าจาก front desk (โชว์ใบ tag) · 3. เดินขึ้นเหนือเข้า Hachijoguchi East ~7 นาที · 4. ทะลุไป Platform 6/7/8 (Tokaido/Kyoto Line)"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=teamLab+Biovortex+Kyoto&destination=Hotel+Keihan+Kyoto+Ekiminami&travelmode=walking
+  - time: "17:00–17:30"
     stop: JR Special Rapid → Osaka (Umeda)
     cost: "¥570"
     transit: "🅰️ Kyoto Station → 🅱️ Osaka Station · 1. Platform 6/7/8 → JR Tokaido/Kyoto Line · 2. ขึ้น Special Rapid ปลายทาง Himeji/Aboshi (ทุก 15 นาที) · 3. นั่ง direct 29 นาที, ¥570 · 4. ลง Osaka Station (= Umeda area)"
     mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station&destination=Osaka+Station&travelmode=transit
-  - time: "16:15–17:45"
-    stop: Walk to DEL style Shin Umeda — Check-in + Rest
+  - time: "17:30–18:45"
+    stop: Walk to DEL style Shin Umeda — Check-in
     cost: "—"
-    transit: "🅰️ Osaka Station → 🅱️ DEL style Shin Umeda (Fukushima Ward) · 1. ออก Osaka Station West Exit · 2. เดินตะวันตกตาม Osaka Underground Connection ~15 นาที (1.2 กม.) · 3. หรือทาง JR Loop Line 1 stop → JR Fukushima Station (¥140, 2 นาที) + เดิน 5 นาที · 4. Check-in 14:00 ผ่านมาแล้ว · 5. พัก 1.5 ชม.ก่อน Dotonbori"
+    transit: "🅰️ Osaka Station → 🅱️ DEL style Shin Umeda (Fukushima Ward) · 1. ออก Osaka Station West Exit · 2. เดินตะวันตกตาม Osaka Underground Connection ~15 นาที (1.2 กม.) · 3. หรือ JR Loop Line 1 stop → JR Fukushima Station (¥140, 2 นาที) + เดิน 5 นาที · 4. Check-in + วางกระเป๋า ~45 นาที"
     mapUrl: https://www.google.com/maps/dir/?api=1&origin=Osaka+Station&destination=DEL+style+Osaka+Shin+Umeda&travelmode=walking
-  - time: "17:45–21:00"
+  - time: "19:00–21:00"
     stop: Dotonbori food crawl + dinner
     cost: "¥3,500"
     transit: "🅰️ DEL style Shin Umeda → 🅱️ Dotonbori · 1. เดินไป JR Fukushima Station (5 นาที) · 2. JR Loop Line 1 stop → Osaka Station (¥140) · 3. เปลี่ยน Midosuji Line · 4. นั่ง 3 stops, 9 นาที, ¥240 ลง Namba · 5. ออก Exit 14 → ตรงเข้า Dotonbori-suji + Ebisubashi Bridge + Glico"
@@ -103,9 +103,9 @@ coords:
   - label: Kyoto Station
     lat: 34.9858
     lng: 135.7588
-  - label: Tofuku-ji
-    lat: 34.9764
-    lng: 135.7741
+  - label: teamLab Biovortex Kyoto
+    lat: 34.9822
+    lng: 135.7616
   - label: Osaka Station (Umeda)
     lat: 34.7024
     lng: 135.4959
@@ -117,7 +117,6 @@ photos:
   - ../../../assets/osaka-2026/day-2/togetsukyo.png
   - ../../../assets/osaka-2026/day-2/tenryuji.png
   - ../../../assets/osaka-2026/day-2/otagi.png
-  - ../../../assets/osaka-2026/day-2/tofukuji.png
   - ../../../assets/osaka-2026/day-2/dotonbori.png
 references:
   - title: JR Sagano Line — Kyoto ↔ Saga-Arashiyama
@@ -132,16 +131,16 @@ references:
   - title: Adashino Nenbutsuji — 8,000 stone buddhas
     url: https://www.nenbutsuji.jp/
     icon: 🪨
-  - title: Tofuku-ji — autumn Tsutenkyo bridge
-    url: https://tofukuji.jp/english/
-    icon: 🍁
+  - title: teamLab Biovortex Kyoto — official site
+    url: https://www.teamlab.art/e/kyoto/
+    icon: 🌌
   - title: JR Tokaido/Kyoto Line — Special Rapid timetable
     url: https://www.jrailpass.com/blog/jr-kyoto-line
     icon: 🚆
   - title: Dotonbori — visitor guide
     url: https://www.japan-guide.com/e/e4002.html
     icon: 🌃
-tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, foodcrawl, transitday]
+tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, teamlab, osaka, dotonbori, foodcrawl, transitday]
 ---
 
 วันสองตื่นเช้า — **06:00 wake, 07:00 breakfast โรงแรม, 08:10 ป่าไผ่ Arashiyama**
@@ -149,9 +148,9 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, 
 แสงเช้านวล ๆ · จบครึ่งวันที่ Tenryu-ji แล้วเดินขึ้นเหนือไป **Saga-Toriimoto preserved street** บนเขา
 — บ้าน machiya สมัยเอโดะ + Adashino Nenbutsuji 8,000 พระพุทธรูปหิน + Jojakko-ji วัดเขา (ตัด Otagi ออก = chill ขึ้น) · จบมื้อเที่ยง yudofu บ้านไม้
 
-บ่ายกลับ Kyoto Station เก็บกระเป๋า แวะ **Tofuku-ji** วัดใหญ่ใต้ station — **Tsutenkyo bridge**
-ข้ามหุบเขา momiji = ภาพใบไม้แดงเกียวโตที่สวยที่สุดของฤดูกาล · แล้วขึ้น **JR Special Rapid**
-ตรงไปโอซากะ 29 นาที — เช็คอินโรงแรม Umeda ก่อนออก **Dotonbori food crawl**
+บ่ายกลับ Kyoto Station เข้า **teamLab Biovortex** — digital art museum ใหญ่ที่สุดของ teamLab
+ในญี่ปุ่น เดิน 10 นาทีจาก Hachijo East Gate (ทางเดียวกับโรงแรม) · เก็บกระเป๋าแล้วขึ้น
+**JR Special Rapid** ตรงไปโอซากะ 29 นาที — เช็คอินโรงแรม Umeda ก่อนออก **Dotonbori food crawl**
 
 <div class="callout">
   <strong>📋 Day 2 — ของที่ลืมง่าย</strong>
@@ -161,11 +160,12 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, 
     <li><strong>🏨 Hotel checkout 07:30 + ฝากของ front desk</strong> — Keihan Ekiminami น่าจะรับฝากต่อหลัง checkout ฟรี (chain ญี่ปุ่นมาตรฐาน) · กลับมาเอา 13:00 · <strong>backup ถ้าไม่รับ:</strong> 🔒 Coin locker Kyoto Station Hachijoguchi ¥700 × 2 = ¥1,400 · ICOCA tap เปิด-ปิด</li>
     <li><strong>🪨 Saga-Toriimoto เดิน 20 นาทีขึ้นเขา</strong> — Otagi เปิด 08:00 · Adashino + Jojakko-ji เปิด 09:00</li>
     <li><strong>🍲 Yudofu ต้องนั่งกิน slow</strong> — เผื่อ 60 นาที · ไม่ใช่ fast food · Shōrai-an queue สั้น</li>
-    <li><strong>🍁 Tofuku-ji Tsutenkyo special autumn period</strong> — กลาง พ.ย.–ต้น ธ.ค. มี timed entry · ¥600 = bridge + main hall, +¥300 ถ้าเข้า Hojo garden</li>
+    <li><strong>🌌 teamLab Biovortex ต้องจองรอบเวลา</strong> — ตั๋วเปิดขาย 2–3 เดือนล่วงหน้า · ¥3,600–4,400/คน · เดินชมอย่างน้อย 3 ชม.</li>
+    <li><strong>👟 teamLab มีพื้นน้ำและพื้นสะท้อน</strong> — บางโซนต้องถอดรองเท้า/ลุยน้ำตื้น · ถุงเท้าต้องไม่มีรู · กางเกงพับขาได้ยิ่งดี</li>
     <li><strong>💴 Cash for street food</strong> — Dotonbori stalls มัก cash-only · เผื่อ ~¥3,000–5,000</li>
     <li><strong>🚇 ICOCA ใช้ได้กับ Osaka Subway + bus ทุกระบบ</strong> — ไม่ต้องซื้อบัตรใหม่</li>
     <li><strong>🍢 Kushikatsu rule: ห้ามจิ้มซอสซ้ำ</strong> (double-dip) — มีถ้วยซอสกลางโต๊ะ ใครจุ่มแล้วห้ามจุ่มอีก</li>
-    <li><strong>🌃 Dotonbori best photo time</strong> — 18:00–20:00 (lights on + คนยังไม่หนาแน่นเกิน)</li>
+    <li><strong>🌃 Dotonbori 19:00–21:00</strong> — นีออนติดเต็มที่ · ป้าย Glico สะท้อนน้ำชัดสุดตอนมืดสนิท</li>
   </ul>
 </div>
 
@@ -175,20 +175,19 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, 
   <p><strong>🚆 JR ทุกขา + Subway Osaka = ICOCA tap-in (ใช้บัตรเดียวจาก Day 1)</strong></p>
   <ul>
     <li>JR Sagano Kyoto ↔ Saga-Arashiyama (¥240 × 2)</li>
-    <li>JR Nara Kyoto ↔ Tofuku-ji (¥150 × 2)</li>
     <li>JR Special Rapid Kyoto → Osaka (¥570)</li>
     <li>Osaka Metro Midosuji Umeda → Namba (¥240)</li>
     <li>= แตะ tap ผ่านตัว gate ไม่ต้องซื้อตั๋วกระดาษ · เร็วกว่า + ส่วนลด ¥10–20/ขา</li>
   </ul>
 
-  <p><strong>⚠️ Tofuku-ji Autumn Tsutenkyo = ต้องจองล่วงหน้า</strong></p>
+  <p><strong>⚠️ teamLab Biovortex = ต้องจองรอบเวลาล่วงหน้า</strong></p>
   <ul>
-    <li><strong>ช่วงพีค พ.ย. 8 – ธ.ค. 7</strong> (วันที่เราไป 14 พ.ย. ตรงช่วงนี้แน่ ๆ)</li>
-    <li><strong>Timed-entry slot ทุก 30 นาที</strong> · จำกัดคนต่อรอบ</li>
-    <li>จองล่วงหน้าผ่าน <a href="https://tofukuji.jp/english/" target="_blank">tofukuji.jp/english</a> หรือ <a href="https://www.klook.com/" target="_blank">Klook</a></li>
-    <li><strong>walk-in queue 30–90 นาทีในวันพีค</strong> — ต้องจองดีกว่า</li>
-    <li>เลือก slot <strong>13:30 หรือ 14:00</strong> ตรงกับแผน Day 2</li>
-    <li>ราคา ~¥1,000–1,200 (รวม Tsutenkyo + main hall) · cash หรือ pre-paid online</li>
+    <li><strong>ตั๋วเปิดขายล่วงหน้า 2–3 เดือน</strong> · แนะนำจอง 1–2 เดือนก่อนเดินทาง</li>
+    <li><strong>เลือกรอบ 13:00 หรือ 13:30</strong> ให้ตรงกับแผน Day 2</li>
+    <li>จองผ่าน <a href="https://www.teamlab.art/e/kyoto/" target="_blank">teamlab.art/e/kyoto</a> หรือ <a href="https://www.klook.com/" target="_blank">Klook</a></li>
+    <li>ราคา <strong>¥3,600–4,400/คน</strong> (ผู้ใหญ่ 18+)</li>
+    <li>เปิด <strong>09:00–21:00</strong> · เข้าได้ถึง 19:30 · <strong>เดินชมอย่างน้อย 3 ชม.</strong></li>
+    <li>เปิดใหม่ ต.ค. 2025 · <strong>ใหญ่ที่สุดของ teamLab ในญี่ปุ่น</strong> 50+ ชิ้นงาน → ช่วงใบไม้แดงคนเยอะ จองเร็วดีกว่า</li>
   </ul>
 
   <p><strong>🏯 วัดอื่น ๆ — walk-in ที่ประตู (cash หรือ card)</strong></p>
@@ -200,7 +199,7 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, tofukuji, osaka, dotonbori, 
 
   <p><strong>💴 Cash เผื่อ Day 2:</strong> ~¥3,000/คน (¥1,000 วัด + ¥500 mochi + ¥1,500 lunch yudofu)</p>
 
-  <p><strong>📲 หรือใช้ Klook/KKday รวมทุกอย่าง</strong> — pre-book Tofuku-ji + ICOCA top-up ก่อนบินจากไทย · ราคาเท่ากับซื้อหน้างาน แต่ได้ slot guarantee</p>
+  <p><strong>📲 หรือใช้ Klook/KKday รวมทุกอย่าง</strong> — pre-book teamLab + ICOCA top-up ก่อนบินจากไทย · ได้ slot guarantee</p>
 </div>
 
 ## เช็คเอาต์ก่อนเดินทาง (สำคัญ)
@@ -258,7 +257,7 @@ buffet แบบนั่งกินจริง 30 นาที · 07:30 check
   - **Preserved street** — บ้านไม้ machiya สมัยเอโดะ · ป้ายไม้ traditional · feel หมู่บ้านโบราณ
   - **Adashino Nenbutsuji** (¥500) — 8,000 พระพุทธรูปหินเล็ก · บรรยากาศขลัง
   - **Jojakko-ji** (¥500) — วัดบนเขา momiji ระดับ S-tier · คนน้อย
-  - *ตัด **Otagi Nenbutsuji** ออก (อยู่บนสุดเขา) — เก็บแรงไว้ Tofuku-ji + Day 3 ดีกว่า*
+  - *ตัด **Otagi Nenbutsuji** ออก (อยู่บนสุดเขา) — เก็บแรงไว้ teamLab บ่าย + Day 3 ดีกว่า*
 
 ### 🍲 Yudofu lunch (11:30–12:45)
 
@@ -268,30 +267,37 @@ buffet แบบนั่งกินจริง 30 นาที · 07:30 check
 - **Yudofu Sagano (湯豆腐 嵯峨野)** — origin · ¥3,800/set premium course · บรรยากาศบ้านสวน
 - **Tenryu-ji Shigetsu** — vegetarian shojin ryori ในวัด · ต้องจอง · ¥4,500
 
-## บ่าย Tofuku-ji + เก็บกระเป๋า + ย้ายโอซากะ
+## บ่าย teamLab + เก็บกระเป๋า + ย้ายโอซากะ
 
-13:00 ขึ้น JR Sagano กลับ Kyoto Station → **ไปต่อ JR Nara Line 1 stop ลง Tofuku-ji
-เลย ไม่แวะ hotel ยัง** (ไม่ลากกระเป๋าเข้าวัด) · เดินอีก 5 นาทีถึงประตูวัด
+13:00 ขึ้น JR Sagano กลับ Kyoto Station → ออก **Hachijo East Gate** ฝั่งใต้ →
+เดินลงใต้ ~10 นาที ถึง **teamLab Biovortex** · **ยังไม่ต้องแวะเอากระเป๋า** —
+โรงแรม Keihan อยู่ย่านเดียวกัน เดี๋ยวแวะตอนออก
 
-### 🍁 Tofuku-ji (13:30–15:00)
+### 🌌 teamLab Biovortex Kyoto (13:30–16:30)
 
-**Tsutenkyo bridge** ข้ามหุบเขา momiji — อันดับ 1 momiji bridge ของเกียวโต ·
-special autumn period กลาง พ.ย.–ต้น ธ.ค. · timed entry · ¥600 = bridge + main hall
+พิพิธภัณฑ์ **ใหญ่ที่สุดของ teamLab ในญี่ปุ่น** เปิด ต.ค. 2025 · 50+ ชิ้นงาน
+interactive ที่เปลี่ยนรูปตามคนที่เดินผ่าน · เปิด 09:00–21:00 (เข้าได้ถึง 19:30)
 
-- **Tsutenkyo bridge** ตัวหลัก — มองลงเห็นใบไม้แดง 2,000 ต้น
-- **Hojo zen garden** (+¥300) — 4 ทิศ rock garden + moss
-- **Komyo-in** sub-temple (¥300) — สวนทรายขาว · เกือบไม่มีคน · ใกล้กับ Tofuku-ji main
+- **ต้องจองรอบเวลาล่วงหน้า** — ตั๋วเปิดขาย 2–3 เดือนก่อน
+- **¥3,600–4,400/คน** (ผู้ใหญ่ 18+)
+- **เดินชมอย่างน้อย 3 ชม.** — ถ้าอยากดูครบจริง ๆ 4–5 ชม.
+- มี **ล็อกเกอร์ฝากของ** — ไม่ต้องกังวลเรื่องเป้
+- บางโซนมีพื้นน้ำ/พื้นกระจก → **อาจต้องถอดรองเท้า** เตรียมถุงเท้าที่ไม่มีรู
 
-### 🎒 เก็บกระเป๋า (15:00–15:40)
+*หมายเหตุ: เดิมช่วงนี้คือ Tofuku-ji Tsutenkyo bridge — ตัดออกเพราะวัดประกาศ
+**ห้ามถ่ายรูปบนสะพาน 12–30 พ.ย.** เพื่อคุมความแออัด และ 14 พ.ย. ตรงกับวันเสาร์
+ช่วงพีคใบไม้แดงพอดี*
 
-จบ Tofuku-ji → JR Nara กลับ Kyoto Station → **เดิน Hachijoguchi East ไปโรงแรม
-~7 นาที → รับกระเป๋าจาก front desk (โชว์ใบ tag) → เดินกลับ ~7 นาที** · ทุก leg
-อยู่ฝั่งใต้สถานี ไม่ต้องเปลี่ยน floor
+### 🎒 เก็บกระเป๋า (16:30–17:00)
 
-### ย้าย Osaka (15:45–16:15)
+ออกจาก teamLab → **เดินไปโรงแรม Keihan ~5 นาที** (อยู่ย่าน Higashi-Kujo เดียวกัน)
+→ รับกระเป๋าจาก front desk (โชว์ใบ tag) → เดินขึ้นเหนือเข้า **Hachijoguchi East
+~7 นาที** · ทุก leg อยู่ฝั่งใต้สถานี ไม่ต้องเปลี่ยน floor
+
+### ย้าย Osaka (17:00–17:30)
 
 ขึ้น **JR Special Rapid** ตรงไปโอซากะ 29 นาที ¥570 ไม่ต้อง transfer · ถึง Osaka
-Station 16:15 → walk to Umeda hotel + Check-in + พัก 1.5 ชม.ก่อน Dotonbori
+Station 17:30 → walk to Umeda hotel + Check-in ~45 นาที ก่อนออก Dotonbori
 
 <div class="callout">
   <strong>✅ จองแล้ว — DEL style Osaka Shin Umeda by Daiwa Roynet</strong>
@@ -309,7 +315,7 @@ Station 16:15 → walk to Umeda hotel + Check-in + พัก 1.5 ชม.ก่�
 
 ## มื้อค่ำ — Dotonbori food crawl
 
-Midosuji Line จาก Umeda 9 นาที ลง **Namba** → ขึ้นทาง Exit 14 เดินผ่าน
+19:00 ออกจากโรงแรม · Midosuji Line จาก Umeda 9 นาที ลง **Namba** → ขึ้นทาง Exit 14 เดินผ่าน
 **Ebisubashi Bridge** → เห็นป้าย **Glico runner** + Dotonbori canal ตรงนั้น
 
 แผนคือ **food crawl** — กิน 3–4 ร้านเล็ก ๆ บน Dotonbori-suji กับ Sennichimae arcade
