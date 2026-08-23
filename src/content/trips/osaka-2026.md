@@ -29,9 +29,12 @@ preplan:
     - label: 🚨 Pre-book ICOCA & HARUKA round-trip package — Klook
       status: todo
       note: ¥4,400/คน round-trip · KIX→Kyoto + Osaka→KIX + ICOCA included · เลือก non-reserved seat · ฿1,000-1,100/คน · แลก voucher ที่ JR Ticket Office KIX
-    - label: Reserve Tofuku-ji Tsutenkyo autumn timed entry — 14 Nov afternoon
+    - label: 🚨 Reserve teamLab Biovortex Kyoto — 14 Nov afternoon
       status: todo
-      note: Pre-book 13:30 or 14:00 slot via tofukuji.jp/english or Klook (¥1,000–1,200/คน, walk-in queue 30-90 นาที)
+      note: ⚠️ ตั๋วเปิดขาย 2-3 เดือนล่วงหน้า · จองรอบ 13:00-13:30 · ¥3,600-4,400/คน · teamlab.art/e/kyoto หรือ Klook · เดิน 10 นาทีจาก Kyoto Station Hachijo East (แทน Tofuku-ji ที่ห้ามถ่ายรูปบนสะพาน 12-30 พ.ย.)
+    - label: Reserve Gion Unagi Kawato — 13 Nov dinner 18:00
+      status: todo
+      note: จองผ่าน TableCheck / Tabelog / KKday · ห่าง Gion-Shijo Station 263 ม. · ศุกร์ + พีคใบไม้แดง = จองเร็ว
     - label: Travel insurance × 2
       status: todo
       note: Klook/Pacific Cross/AXA — ฿800-1,500/คน · ครอบ medical + delay + lost luggage
