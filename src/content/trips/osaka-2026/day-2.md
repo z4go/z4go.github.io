@@ -4,14 +4,14 @@ title: Arashiyama → teamLab → Osaka
 date: 2026-11-14
 location: Kyoto → Osaka
 weather: ⛅ Partly cloudy · 15°C
-summary: ตื่น 06:00 กิน breakfast โรงแรม Keihan 07:00 แล้วขึ้น JR Sagano เข้าอาราชิยามะให้ทันป่าไผ่ก่อนคนแน่น · เก็บ Tenryu-ji เสร็จเดินขึ้น Saga-Toriimoto preserved street (บ้าน machiya เอโดะ + Adashino + Jojakko-ji) + มื้อเที่ยงยุโดฟุ · บ่ายกลับ Kyoto Station เข้า teamLab Biovortex พิพิธภัณฑ์ดิจิทัลอาร์ตใหญ่ที่สุดในญี่ปุ่น · ย้ายโอซากะตอนเย็น Dotonbori food crawl
+summary: ตื่น 06:00 กิน breakfast โรงแรม Keihan 07:00 แล้วขึ้น JR Sagano เข้าอาราชิยามะให้ทันป่าไผ่ก่อนคนแน่น · ต่อ Jojakko-ji วัดเนินเมเปิลห่างป่าไผ่แค่ 350 ม. · ย้อนลงมา Tenryu-ji เก็บครบทั้งสวน Sogenchi ระเบียง Daihojo และมังกรเมฆบนเพดานโถงธรรมที่เปิดเฉพาะวันเสาร์-อาทิตย์ · ปิดเช้าที่สะพาน Togetsukyo แล้วกลับ Kyoto Station กินข้าวเที่ยงฝั่ง Hachijo เป็นกันชนก่อนรอบ teamLab Biovortex ที่ล็อกเวลาไว้ · ย้ายโอซากะตอนเย็น Dotonbori food crawl
 status: todo
 hero: ../../../assets/osaka-2026/day-2/hero.jpg
 heroAlt: ใบเมเปิลสีแดงเหนือสวนวัดในเกียวโต
 stats:
   steps: 0
-  spent: "¥12,150"
-  stops: 14
+  spent: "¥11,250"
+  stops: 15
   photos: 0
 timeline:
   - time: "06:00–07:00"
@@ -32,31 +32,36 @@ timeline:
     cost: "¥240"
     transit: "🅰️ Kyoto Station → 🅱️ Saga-Arashiyama · 1. ทะลุไปฝั่งเหนือ Karasuma Central Exit · 2. ตามป้าย JR Sagano (San-in) Line — Platform 32/33 (ใต้สถานี) · 3. ขึ้นรถ Local ปลายทาง Sonobe/Kameoka · 4. นั่ง 5 stops, 15 นาที direct · 5. ลง Saga-Arashiyama Station"
     mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station&destination=Saga-Arashiyama+Station&travelmode=transit
-  - time: "08:10–09:30"
-    stop: 🎋 Bamboo Grove + Togetsukyo Bridge — ก่อน 10:00 ยังคนน้อย
+  - time: "08:10–09:00"
+    stop: 🎋 Bamboo Grove — ก่อน 09:30 ยังโล่ง แสงเช้านวล
     cost: "—"
-    transit: "🅰️ Saga-Arashiyama Station → 🅱️ Bamboo Grove · 1. ออกจากสถานี เดินทิศใต้ตาม Sagano Tenryu-ji Susukino-uma ~10 นาที · 2. ผ่าน Tenryu-ji north side · 3. เข้าทางเหนือของป่าไผ่ · soft morning light · ทัวร์ใหญ่ยังมาไม่ทัน"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=Arashiyama+Bamboo+Grove&travelmode=walking
-  - time: "09:30–10:30"
-    stop: Tenryu-ji — UNESCO zen garden
+    transit: "🅰️ Saga-Arashiyama Station → 🅱️ Bamboo Grove · 1. ออกจากสถานี เดินทิศตะวันตกเฉียงใต้ ~1 กม. (13 นาที) · 2. ผ่านฝั่งเหนือ Tenryu-ji · 3. เข้าทางเหนือของป่าไผ่ · หลัง 09:30 คนเริ่มแน่นจนถ่ายไม่ได้ — ช่วงนี้คือของมีค่าที่สุดของเช้า"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=35.0170,135.6705&travelmode=walking
+  - time: "09:00–09:50"
+    stop: 🍁 Jojakko-ji — เนินเมเปิลขั้นบันได + วิวแอ่งเกียวโตจากยอด
     cost: "¥500"
-    transit: "🅰️ Bamboo Grove → 🅱️ Tenryu-ji · 1. ออกจากบามบูทางใต้ — ประตูเหนือ Tenryu-ji อยู่ติดกัน · 2. ซื้อบัตรเข้า garden ¥500 (หรือ +¥300 main hall) · 3. ชม Sōgenchi pond + reflection ภูเขา"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Arashiyama+Bamboo+Grove&destination=Tenryu-ji&travelmode=walking
-  - time: "10:30–11:30"
-    stop: Saga-Toriimoto preserved street + Adashino + Jojakko-ji
-    cost: "¥1,000"
-    transit: "🅰️ Tenryu-ji → 🅱️ Saga-Toriimoto · 1. ออกประตูเหนือ Tenryu-ji · 2. เดินไปทิศเหนือตาม Saga-Toriimoto Hozu-michi ~15 นาที (1 กม. ขึ้นเขาเบา ๆ) · 3. preserved street — บ้านไม้ machiya เก่าสมัยเอโดะ + ป้ายไม้ traditional · 4. Adashino Nenbutsuji (8,000 หินพุทธ ¥500) · 5. Jojakko-ji วัดเขา momiji ¥500 · ตัด Otagi (อยู่บนสุดเขา) ออก = chill ขึ้น"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tenryu-ji&destination=Saga-Toriimoto&travelmode=walking
-  - time: "11:30–12:45"
-    stop: Yudofu lunch — Shōrai-an / Yudofu Sagano
-    cost: "¥2,500"
-    transit: "🅰️ Saga-Toriimoto → 🅱️ Yudofu restaurant · 1. เดินลงเขาผ่าน Saga-Toriimoto กลับลง Sagano area · 2. Shōrai-an อยู่ใกล้ Tenryu-ji ฝั่งเหนือ · 3. หรือ Yudofu Sagano ฝั่งใต้บามบู · 4. กิน slow 1 ชม. บรรยากาศบ้านไม้"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Jojakko-ji&destination=Shorai-an&travelmode=walking
-  - time: "13:00–13:30"
-    stop: JR Sagano back → Kyoto Station → เดินไป teamLab
+    transit: "🅰️ Bamboo Grove → 🅱️ Jojakko-ji · 1. ออกปลายเหนือของป่าไผ่ · 2. เดินต่อขึ้นเหนือ **แค่ 350 เมตร (5-6 นาที)** · 3. เปิด 09:00 · วัดไม่มีกำแพงล้อม — เมเปิลคลุมทั้งเนินเป็นชั้น ๆ · 4. เดินขึ้นถึงยอดเห็นแอ่งเกียวโตลอดใบแดง · กลาง พ.ย. = พีค"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=35.0170,135.6705&destination=35.0197,135.6686&travelmode=walking
+  - time: "10:05–11:20"
+    stop: ⛩️ Tenryu-ji — สวน Sogenchi + ระเบียง Daihojo + 🐉 มังกรเมฆ
+    cost: "¥1,300"
+    transit: "🅰️ Jojakko-ji → 🅱️ Tenryu-ji · 1. เดินลงใต้ 600 ม. (9 นาที) เข้าประตูเหนือ · 2. ตั๋ว 3 ชั้น — สวน ¥500 + อาคาร ¥300 + มังกรเมฆ ¥500 · 3. **ขึ้นระเบียง Daihojo นั่งมองบึง Sogenchi** = มุมโปสการ์ด ต้องจ่าย +¥300 ถึงจะขึ้นได้ · 4. 法堂 雲龍図 เปิดเฉพาะ ส-อา-วันหยุด + ช่วงพิเศษใบไม้ร่วง → **14 พ.ย. เสาร์ = เปิด** · 5. ออกประตูใต้ไปทางสะพาน"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=35.0197,135.6686&destination=Tenryu-ji&travelmode=walking
+  - time: "11:20–11:40"
+    stop: 🌉 Togetsukyo Bridge — สะพานไม้ข้ามโฮซุ ฉากหลังภูเขาใบแดง
+    cost: "—"
+    transit: "🅰️ Tenryu-ji → 🅱️ Togetsukyo · 1. ออกประตูใต้ เดินลงใต้ 520 ม. (8 นาที) · 2. สะพานคนเยอะทั้งวันอยู่แล้ว — ไม่ต้องแย่งไปเช้า เอาไว้ท้ายตอนเดินไปกินข้าวพอดี"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tenryu-ji&destination=35.0129,135.6778&travelmode=walking
+  - time: "11:40–12:20"
+    stop: JR Sagano back → Kyoto Station
     cost: "¥240"
-    transit: "🅰️ Saga-Arashiyama → 🅱️ teamLab Biovortex · 1. เดินกลับ Saga-Arashiyama Station ~5 นาที · 2. JR Sagano Line Kyoto-bound (5 stops, 15 นาที, ¥240) · 3. ที่ Kyoto Station ออก Hachijo East Gate (ฝั่งใต้) · 4. เดินลงใต้ ~10 นาที ถึง teamLab Biovortex — ทางเดียวกับโรงแรม Keihan"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=teamLab+Biovortex+Kyoto&travelmode=transit
+    transit: "🅰️ Togetsukyo → 🅱️ Kyoto Station · 1. เดินขึ้นเหนือกลับสถานี Saga-Arashiyama ~1.1 กม. (15 นาที) · 2. ⚠️ **JR Sagano Line มาทุก ~10-15 นาที** ไม่ใช่ทุกนาที — 40 นาทีนี้ตึง ถ้าพลาดขบวนจะเลื่อนไป 15 นาที · เช็คเวลารถก่อนออกจากสะพาน · 3. นั่ง 15 นาที ¥240 · 4. ลงที่ชานชาลา 32/33 — อยู่ปลายตะวันตกของสถานี · 5. **กันชนอยู่ที่มื้อเที่ยง** ถ้ามาสายก็กินเร็วขึ้น teamLab ยังทัน"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=Kyoto+Station&travelmode=transit
+  - time: "12:30–13:10"
+    stop: 🍜 Lunch — Kyoto Station ฝั่ง Hachijo (ใต้) · กันชนก่อน teamLab
+    cost: "¥1,300"
+    transit: "🅰️ Kyoto Station → 🅱️ teamLab Biovortex · 1. ⚠️ **กินฝั่งใต้ (Hachijo) เท่านั้น** — Porta / Ramen Koji อยู่ฝั่งเหนือ เดินทะลุสถานีไป-กลับเสีย 20 นาที · 2. ฝั่ง Hachijo มี **Avanti** (ห้างติดสถานี) · ร้านตามถนน Hachijo · **Aeon Mall Kyoto** เดิน 5 นาที · 3. เผื่อเวลา 40 นาที ไม่ต้องจอง · 4. 13:10 ออกเดินลงใต้ ~10 นาทีถึง teamLab — **ยังไม่ต้องแวะเอากระเป๋า** · 5. ถึง 13:25 เหลือกันชน 25 นาทีก่อนรอบเข้า"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kyoto+Station&destination=teamLab+Biovortex+Kyoto&travelmode=walking
   - time: "13:30–16:30"
     stop: 🌌 teamLab Biovortex Kyoto — digital art museum ใหญ่ที่สุดในญี่ปุ่น
     cost: "¥3,600"
@@ -87,19 +92,19 @@ coords:
     lng: 135.6797
   - label: Arashiyama Bamboo Grove
     lat: 35.0170
-    lng: 135.6716
+    lng: 135.6705
   - label: Togetsukyo Bridge
-    lat: 35.0136
-    lng: 135.6766
+    lat: 35.0129
+    lng: 135.6778
   - label: Tenryu-ji Temple
     lat: 35.0156
     lng: 135.6739
-  - label: Adashino Nenbutsuji
-    lat: 35.0316
-    lng: 135.6675
   - label: Jojakko-ji
-    lat: 35.0260
-    lng: 135.6705
+    lat: 35.0197
+    lng: 135.6686
+  - label: Yudofu Sagano (lunch)
+    lat: 35.0145
+    lng: 135.6745
   - label: Kyoto Station
     lat: 34.9858
     lng: 135.7588
@@ -112,15 +117,9 @@ coords:
   - label: Dotonbori (Ebisubashi)
     lat: 34.6687
     lng: 135.5012
-photos:
-  - ../../../assets/osaka-2026/day-2/bamboo.png
-  - ../../../assets/osaka-2026/day-2/togetsukyo.png
-  - ../../../assets/osaka-2026/day-2/tenryuji.png
-  - ../../../assets/osaka-2026/day-2/otagi.png
-  - ../../../assets/osaka-2026/day-2/dotonbori.png
 references:
-  - title: JR Sagano Line — Kyoto ↔ Saga-Arashiyama
-    url: https://www.westjr.co.jp/global/en/travel-information/route/sagano/
+  - title: Arashiyama and Sagano — area guide
+    url: https://www.japan-guide.com/e/e3912.html
     icon: 🚆
   - title: Arashiyama Bamboo Grove — visitor guide
     url: https://www.japan-guide.com/e/e3917.html
@@ -128,25 +127,29 @@ references:
   - title: Tenryu-ji — UNESCO zen garden
     url: https://www.tenryuji.com/en/
     icon: 🏯
-  - title: Adashino Nenbutsuji — 8,000 stone buddhas
-    url: https://www.nenbutsuji.jp/
-    icon: 🪨
+  - title: Tenryu-ji Hatto Cloud Dragon — opening days & fee
+    url: https://www.tenryuji.com/unryuzu/
+    icon: 🐉
+  - title: Jojakko-ji — official site
+    url: https://www.jojakko-ji.or.jp/
+    icon: 🍁
   - title: teamLab Biovortex Kyoto — official site
     url: https://www.teamlab.art/e/kyoto/
     icon: 🌌
-  - title: JR Tokaido/Kyoto Line — Special Rapid timetable
-    url: https://www.jrailpass.com/blog/jr-kyoto-line
+  - title: JR-WEST train usage guide — Special Rapid & fares
+    url: https://www.westjr.co.jp/travel-information/en/train-usage-guide/
     icon: 🚆
   - title: Dotonbori — visitor guide
     url: https://www.japan-guide.com/e/e4002.html
     icon: 🌃
-tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, teamlab, osaka, dotonbori, foodcrawl, transitday]
+tags: [osaka2026, kyoto, arashiyama, jojakkoji, tenryuji, teamlab, osaka, dotonbori, transitday]
 ---
 
 วันสองตื่นเช้า — **06:00 wake, 07:00 breakfast โรงแรม, 08:10 ป่าไผ่ Arashiyama**
 ก่อนทัวร์ใหญ่มาถึง · ตรอกบามบูช่วง 08:00–10:00 = คน 1/4 ของช่วงเที่ยง · ภาพยังโล่ง
-แสงเช้านวล ๆ · จบครึ่งวันที่ Tenryu-ji แล้วเดินขึ้นเหนือไป **Saga-Toriimoto preserved street** บนเขา
-— บ้าน machiya สมัยเอโดะ + Adashino Nenbutsuji 8,000 พระพุทธรูปหิน + Jojakko-ji วัดเขา (ตัด Otagi ออก = chill ขึ้น) · จบมื้อเที่ยง yudofu บ้านไม้
+แสงเช้านวล ๆ · ต่อขึ้นเหนือ **แค่ 350 เมตร** ถึง **Jojakko-ji** วัดเนินเมเปิลที่กลาง พ.ย. คือพีค
+แล้วย้อนลงมา **Tenryu-ji** เก็บให้ครบทั้งสวน Sogenchi ระเบียง Daihojo และ **มังกรเมฆ**
+บนเพดานโถงธรรมที่เปิดเฉพาะเสาร์-อาทิตย์ · ปิดเช้าที่สะพาน **Togetsukyo** + มื้อเที่ยง yudofu
 
 บ่ายกลับ Kyoto Station เข้า **teamLab Biovortex** — digital art museum ใหญ่ที่สุดของ teamLab
 ในญี่ปุ่น เดิน 10 นาทีจาก Hachijo East Gate (ทางเดียวกับโรงแรม) · เก็บกระเป๋าแล้วขึ้น
@@ -158,8 +161,9 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, teamlab, osaka, dotonbori, f
     <li><strong>⏰ ตื่น 06:00 sharp</strong> — Arashiyama ก่อน 10:00 ยังคนน้อย · หลัง 10:30 = wall of people · ตื่นเช้าชนะเกม</li>
     <li><strong>🍳 Hotel breakfast 07:00 sharp</strong> — Keihan Ekiminami WESTERN buffet · รวมในราคาห้อง · กิน 30 นาที หรือ takeout ไปกินบน train</li>
     <li><strong>🏨 Hotel checkout 07:30 + ฝากของ front desk</strong> — Keihan Ekiminami น่าจะรับฝากต่อหลัง checkout ฟรี (chain ญี่ปุ่นมาตรฐาน) · กลับมาเอา 13:00 · <strong>backup ถ้าไม่รับ:</strong> 🔒 Coin locker Kyoto Station Hachijoguchi ¥700 × 2 = ¥1,400 · ICOCA tap เปิด-ปิด</li>
-    <li><strong>🪨 Saga-Toriimoto เดิน 20 นาทีขึ้นเขา</strong> — Otagi เปิด 08:00 · Adashino + Jojakko-ji เปิด 09:00</li>
-    <li><strong>🍲 Yudofu ต้องนั่งกิน slow</strong> — เผื่อ 60 นาที · ไม่ใช่ fast food · Shōrai-an queue สั้น</li>
+    <li><strong>🍁 Jojakko-ji เปิด 09:00</strong> — ห่างจากปลายเหนือของป่าไผ่แค่ <strong>350 เมตร</strong> · ควรเช็คเวลาเปิดอีกทีก่อนไป ถ้าเปิดสายกว่านั้นให้สลับลำดับกับ Tenryu-ji</li>
+    <li><strong>🐉 มังกรเมฆ Tenryu-ji เปิดเฉพาะ ส-อา-วันหยุด</strong> — 14 พ.ย. เป็นเสาร์ + อยู่ในช่วงพิเศษใบไม้ร่วง = เปิดทั้งสองเงื่อนไข · +¥500 แยกจากตั๋วสวน</li>
+    <li><strong>🍜 ข้าวเที่ยงกินที่ Kyoto Station ฝั่ง Hachijo (ใต้)</strong> — teamLab เป็นสิ่งเดียวในวันที่ล็อกเวลา เลยเอามื้อเที่ยงที่ยืดหยุ่นได้มากันชน · ⚠️ ห้ามไปกินฝั่งเหนือ (Porta / Ramen Koji) เพราะต้องเดินทะลุสถานีไป-กลับเสีย 20 นาที</li>
     <li><strong>🌌 teamLab Biovortex ต้องจองรอบเวลา</strong> — ตั๋วเปิดขาย 2–3 เดือนล่วงหน้า · ¥3,600–4,400/คน · เดินชมอย่างน้อย 3 ชม.</li>
     <li><strong>👟 teamLab มีพื้นน้ำและพื้นสะท้อน</strong> — บางโซนต้องถอดรองเท้า/ลุยน้ำตื้น · ถุงเท้าต้องไม่มีรู · กางเกงพับขาได้ยิ่งดี</li>
     <li><strong>💴 Cash for street food</strong> — Dotonbori stalls มัก cash-only · เผื่อ ~¥3,000–5,000</li>
@@ -192,12 +196,12 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, teamlab, osaka, dotonbori, f
 
   <p><strong>🏯 วัดอื่น ๆ — walk-in ที่ประตู (cash หรือ card)</strong></p>
   <ul>
-    <li>Tenryu-ji ¥500 (garden) · +¥300 main hall · เปิด 08:30</li>
-    <li>Adashino Nenbutsuji ¥500 · เปิด 09:00 · cash only · last entry 16:30</li>
+    <li><strong>Tenryu-ji</strong> เปิด 08:30 · สวน Sogenchi ¥500 · <strong>+ อาคาร Daihojo/Shoin/Tahoden ¥300</strong> · + 法堂 มังกรเมฆ ¥500 → <strong>รวม ¥1,300</strong></li>
     <li>Jojakko-ji ¥500 · เปิด 09:00 · cash · last entry 17:00</li>
+    <li><em>ตัวเลือกเพิ่ม:</em> Hōgon-in ¥700 — วัดลูก Tenryu-ji เปิดเฉพาะฤดูใบไม้ร่วง สวนยืมฉากอาราชิยามะ · ถ้าจะเอาต้องเบียดเวลาจากช่วงอื่น</li>
   </ul>
 
-  <p><strong>💴 Cash เผื่อ Day 2:</strong> ~¥3,000/คน (¥1,000 วัด + ¥500 mochi + ¥1,500 lunch yudofu)</p>
+  <p><strong>💴 Cash เผื่อ Day 2:</strong> ~¥3,000/คน (¥1,800 วัด + ¥1,300 lunch) — วัดรับเงินสดเป็นหลัก · ร้านในสถานีรับบัตรได้</p>
 
   <p><strong>📲 หรือใช้ Klook/KKday รวมทุกอย่าง</strong> — pre-book teamLab + ICOCA top-up ก่อนบินจากไทย · ได้ slot guarantee</p>
 </div>
@@ -240,37 +244,66 @@ tags: [osaka2026, kyoto, arashiyama, sagatoriimoto, teamlab, osaka, dotonbori, f
   </blockquote>
 </div>
 
-## เช้า Arashiyama — ป่าไผ่ก่อนคน + Saga-Toriimoto
+## เช้า Arashiyama — เดินเส้นเดียวจากเหนือลงใต้
 
 ตื่น 06:00 อาบน้ำเตรียมตัว · ลงไปรอ **breakfast Keihan Ekiminami เปิด 07:00 sharp**
 buffet แบบนั่งกินจริง 30 นาที · 07:30 checkout + ฝากกระเป๋าหน้า front desk
 เดินไปสถานีอีก 7 นาที ขึ้น **JR Sagano Line** 07:45 ปลายทาง Sonobe/Kameoka
 ลงสถานี **Saga-Arashiyama** 08:00 เดินไม่กี่นาทีถึงป่าไผ่
 
-### ลำดับเช้า (08:10–12:00)
+อาราชิยามะเรียงตัวเป็นเส้นเดียวจากเหนือลงใต้ — **สถานี JR (เหนือสุด) → ป่าไผ่ → Jojakko-ji
+→ Tenryu-ji → Togetsukyo (ใต้สุด)** · เดินไล่ลงมาทางเดียวไม่ต้องย้อน รวม **~3.6 กม.** ทั้งเช้า
 
-- **🎋 Bamboo Grove + Togetsukyo Bridge** — 08:10–09:30 · ก่อน 10:00 บรรยากาศยังเงียบ
-  · soft morning light · เก็บภาพป่าไผ่ คนน้อย · ทัวร์ใหญ่ยังมาไม่ถึง
-- **🏯 Tenryu-ji** — 09:30–10:30 · เปิด 08:30 sharp · Sōgenchi pond
-  สะท้อนภูเขา + momiji · UNESCO zen garden
-- **🪨 Saga-Toriimoto preserved street** — 10:30–11:30 · เดินขึ้นเหนือจาก Tenryu-ji ~15 นาที:
-  - **Preserved street** — บ้านไม้ machiya สมัยเอโดะ · ป้ายไม้ traditional · feel หมู่บ้านโบราณ
-  - **Adashino Nenbutsuji** (¥500) — 8,000 พระพุทธรูปหินเล็ก · บรรยากาศขลัง
-  - **Jojakko-ji** (¥500) — วัดบนเขา momiji ระดับ S-tier · คนน้อย
-  - *ตัด **Otagi Nenbutsuji** ออก (อยู่บนสุดเขา) — เก็บแรงไว้ teamLab บ่าย + Day 3 ดีกว่า*
+### ลำดับเช้า (08:10–11:40)
 
-### 🍲 Yudofu lunch (11:30–12:45)
+- **🎋 Bamboo Grove** — 08:10–09:00 · ก่อน 09:30 คนยัง 1/4 ของช่วงเที่ยง แสงเช้านวล
+  · **ช่วงนี้คือของมีค่าที่สุดของเช้า** ห้ามเอาไปทำอย่างอื่น
+- **🍁 Jojakko-ji** (¥500) — 09:00–09:50 · เดินต่อขึ้นเหนือ **350 ม. แค่ 5–6 นาที**
+  วัดไม่มีกำแพงล้อม เมเปิลคลุมทั้งเนินเป็นชั้น ๆ · ขึ้นถึงยอดเห็นแอ่งเกียวโตลอดใบแดง
+  · **จุดโคโยะระดับ Top 3 ของอาราชิยามะ** และกลาง พ.ย. คือพีค
+- **⛩️ Tenryu-ji** (¥1,300) — 10:05–11:20 · เดินลงใต้ 600 ม. เข้าประตูเหนือ
+  - **สวน Sogenchi** ¥500 — สวนบึงอายุ 700 ปี ยืมฉากภูเขาอาราชิยามะ · แหล่งโบราณสถาน+ทัศนียภาพพิเศษแห่งแรกของญี่ปุ่น
+  - **อาคาร Daihojo / Shoin / Tahoden** +¥300 — **ขึ้นระเบียงไม้นั่งมองบึง = มุมที่เห็นในโปสการ์ดทุกใบ** · ไม่จ่ายส่วนนี้จะได้แต่เดินรอบสวน ไม่ได้มุมนี้
+  - **🐉 法堂 มังกรเมฆ** +¥500 — ภาพมังกรบนเพดานโถงธรรม เรียกว่า *"มังกรจ้องแปดทิศ"* มองจากมุมไหนก็เหมือนถูกจ้องกลับ · 5–10 นาที
+- **🌉 Togetsukyo Bridge** — 11:20–11:40 · เดินลงใต้อีก 520 ม.
+  · สะพานคนเยอะทั้งวันอยู่แล้ว ไปตอนไหนก็เหมือนกัน — เอาไว้ปิดท้ายเช้าพอดี
 
-เต้าหู้ต้มอาราชิยามะ specialty — กินใน Saga area:
+*ตัด **Saga-Toriimoto + Adashino Nenbutsuji + Otagi** ออก — ทั้งสามอยู่ไกลขึ้นไปทางเหนือ
+ต้องเดินไป-กลับเพิ่ม ~60 นาที ในช่องที่มีแค่ 60 นาที คือทำไม่ได้จริงตั้งแต่แรก
+· Jojakko-ji เป็นตัวเดียวในกลุ่มนั้นที่ใกล้พอและคุ้มต่อนาทีสูงสุด*
 
-- **Shōrai-an (松籟庵)** — บ้านไม้เก่า ¥2,500/set · queue สั้น
-- **Yudofu Sagano (湯豆腐 嵯峨野)** — origin · ¥3,800/set premium course · บรรยากาศบ้านสวน
-- **Tenryu-ji Shigetsu** — vegetarian shojin ryori ในวัด · ต้องจอง · ¥4,500
+### 🍜 ข้าวเที่ยงกลับมากินที่ Kyoto Station (12:30–13:10)
+
+**เหตุผล: teamLab เป็นสิ่งเดียวในวันนี้ที่ล็อกเวลา** — จองรอบเข้าไว้ มาสายคือเข้าไม่ได้
+ส่วนมื้อเที่ยงเลื่อนได้ตามใจ · เอาของที่ยืดหยุ่นได้ไปกันชนของที่ยืดไม่ได้
+
+11:40 เดินกลับสถานี Saga-Arashiyama → **JR Sagano Line** 15 นาที → Kyoto Station 12:20
+กินข้าว 40 นาที → 13:10 ออกเดิน → **13:25 ถึง teamLab เหลือกันชน 25 นาที**
+
+<div class="callout">
+  <strong>⚠️ ต้องกินฝั่งใต้ (Hachijo) ไม่ใช่ฝั่งเหนือ</strong>
+  <p>ร้านดัง ๆ ของ Kyoto Station — <strong>Porta, Kyoto Ramen Koji 10F, Kyoto Tower Sando</strong>
+  — อยู่ <strong>ฝั่งเหนือ (Karasuma)</strong> ทั้งหมด · กินที่นั่นแล้วต้องเดินทะลุสถานีย้อนกลับมาฝั่งใต้
+  <strong>เสียเวลา 20 นาทีไป-กลับ</strong> ซึ่งกินกันชนที่เพิ่งสร้างมาหมด</p>
+  <p><strong>ฝั่ง Hachijo (ใต้) — อยู่บนเส้นทางไป teamLab พอดี:</strong></p>
+  <ul>
+    <li><strong>Avanti</strong> — ห้างติดทางออก Hachijo · ร้านอาหารชั้นบน</li>
+    <li><strong>ร้านตามถนน Hachijo</strong> — ราเมง ข้าวหน้า เซ็ตเทโชกุ ~¥1,000–1,500</li>
+    <li><strong>Aeon Mall Kyoto</strong> — เดินตะวันตก 5 นาที · ฟู้ดคอร์ตใหญ่ ตัวเลือกเยอะสุด</li>
+  </ul>
+  <p>ไม่ต้องจอง · ร้านในย่านสถานีรับบัตรเครดิต</p>
+</div>
+
+*ตัด **ยูโดฟุที่อาราชิยามะ** ออก — เป็นเต้าหู้ต้ม ¥2,500–3,800 ที่มูลค่าอยู่ที่บรรยากาศเรือนไม้
+มากกว่ารสชาติ · และร้านนั่ง 55 นาทีคือความเสี่ยงต่อรอบ teamLab ในวันเสาร์พีคโคโยะ
+· ประหยัดไป ~¥1,200–2,500 ด้วย*
+
+{{ TODO: เลือกร้านฝั่ง Hachijo — ดูหน้างานได้ ไม่ต้องจอง }}
 
 ## บ่าย teamLab + เก็บกระเป๋า + ย้ายโอซากะ
 
-13:00 ขึ้น JR Sagano กลับ Kyoto Station → ออก **Hachijo East Gate** ฝั่งใต้ →
-เดินลงใต้ ~10 นาที ถึง **teamLab Biovortex** · **ยังไม่ต้องแวะเอากระเป๋า** —
+13:10 ออกจากร้าน → **Hachijo East Gate** ฝั่งใต้ → เดินลงใต้ ~10 นาที
+ถึง **teamLab Biovortex** 13:25 · **ยังไม่ต้องแวะเอากระเป๋า** —
 โรงแรม Keihan อยู่ย่านเดียวกัน เดี๋ยวแวะตอนออก
 
 ### 🌌 teamLab Biovortex Kyoto (13:30–16:30)
@@ -308,7 +341,7 @@ Station 17:30 → walk to Umeda hotel + Check-in ~45 นาที ก่อน�
     <li><strong>💴 ราคา total:</strong> ¥64,169 (~฿14,245) · ภาษีรวม · ชำระที่โรงแรม</li>
     <li><strong>ที่อยู่:</strong> 6 Chome-16-1 Fukushima, Fukushima Ward · เปิด 2020 · design hotel</li>
     <li><strong>🛁 อ่างน้ำ:</strong> ส่วนตัวในห้อง (ไม่มี 大浴場 ส่วนกลาง)</li>
-    <li><strong>📍 Location bonus:</strong> ใกล้ <strong>JR Fukushima Station</strong> = Day 4 USJ ตรงไปได้เลย (JR Yumesaki Line direct!)</li>
+    <li><strong>📍 Location bonus:</strong> ใกล้ <strong>JR Fukushima Station</strong> = Osaka Loop Line 1 สถานีถึง Osaka Station · Day 3 ออกโกเบและ Day 5 ขึ้น Haruka ไป KIX สะดวก</li>
     <li><strong>Free cancel:</strong> ก่อน 12 พ.ย. 23:59</li>
   </ul>
 </div>
