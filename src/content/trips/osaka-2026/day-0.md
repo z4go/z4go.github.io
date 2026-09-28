@@ -58,9 +58,9 @@ tags: [osaka2026, bkk, departureday, redeye, tg622]
   <ul>
     <li><strong>Light winter jacket / hoodie หนา</strong> × 1 ตัว — windproof = ดีที่สุด (Uniqlo Ultra Light Down คุ้ม)</li>
     <li><strong>Long-sleeve shirts</strong> × 3-4 ตัว — รองพื้นใต้ jacket · merino wool ถ้ามี</li>
-    <li><strong>Jeans หรือ warm pants</strong> × 2-3 ตัว — Day 4 USJ ต้องสบาย</li>
+    <li><strong>Jeans หรือ warm pants</strong> × 2-3 ตัว — เดินวันละ 10,000-16,000 ก้าว ต้องสบาย</li>
     <li><strong>👕 Inner thermal/heattech</strong> — Uniqlo Heattech รองพื้น = warm + light</li>
-    <li><strong>🧣 Scarf + ถุงมือบาง</strong> — เช้า Katsuoji + Arashiyama 06:00 ลมแรง</li>
+    <li><strong>🧣 Scarf + ถุงมือบาง</strong> — เช้า Katsuoji บนเขา + Arashiyama 08:10 + <strong>สะพานอาคาชิ 47 ม. เหนือทะเล ลมช่องแคบแรง</strong></li>
     <li><strong>🧢 หมวก/beanie</strong> — optional แต่ช่วย</li>
   </ul>
 
@@ -98,31 +98,31 @@ tags: [osaka2026, bkk, departureday, redeye, tg622]
     <li>🏮 <strong>Sannenzaka cobblestone</strong> — wide shot ตรอกหิน + machiya</li>
   </ul>
 
-  <p><strong>🍁 Day 2 — Arashiyama → Tofuku-ji:</strong></p>
+  <p><strong>🎋 Day 2 — Arashiyama → teamLab:</strong></p>
   <ul>
     <li>🎋 <strong>Bamboo Grove ก่อน 09:00</strong> — empty ที่หายาก · soft morning light</li>
-    <li>🌉 <strong>Togetsukyo Bridge + Mt. Arashi</strong> — pan shot + reflection</li>
-    <li>🪨 <strong>Adashino Nenbutsuji 8,000 stone Buddhas</strong> — atmospheric · creepy + sacred</li>
-    <li>🍁 <strong>Tofuku-ji Tsutenkyo bridge</strong> ⭐ — over momiji valley · the iconic Kyoto autumn shot</li>
+    <li>🍁 <strong>Jojakko-ji เนินเมเปิลขั้นบันได</strong> ⭐ — วัดไม่มีกำแพง · ขึ้นยอดเห็นแอ่งเกียวโตลอดใบแดง</li>
+    <li>⛩️ <strong>ระเบียง Daihojo มองบึง Sogenchi</strong> ⭐ — มุมโปสการ์ดของ Tenryu-ji (ต้องจ่าย +¥300 ถึงขึ้นได้)</li>
+    <li>🐉 <strong>มังกรเมฆบนเพดานโถงธรรม</strong> — เปิดเฉพาะ ส-อา · 14 พ.ย. เป็นเสาร์พอดี</li>
+    <li>🌉 <strong>Togetsukyo Bridge + ภูเขาอาราชิ</strong> — pan shot + reflection</li>
     <li>🌃 <strong>Dotonbori Glico runner + Ebisubashi neon</strong> — blue hour 17:30</li>
   </ul>
 
-  <p><strong>🎎 Day 3 — Daruma Day + Sumiyoshi:</strong></p>
+  <p><strong>🌉 Day 3 — Kobe ตะวันตก→ตะวันออก:</strong></p>
   <ul>
-    <li>🎎 <strong>Katsuoji Mizuko Jizo daruma</strong> ⭐ — แอ่งน้ำ + ใบไม้แดง · iconic Katsuoji shot</li>
-    <li>🥾 <strong>Tenkozan viewpoint</strong> — panorama วัดเต็ม + ภูเขา</li>
-    <li>🌉 <strong>Sumiyoshi Taisha Taiko-bashi</strong> ⭐ — สะพานโค้งไม้แดง + เงาสะท้อนน้ำ</li>
-    <li>🏢 <strong>Abeno Harukas view</strong> (optional ¥1,500) — 300 ม. tallest in Japan · sunset</li>
-    <li>🗼 <strong>Tsutenkaku tower neon</strong> — night shot · Shinsekai retro</li>
+    <li>🌉 <strong>สะพานอาคาชิจากใต้ตอม่อ</strong> ⭐ — สูงขึ้นไป 65 ม. เห็นสเกลจริง · ที่เดียวที่เห็นสะพานทั้งตัว</li>
+    <li>🪟 <strong>ช่องพื้นกระจกบนทางเดิน 47 ม. เหนือทะเล</strong> — ใช้ได้เฉพาะตอนมีแสง จึงมาตอนสาย</li>
+    <li>🐋 <strong>วาฬเพชฆาตที่ Suma Sea World</strong> ⭐ — ที่เดียวในญี่ปุ่นตะวันตก · แถวหน้าเปียก</li>
+    <li>⚓ <strong>Meriken Park ตอนไฟติด</strong> — Port Tower + ชิงช้าสวรรค์ + ป้าย BE KOBE · sunset 16:48</li>
   </ul>
 
-  <p><strong>🎢 Day 4 — USJ Christmas:</strong></p>
+  <p><strong>🎎 Day 4 — Daruma Day:</strong></p>
   <ul>
-    <li>🎄 <strong>Hollywood Christmas tree</strong> — entrance · พีคไฟ 17:30</li>
-    <li>✨ <strong>Magic of Christmas at Hogwarts projection</strong> ⭐ — Hogwarts Castle · ทุก 30 นาทีตอน sunset · front-center ดีสุด</li>
-    <li>🍄 <strong>Super Nintendo World illumination</strong> — castle เปลี่ยนสีรุ้ง 17:30+</li>
-    <li>🏎️ <strong>Mario Kart night version</strong> — Bowser's Castle ที่สว่าง</li>
-    <li>❄️ <strong>Hogsmeade Christmas decoration</strong> — winter vibe + butterbeer</li>
+    <li>🎎 <strong>Katsuoji Mizuko Jizo daruma</strong> ⭐ — แอ่งน้ำ + ใบไม้แดง · ภาพไอคอนของวัด</li>
+    <li>🥾 <strong>Tenkozan viewpoint</strong> — panorama วัดเต็ม + ภูเขา</li>
+    <li>🧱 <strong>Osaka City Central Public Hall อิฐแดงยุคไทโช</strong> ⭐ — แสงบ่ายเฉียง · ริมแม่น้ำโทซาโบริ</li>
+    <li>🌆 <strong>Harukas 300 ชั้น 60</strong> (¥1,980 จองออนไลน์) — 300 ม. สูงสุดในญี่ปุ่น · sunset 16:47</li>
+    <li>🗼 <strong>Tsutenkaku tower neon</strong> — night shot · Shinsekai retro</li>
   </ul>
 
   <p><strong>✈️ Day 5 — Goodbye:</strong></p>
@@ -138,7 +138,7 @@ tags: [osaka2026, bkk, departureday, redeye, tg622]
 
 - พาสปอร์ต + สำเนา (เก็บแยก) + ≥6 เดือนก่อน expire
 - บัตรเครดิตหลัก + สำรอง + เงินสดเยน (แลก ฿10-15k/คน หรือกด ATM 7-Eleven KIX)
-- **Klook voucher PDF** — ICOCA & HARUKA round-trip + USJ Pass 7 (พิมพ์ + สกรีนช็อต backup)
+- **Voucher/ตั๋ว PDF** — HARUKA round-trip (Klook) + teamLab Biovortex + Suma Sea World + Harukas 300 (พิมพ์ + สกรีนช็อต backup)
 - ใบจองโรงแรม Keihan Ekiminami + DEL style Shin Umeda (PDF)
 - **📱 Online check-in TG622 24 ชม.ก่อนบิน = ทำเที่ยงคืน 11 พ.ย. 23:59** → download boarding pass มือถือ
 - โทรศัพท์ + power bank ≥10,000 mAh + สายชาร์จ

@@ -10,8 +10,8 @@ hero: ../../../assets/osaka-2026/day-1/hero.jpg
 heroAlt: บรรยากาศตรอกเก่าในย่านฮิงาชิยามะ เกียวโตยามเย็น
 stats:
   steps: 0
-  spent: "¥7,670"
-  stops: 15
+  spent: "¥7,380"
+  stops: 16
   photos: 0
 timeline:
   - time: "07:20"
@@ -81,7 +81,7 @@ timeline:
     stop: Kawaramachi-Sanjo → Kyoto Station (City Bus ตรง)
     cost: "¥230"
     transit: "🅰️ Sanjo-Kiyamachi → 🅱️ Kyoto Station · 1. เดินไปป้าย Kawaramachi-Sanjo (~3 นาที) · 2. City Bus 4 / 17 / 205 ปลายทาง Kyoto Eki-mae · 3. tap ICOCA · ~20 นาที ไม่ต้องเปลี่ยนสาย · 4. ลงหน้า Kyoto Station → เดินทะลุไป Hachijoguchi East → โรงแรม 7 นาที"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Kawaramachi+Sanjo&destination=Kyoto+Station&travelmode=transit
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=35.0089,135.7694&destination=Kyoto+Station&travelmode=transit
   - time: "20:35–21:35"
     stop: ⛩️ ตัวเลือก — Fushimi Inari กลางคืน · Senbon Torii แทบไม่มีคน
     cost: "¥300"
@@ -99,8 +99,8 @@ coords:
     lat: 34.9858
     lng: 135.7588
   - label: Kamogawa Delta (Demachiyanagi)
-    lat: 35.0317
-    lng: 135.7720
+    lat: 35.0301
+    lng: 135.7717
   - label: Demachi Futaba (mochi)
     lat: 35.0306
     lng: 135.7682
@@ -125,12 +125,6 @@ coords:
   - label: Fushimi Inari Taisha (optional, night)
     lat: 34.9671
     lng: 135.7727
-photos:
-  - ../../../assets/osaka-2026/day-1/kamogawa-delta.png
-  - ../../../assets/osaka-2026/day-1/demachi-futaba.png
-  - ../../../assets/osaka-2026/day-1/yasaka-pagoda.png
-  - ../../../assets/osaka-2026/day-1/kiyomizu.png
-  - ../../../assets/osaka-2026/day-1/sannenzaka.png
 references:
   - title: HARUKA Limited Express — fares & ticket info
     url: https://www.westjr.co.jp/travel-information/en/tickets-passes/oneway/haruka/
@@ -177,7 +171,7 @@ tags: [osaka2026, kyoto, kamogawadelta, demachi, kiyomizu, higashiyama, pontocho
   <strong>📋 Day 1 — ของที่ลืมง่าย</strong>
   <ul>
     <li><strong>Coin locker</strong> ที่ Kyoto Station ~¥700–1,000 — ถ้าโรงแรมยังไม่รับฝากของหรือไม่อยากแวะ</li>
-    <li><strong>eSIM</strong> ที่ดีสุดซื้อ Klook/Saily ก่อนบิน — ถ้าลืมก็ซื้อที่ KIX Counter ขณะรอ Haruka (~¥2,000 / 7 วัน)</li>
+    <li><strong>📱 เปิด Data Roaming ตอนลงเครื่อง</strong> — เปิดแพ็กเกจโรมมิ่งไว้ก่อนบินแล้ว แต่ต้องกดเปิด Data Roaming ในตั้งค่ามือถือเองอีกที · เช็คว่าเน็ตติดก่อนออกจากสนามบิน · ถ้าไม่ติดให้ใช้ Google Maps offline ที่เซฟไว้</li>
     <li><strong>เงินสดเยนแลกจากไทยมาแล้ว</strong> — ซื้อและเติม ICOCA รับเงินสดเท่านั้น บัตรเครดิตต่างชาติใช้ไม่ได้ · เตรียม <strong>¥12,000/คน</strong> (2 คน ¥24,000) สำหรับบัตร + เติม</li>
     <li><strong>แบงก์ ¥10,000</strong> ใช้ซื้อ ICOCA ได้สบาย แต่ต้องมี <strong>¥1,000 กับเหรียญ</strong> ติดตัวด้วย — ค่าเข้าวัด ร้านมจิ ตู้หยอด ใช้แบงก์ใหญ่ไม่ได้</li>
     <li><strong>ATM 7-Eleven</strong> ที่ KIX + ทุกสาขาในเมือง — เป็นแผนสำรองถ้าเงินสดร่อยหรอ บัตรไทยกดได้ทุกใบ</li>

@@ -1,211 +1,258 @@
 ---
 day: 3
-title: Daruma Day — Katsuoji + Tennoji + Shinsekai
+title: Kobe West→East — Akashi Bridge · Suma Sea World · Meriken
 date: 2026-11-15
-location: Osaka · Minoo
-weather: ☀️ Clear · 16°C
-summary: เช้าขึ้น Midosuji Line ไปวัดดารุมะ Katsuo-ji บนเขามิโนะ · กลับ Osaka มื้อเที่ยงย่าน Umeda · บ่าย shopping omiyage ที่ Tennoji (Abeno Harukas) ก่อนเดินลง Shinsekai กิน Daruma Kushikatsu ร้านดั้งเดิม 1929 — daruma วัด → Daruma คุชิคัตสึ · จบเร็วเก็บแรงไว้ USJ วันพรุ่งนี้
+location: Kobe · Maiko · Suma
+weather: ⛅ Partly cloudy · 16°C
+summary: วันโกเบแบบเดินทางทิศเดียวไม่ย้อนทางเลย — พุ่งไปจุดไกลสุดก่อนตอนสาย ขึ้นทางเดินบนสะพานอาคาชิ 47 เมตรเหนือช่องแคบตอนแดดยังอยู่ ช่องพื้นกระจกจึงมองทะลุลงทะเลเห็นจริง · เที่ยงไล่กลับทางตะวันออกเข้า Suma Sea World ดูโชว์วาฬเพชฆาตที่มีที่เดียวในญี่ปุ่นตะวันตก · บ่ายแก่ต่อไป Harborland กินมื้อจริงวิวท่าเรือ แล้วปิดวันที่ Meriken Park รับพระอาทิตย์ตกกับไฟประดับ · จบที่จุดใกล้โอซากะสุด ถึงโรงแรมราวหกโมงสี่สิบ
 status: todo
 hero: ../../../assets/osaka-2026/day-3/hero.jpg
-heroAlt: ตุ๊กตาดารุมะเรียงรายตามทางเดินวัดบนเขา
+heroAlt: สะพานแขวนยาวข้ามช่องแคบตอนพระอาทิตย์ตก
 stats:
   steps: 0
-  spent: "¥6,960"
+  spent: "¥10,120"
   stops: 10
   photos: 0
 timeline:
-  - time: "06:30–07:30"
-    stop: Breakfast (DEL style buffet) + เตรียมตัว
+  - time: "07:45–08:30"
+    stop: Breakfast (DEL style buffet) — included
     cost: "—"
-    transit: 🍳 Breakfast buffet เปิด 06:30 sharp (รวมในราคา · ทุกวัน 06:30–11:00) · กิน 45 นาทีสบาย · ใส่รองเท้าเดินป่า · เผื่อ jacket ลมเย็นบนเขา
-  - time: "07:30–09:00"
-    stop: DEL style Shin Umeda → Katsuo-ji
-    cost: "¥860"
-    transit: "🅰️ DEL style → 🅱️ Katsuo-ji · 1. เดิน 15 นาทีไป Umeda Station · 2. Midosuji Line Platform เหนือ ทิศ Minoh-Kayano (terminus) · 3. นั่ง direct ~30 นาที, ¥430 ลงปลายทาง Minoh-Kayano · 4. ออก Exit 1 → bus stop Hankyu Bus 29 · 5. ขึ้น Bus 29 ทิศ Katsuoji (ทุก 30 นาที, ¥430, 25 นาที) · 6. ลงป้าย Katsuoji terminus"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=DEL+style+Osaka+Shin+Umeda&destination=Katsuoji+Temple&travelmode=transit
-  - time: "09:00–11:00"
-    stop: 🎎 Katsuo-ji — วัดดารุมะบนเขา + ใบไม้แดง
-    cost: "¥500"
-    transit: "🅰️ Bus stop → 🅱️ Main hall · 1. เดินขึ้นบันไดเข้าวัด (5 นาที) · 2. ค่าเข้าวัด ¥500 (cash หรือ ICOCA) · 3. daruma เรียงรายเป็นพัน ๆ ทั่วเขา · 4. Mizuko Jizo (iconic photo spot) → Tenkozan viewpoint → Bell of Wisdom"
-  - time: "11:00–12:30"
-    stop: Katsuoji → Umeda (return)
-    cost: "¥860"
-    transit: "🅰️ Katsuoji → 🅱️ Umeda · 1. Hankyu Bus 29 ลงจากเขา → Minoh-Kayano (25 นาที, ¥430 · ทุก 30 นาที — เผื่อรอ) · 2. Midosuji Line direct → Umeda (30 นาที, ¥430)"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Katsuoji+Temple&destination=Umeda+Station&travelmode=transit
-  - time: "12:30–14:00"
-    stop: Lunch — Umeda area (Osaka specialty)
-    cost: "¥1,500"
-    transit: "🍴 หลังเดินทาง 1.5 ชม. หิวแล้ว · เลือกใน LUCUA / Grand Front / Hankyu food court ตามอารมณ์ · option: kitsune udon (Osaka-style) · doteyaki · curry udon · negiyaki"
-  - time: "14:00–14:20"
-    stop: Umeda → Tennoji (Midosuji direct)
-    cost: "¥280"
-    transit: "🅰️ Umeda → 🅱️ Tennoji · 1. Midosuji Line ทิศใต้ (Nakamozu-bound) · 2. นั่ง direct 12 นาที, ¥280 · 3. ลง Tennoji · ออกทางเชื่อมเข้า shopping zone ได้เลย"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Umeda+Station&destination=Tennoji+Station&travelmode=transit
-  - time: "14:20–17:00"
-    stop: 🛍️ Shopping omiyage — Tennoji (Abeno Harukas + Mio)
-    cost: "TBD"
-    transit: "🛍️ Tennoji shopping zone · 1. **Abeno Harukas** (300 ม. ตึกสูงสุดญี่ปุ่น) — Kintetsu Department B1 depachika สำหรับ omiyage premium · ขึ้นชมวิวชั้น 60 ¥1,500 (optional · sunset ~16:50) · 2. **Tennoji Mio** — Royce/Pablo/Kit Kat/Tokyo Banana · 3. **Q's Mall** — kids + Glico · 4. ที่ KIX ก่อนบิน Day 5 ก็มี 551 Hourai pork buns"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tennoji+Station&destination=Abeno+Harukas&travelmode=walking
-  - time: "17:00–17:15"
-    stop: Tennoji → Shinsekai (เดิน 10 นาที)
-    cost: "—"
-    transit: "🚶 Tennoji → Shinsekai · 1. ออก Tennoji West Exit · 2. เดินตรงทิศตะวันตก ~10 นาที · 3. ถึง Janjan Yokocho + Tsutenkaku tower ฝั่งใต้"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tennoji+Station&destination=Tsutenkaku+Tower&travelmode=walking
-  - time: "17:15–19:00"
-    stop: 🍢 Daruma Kushikatsu (ร้านดั้งเดิม 1929) + Tsutenkaku
-    cost: "¥3,000"
-    transit: "🅰️ Shinsekai walk · 1. เดินผ่าน Janjan Yokocho ตรอกเก่าแก่ · 2. Daruma Sohonten ป้าย daruma สีแดง · 3. order tablet ภาษาอังกฤษได้ · ¥130-250/ไม้ · ⚠️ no double-dip! · 4. หลังกินเดินผ่าน Tsutenkaku tower (108 ม.) ถ่ายภาพ neon"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tennoji+Station&destination=Kushikatsu+Daruma+Sohonten&travelmode=walking
-  - time: "19:00–19:45"
-    stop: Shinsekai → DEL style Shin Umeda (กลับเร็ว นอนก่อน USJ)
+    transit: 🍳 บุฟเฟต์เปิด 06:30–11:00 · Day 2 จบ Dotonbori 21:00 · วันนี้ตื่น 07:00 ไม่ต้องตี 5 — แต่ออกเช้ากว่าเดิมเพราะต้องพุ่งไปจุดไกลสุดก่อน
+  - time: "09:00–09:15"
+    stop: Fukushima → Osaka Station
+    cost: "¥140"
+    transit: "🅰️ DEL style → 🅱️ Osaka Station · 1. เดิน 5 นาทีไป JR Fukushima · 2. Osaka Loop Line 1 สถานี ¥140 · 3. หรือเดินตรงไป Osaka Station ~15 นาที"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=DEL+style+Osaka+Shin+Umeda&destination=34.7025,135.4962&travelmode=transit
+  - time: "09:15–10:05"
+    stop: JR Osaka → Maiko — ⚠️ ต้องขึ้น Rapid ไม่ใช่ Special Rapid
+    cost: "¥1,080"
+    transit: "🅰️ Osaka Station → 🅱️ Maiko · 1. JR Kobe Line ทิศ Himeji · 2. ✅ **Rapid ขึ้นตรงได้ ไม่ต้องต่อ** ~50 นาที ¥1,080 · 3. 🔴 **Special Rapid ไม่จอด Maiko** (จอด Osaka-Amagasaki-Ashiya-Sannomiya-Kobe-**Akashi**-Nishi-Akashi-Kakogawa-Himeji) วิ่งผ่านไป Akashi เลย · 4. ทางเลือกต่อ 1 ครั้ง — Special Rapid ถึง **Kobe** แล้วเปลี่ยนเป็น Rapid/Local (เปลี่ยนที่ Kobe ดีกว่า Sannomiya เพราะขาต่อสั้นกว่า) เวลารวมใกล้เคียงกัน แล้วแต่ขบวนไหนมาก่อน · 5. ⚠️ **Rapid มาทุก ~15 นาทีเท่านั้น** (Maiko มีแต่ Rapid กับ Local จอด) — เช็คเวลาออกก่อนออกจากโรงแรม พลาดแล้วรอ 15 นาที · 6. ⚠️ **Rapid บางขบวนช่วงเร่งด่วนเช้าวิ่งผ่าน Maiko** — เช็คแผนผัง 停車駅 บนป้ายชานชาลาว่ามี 舞子 หรือเช็คใน Google Maps ก่อนขึ้น · 7. ลง Maiko → เดินใต้ทางลงสะพาน 5 นาที"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=34.7025,135.4962&destination=34.6335,135.0338&travelmode=transit
+  - time: "10:15–11:45"
+    stop: 🌉 สะพานอาคาชิ — Maiko Park ใต้ตอม่อ + ทางเดิน Marine Promenade
+    cost: "¥300"
+    transit: "🚶 1. **Maiko Park ฟรี** — สนามหญ้าใต้ตอม่อ ยืนใต้โครงเหล็กที่สูงขึ้นไป 65 เมตร เห็นสเกลจริงของสะพาน + ทางเดินริมทะเลมองไปตามช่องแคบ เกาะอาวาจิฝั่งตรงข้าม · 2. **Marine Promenade ¥300** (เสาร์-อาทิตย์) — ทางเดินยื่นออกไปในช่องแคบ **317 เมตร สูงจากทะเล 47 เมตร** ใต้ตัวสะพาน · 3. ⭐ **มาตอนสายจึงใช้ช่องพื้นกระจกได้** — มองทะลุลงเห็นน้ำจริง ถ้ามาตอนค่ำเห็นแต่ความมืด · 4. เปิด 09:00–18:00 · เข้าได้ถึง 17:30 · ปิดจันทร์ที่ 2 ของเดือนช่วง ต.ค.-มี.ค. → **15 พ.ย. เป็นอาทิตย์ เปิดปกติ**"
+    mapUrl: https://www.google.com/maps/search/?api=1&query=34.6311,135.0330
+  - time: "11:50–12:00"
+    stop: Maiko → Suma Kaihin Koen (4 สถานี ไล่กลับทางตะวันออก)
     cost: "¥240"
-    transit: "🅰️ Shinsekai → 🅱️ DEL style · 1. เดินไป Dobutsuen-mae Station Exit 1 · 2. Midosuji Line ทิศ Umeda 7 stops, 15 นาที, ¥240 · 3. ลง Umeda → เดิน 15 นาทีกลับ DEL style · ถึง ~19:45 · พักเต็มที่ก่อน USJ Day 4 ตื่น 06:30"
-    mapUrl: https://www.google.com/maps/dir/?api=1&origin=Tsutenkaku+Tower&destination=DEL+style+Osaka+Shin+Umeda&travelmode=transit
+    transit: "🅰️ Maiko → 🅱️ Suma Kaihin Koen · 1. JR Kobe Line ทิศ Osaka · 2. 🔴 **Special Rapid ไม่จอดสถานีนี้เหมือนกัน** — ขึ้น Local หรือ Rapid · 3. ~10 นาที ¥240 · **ช่วงนี้ Local ก็จอด = มีรถทุก ~5-7 นาที ไม่ต้องดูตาราง** · 4. ซีเวิลด์เดินจากสถานี 5 นาที · 💡 **แวะ konbini ที่สถานีซื้อ onigiri ติดไป** — กินตอนรอโชว์ เพราะมื้อจริงอยู่ 15:00"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=34.6335,135.0338&destination=34.6471,135.1266&travelmode=transit
+  - time: "12:10–14:20"
+    stop: 🐋 Kobe Suma Sea World — โชว์วาฬเพชฆาต ที่เดียวในญี่ปุ่นตะวันตก
+    cost: "¥4,900"
+    transit: "🐋 เปิด 10:00–18:00 · เข้าได้ถึง 1 ชม.ก่อนปิด · 🔴 **ต้องซื้อตั๋วออนไลน์ล่วงหน้า — วันอาทิตย์อาจไม่ขายตั๋วหน้างานเลย** · 1. 🔴 **เช็คตารางรอบโชว์ทันทีที่เข้า** — รอบเปลี่ยนตามวัน · โชว์วาฬ 20 นาที แต่ต้องไปนั่งรอก่อน 20-30 นาที = ก้อน ~50 นาทีที่ตัดไม่ได้ · 2. **เล็งโชว์วาฬรอบเดียว** แล้วทิ้งโชว์โลมา — 2 ชม.10 พอดี · 3. วาฬมี 2 ตัว ชื่อ Stella กับ Ran · 4. ⚠️ **แถวหน้าเปียกแน่** มีเสื้อกันฝนขายหน้าสนาม · 5. เดินอควาเรียมอีก ~60 นาที · 6. กินเบา ๆ ในสวน ~¥1,200 (มื้อจริงไว้ 15:00 ที่ Harborland) · 7. **ค่าเข้าผู้ใหญ่ ¥2,900-3,700 ตามซีซั่น** — Peak ¥3,700 / High ¥3,300 / Regular ¥3,100 / Off-season ธ.ค.-มี.ค. ¥2,900 · **15 พ.ย. อาทิตย์กลางเดือนพฤศจิกา น่าจะอยู่ระดับ High-Peak ¥3,300-3,700** · กดดูราคาวันนั้นได้จากปฏิทินบนเว็บ"
+    mapUrl: https://www.google.com/maps/search/?api=1&query=34.6440,135.1278
+  - time: "14:30–14:45"
+    stop: Suma Kaihin Koen → Kobe Station
+    cost: "¥260"
+    transit: "🅰️ Suma Kaihin Koen → 🅱️ Kobe Station · 1. JR Kobe Line ทิศ Osaka ~12 นาที ¥260 · 2. ลง Kobe Station → เดินเชื่อมเข้า Harborland ได้เลย ~5 นาที"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=34.6471,135.1266&destination=34.6793,135.1783&travelmode=transit
+  - time: "15:00–16:00"
+    stop: 🍽️ มื้อจริงที่ Harborland / Mosaic — ร้านเยอะ วิวท่าเรือ
+    cost: "¥2,500"
+    transit: "🍴 1. **umie Mosaic** ห้างริมน้ำติด Kobe Station — ร้านอาหารหลายสิบร้าน หลายร้านมีวิวท่าเรือ · 2. บ่ายสามไม่ใช่เวลาพีค ไม่ต้องจอง ไม่ต้องรอคิว · 3. นั่งพักขาก่อนออกไปเดินรับพระอาทิตย์ตก · 4. กินอิ่มตอนนี้แล้วเย็นกลับโอซากะกินเบา ๆ หรือไม่กินก็ได้"
+    mapUrl: https://www.google.com/maps/search/?api=1&query=34.6796,135.1846
+  - time: "16:00–17:30"
+    stop: ⚓ Meriken Park + Harborland — sunset 16:48 → ไฟประดับติด
+    cost: "—"
+    transit: "🚶 **ฟรีทั้งหมด ไม่มีเวลาปิด** · 1. เดินจาก Mosaic ไป **Meriken Park** ~10 นาที · 2. **Port Tower** (ไม่ขึ้น ดูจากข้างล่าง) · ป้าย **BE KOBE** · อนุสรณ์แผ่นดินไหวฮันชิน · 3. **พระอาทิตย์ตก 16:48** — อ่าวหันทางใต้ ได้ฟ้าสีกับไฟเมืองสะท้อนน้ำ · 4. ⭐ **หลังฟ้ามืดยังอยู่ต่อได้** — ชิงช้าสวรรค์ Mosaic กับไฟประดับริมน้ำติดพอดี ต่างจากที่สะพานที่มืดแล้วก็หมด"
+    mapUrl: https://www.google.com/maps/search/?api=1&query=34.6833,135.1893
+  - time: "17:30–18:40"
+    stop: Meriken Park → Kobe Station → Osaka → โรงแรม (~70 นาที door-to-door)
+    cost: "¥700"
+    transit: "🅰️ Meriken Park → 🅱️ DEL style · **แยกเวลาจริงทีละช่วง** — 1. เดิน Meriken → JR Kobe Station ~15 นาที · 2. รอรถ ~5-8 นาที — **ขากลับสบายสุด เพราะ Special Rapid กับ Rapid รวมกันมีรถเร็วทุก ~7-8 นาที** · 3. **JR Special Rapid → Osaka ~25 นาที ¥560** (ขากลับขึ้น Special Rapid ได้ เพราะจอด Kobe Station) · 4. เปลี่ยนสาย + Loop Line 1 สถานีลง Fukushima ~10 นาที ¥140 · 5. เดินเข้าโรงแรม ~5 นาที · **รวม ~60-70 นาที door-to-door** (Google Maps บอก ~47 นาทีถ้านับจากชานชาลา Kobe Station ไม่รวมเดินจาก Meriken) · 6. ⭐ ยังดีกว่าย้อนจาก Maiko ซึ่งช่วงรถไฟเดียวก็ 50 นาทีแล้ว"
+    mapUrl: https://www.google.com/maps/dir/?api=1&origin=34.6793,135.1783&destination=DEL+style+Osaka+Shin+Umeda&travelmode=transit
 coords:
-  - label: Umeda Station
-    lat: 34.7024
-    lng: 135.4959
-  - label: Minoh-Kayano Station
-    lat: 34.8398
-    lng: 135.4892
-  - label: Katsuo-ji Temple
-    lat: 34.8606
-    lng: 135.4869
-  - label: Tennoji Station (Abeno Harukas)
-    lat: 34.6464
-    lng: 135.5135
-  - label: Tsutenkaku Tower (Shinsekai)
-    lat: 34.6525
-    lng: 135.5063
-  - label: Daruma Sohonten (Shinsekai original)
-    lat: 34.6519
-    lng: 135.5060
-photos:
-  - ../../../assets/osaka-2026/day-3/katsuoji.png
-  - ../../../assets/osaka-2026/day-3/abeno-harukas.png
-  - ../../../assets/osaka-2026/day-3/shinsekai.png
+  - label: JR Fukushima Station (Osaka)
+    lat: 34.6976
+    lng: 135.4849
+  - label: Maiko Marine Promenade (Akashi Bridge)
+    lat: 34.6311
+    lng: 135.0330
+  - label: Suma Kaihin Koen Station
+    lat: 34.6471
+    lng: 135.1266
+  - label: Kobe Suma Sea World
+    lat: 34.6440
+    lng: 135.1278
+  - label: Kobe Station
+    lat: 34.6793
+    lng: 135.1783
+  - label: Harborland · umie Mosaic
+    lat: 34.6796
+    lng: 135.1846
+  - label: Meriken Park
+    lat: 34.6833
+    lng: 135.1893
 references:
-  - title: Katsuo-ji temple — visitor info + daruma history
-    url: https://katsuo-ji-temple.or.jp/en/
-    icon: 🎎
-  - title: Hankyu Bus 29 — Minoh-Kayano → Katsuo-ji timetable
-    url: https://bus.hankyu.co.jp/global/en/
-    icon: 🚌
-  - title: Abeno Harukas — tallest building Japan + Kintetsu Dept
-    url: https://www.abenoharukas-300.jp/en/
-    icon: 🏢
-  - title: Shinsekai + Tsutenkaku — visitor guide
-    url: https://www.japan-guide.com/e/e4006.html
-    icon: 🗼
-  - title: Daruma Kushikatsu — origin + double-dip rule
-    url: https://kushikatu-daruma.com/en/
-    icon: 🍢
-tags: [osaka2026, katsuoji, daruma, tennoji, abenoharukas, shopping, omiyage, shinsekai, kushikatsu, daytrip]
+  - title: Maiko Marine Promenade — hours, fee & access
+    url: https://hyogo-maikopark.jp/facility/f01/
+    icon: 🌉
+  - title: Kobe Suma Sea World — official site
+    url: https://www.kobesuma-seaworld.jp/
+    icon: 🐋
+  - title: Suma Sea World — admission & ticket calendar
+    url: https://www.kobesuma-seaworld.jp/guide/price_ticket/
+    icon: 🎟️
+  - title: Suma Sea World — buy date-designated tickets
+    url: https://tix.kobesuma-seaworld.jp/
+    icon: 🎫
+  - title: umie Harborland — shops & restaurants
+    url: https://umie.jp/
+    icon: 🍽️
+  - title: Feel Kobe — official city tourism
+    url: https://www.feel-kobe.jp/en/
+    icon: ⚓
+tags: [osaka2026, kobe, akashibridge, maiko, sumaseaworld, orca, harborland, meriken, sunset, daytrip]
 ---
 
-วันนี้ธีม **"Daruma Day"** — เริ่มที่วัด daruma บนเขา Mino จบที่ร้าน Daruma Kushikatsu ดั้งเดิม
-ของโอซากะ · ระหว่างกลางคือ **Tennoji shopping** ซื้อ omiyage ก่อน Day 5 KIX
+วันนี้เกิดจากการตัด **USJ** ออก — เคยไปแล้ว + บัตร ~¥27,000/คน + 16 พ.ย. คือช่วงคนเยอะที่สุดของปี
+แล้วสลับให้ **Daruma Day ย้ายไปวันจันทร์** (บัสขึ้น Katsuoji ว่างกว่า + Kitahama Retro จองได้)
+วันอาทิตย์ที่ว่างออกมาจึงยกให้ **โกเบ** — ของที่ทริปนี้ยังไม่มีเลย: **ทะเล กับเมืองท่าตะวันตก**
+· ประหยัดไปได้ ~¥20,000/คน
 
-ตัด Akashi/Kobe + Minoh Falls + Osaka Castle + **Sumiyoshi Taisha** ออกหมด ·
-**focus south Osaka loop** (Tennoji ↔ Shinsekai = เดินถึงกันได้) · efficient +
-**จบวัน 19:45 เก็บแรงไว้ USJ Day 4** ที่ต้องเดิน 15,000 ก้าว 11 ชั่วโมง
+**หลักของวันนี้คือเดินทางทิศเดียว** — พุ่งไปจุดไกลสุดก่อน แล้วไล่กลับทางตะวันออกเรื่อย ๆ
+จบที่จุดใกล้โอซากะที่สุด ไม่ย้อนทางแม้แต่ช่วงเดียว
+
+```
+โอซากะ ──→ Maiko ──→ Suma ──→ Kobe / Meriken ──→ โอซากะ
+           ไกลสุด              ไล่กลับตะวันออก        กลับแค่ 25 นาที
+```
 
 <div class="callout">
   <strong>📋 Day 3 — ของที่ลืมง่าย</strong>
   <ul>
-    <li><strong>👟 รองเท้าสบาย</strong> — เดินรวม ~6,000-8,000 ก้าว (Katsuoji เขา + Tennoji shopping) · ไม่ลุยป่า</li>
-    <li><strong>🍁 Katsuo-ji ใบไม้แดงพีค 14–17 พ.ย.</strong> — ที่นี่คนโอซากะมาดู momiji ไม่ต้องไปแย่ง Kyoto</li>
-    <li><strong>🎎 Daruma "wish doll"</strong> — ซื้อตา 1 ข้างทาเอง พอสมหวังค่อยทาอีกข้าง · ฝากที่วัดเลยก็ได้</li>
-    <li><strong>🚌 Hankyu Bus 29</strong> — จาก Minoh-Kayano ทุก 30 นาที · จ่ายเงินสดหรือ ICOCA · เผื่อรอ</li>
-    <li><strong>🌇 Abeno Harukas sunset ~16:50</strong> — ถ้าจะขึ้นชั้น 60 (¥1,500) ให้ขึ้นราว 16:15 จะได้ทั้งวิวกลางวันและไฟเมืองตอนค่ำ</li>
-    <li><strong>🛍️ Omiyage zones</strong> — Abeno Harukas Kintetsu B1 (premium), Tennoji Mio (mass), Q's Mall (kids) · ถูกกว่า KIX duty-free</li>
-    <li><strong>🥟 551 Hourai pork buns</strong> — ซื้อ Day 5 ที่ KIX ดีกว่า (fresh กิน 4 ชม.) — Tennoji เก็บของฝากเก็บได้นาน</li>
-    <li><strong>🍢 Daruma Kushikatsu rule</strong> — ห้ามจิ้มซอสซ้ำ (double-dip)! · มีถ้วยซอสกลางโต๊ะ · ใครจุ่มแล้วห้ามจุ่มอีก · มีกะหล่ำดิบฟรี</li>
-    <li><strong>🧥 เสื้อกันลม</strong> — Katsuoji บนเขาหนาวกว่าในเมือง 3-4°C ตอนเช้า · กลับเมือง 12:30 ก็อุ่น</li>
-    <li><strong>💤 เก็บแรง USJ Day 4</strong> — Day 4 ตื่น 06:30 ลุย USJ ถึง 19:00 = 12 ชม. · Day 3 ตอนเย็นนอนเร็ว</li>
+    <li>🔴 <strong>Special Rapid ไม่จอดทั้ง Maiko และ Suma Kaihin Koen</strong> — ขาไปขึ้น <strong>Rapid</strong> ทั้งสองครั้ง (<strong>Rapid ตรงถึง Maiko ไม่ต้องต่อ</strong>) · ขากลับจาก Kobe Station ขึ้น Special Rapid ได้ · ⚠️ Rapid บางขบวนช่วงเร่งด่วนเช้าผ่าน Maiko — เช็คแผนผัง 停車駅 บนป้ายชานชาลาว่ามี <strong>舞子</strong></li>
+    <li>🔴 <strong>เช็คตารางรอบโชว์วาฬทันทีที่เข้าซีเวิลด์</strong> — รอบเปลี่ยนตามวัน · ถ้ารอบถัดไปอยู่ไกลจะติดอยู่เกิน 2 ชม.10 ที่วางไว้</li>
+    <li>🔴 <strong>ตั๋วซีเวิลด์ต้องซื้อออนไลน์ล่วงหน้า — วันที่คนเยอะ "ไม่ขายตั๋วหน้างานเลย"</strong> · เว็บทางการระบุว่าขายเป็นตั๋วระบุวัน-เวลาผ่านออนไลน์และแนะนำให้ซื้อล่วงหน้า · ตั๋วหน้างานมีหรือไม่มีต้องดูหน้าแรกเว็บ/SNS ของวันนั้น · <strong>15 พ.ย. เป็นวันอาทิตย์ = เสี่ยงสูงว่าไม่มีขาย</strong></li>
+    <li><strong>🎫 เปิดขายวันที่ 1 ของทุกเดือน ล่วงหน้า 2 เดือน</strong> → ตั๋ว 15 พ.ย. ซื้อได้ตั้งแต่ <strong>1 ต.ค.</strong> · <strong>ผู้ใหญ่ ¥2,900-3,700 ตามซีซั่น</strong> (15 พ.ย. น่าจะ ¥3,300-3,700) · จองที่ <strong>tix.kobesuma-seaworld.jp/?lang=en</strong> มีภาษาอังกฤษ</li>
+    <li><strong>🌉 Promenade ซื้อหน้าเคาน์เตอร์ ¥300 เงินสด</strong> — ไม่มีระบบจองรอบ · ทั้งวันมีแค่ตั๋วซีเวิลด์ที่ต้องจองล่วงหน้า</li>
+    <li><strong>🍙 แวะ konbini ตอนเปลี่ยนรถที่ Suma</strong> — มื้อจริงอยู่ 15:00 · กินเช้า 08:00 แล้วรอถึงบ่ายสามนานเกินไป ซื้อ onigiri ติดไปกินตอนรอโชว์</li>
+    <li><strong>🧥 ลมช่องแคบแรง</strong> — 47 เมตรเหนือทะเลตอนสาย ลมแรงกว่าในเมืองหลายองศา</li>
+    <li><strong>☔ โชว์วาฬน้ำสาด</strong> — แถวหน้าเปียกแน่ · มีเสื้อกันฝนขายหน้าสนาม · เลี่ยงแถวหน้าถ้าไม่อยากเปียก</li>
+    <li><strong>💴 Cash</strong> — Promenade รับเงินสด · ซีเวิลด์กับ Harborland รับบัตร · เผื่อ ~¥2,000</li>
   </ul>
 </div>
 
-## ภาคเช้า — Katsuo-ji วัดดารุมะ (09:00–11:00)
+## เช้า — สะพานอาคาชิ ตอนแดดยังอยู่ (10:15–11:45)
 
-06:30 ลงไปกิน **breakfast buffet โรงแรม** (เปิด 06:30 sharp · รวมในราคา) · กิน 45 นาทีสบาย
-ออกจาก **DEL style Shin Umeda** 07:30 เดิน 15 นาทีไป **Umeda Station** · **Midosuji Line**
-ทิศเหนือ direct ลงปลายทาง **Minoh-Kayano** (Midosuji extension ใหม่ 2024)
-ต่อ **Hankyu Bus 29** ที่ Exit 1 ขึ้นวัดบนเขาประมาณ 25 นาที — ทุก 30 นาที
+**Akashi Kaikyo Bridge (明石海峡大橋)** — สะพานแขวนที่ยาวที่สุดในโลกมาเกือบ 25 ปี
+และ **ขึ้นไปเดินบนสะพานได้จริง**
 
-**Katsuo-ji** หรือ "วัดแห่งชัยชนะ" มีตุ๊กตาดารุมะแดงเรียงรายเป็นพัน ๆ ตัว
-ทั่วเขา — ตามทางเดิน ในซอกหิน ในแอ่งน้ำ · ใบไม้แดงกลางพ.ย. จัดเต็มเหมือนเกียวโต
-แต่คนน้อยกว่ามาก
+- **🏖️ Maiko Park (ฟรี)** — สนามหญ้าใต้ตอม่อ ยืนใต้โครงเหล็กที่สูงขึ้นไป **65 เมตร**
+  เห็นสเกลจริงของสะพานแบบที่รูปถ่ายไม่เคยให้ · ทางเดินริมทะเลมองไปตามช่องแคบ
+  เกาะอาวาจิอยู่ฝั่งตรงข้าม
+- **🌉 Marine Promenade (¥300)** — ทางเดินยื่นออกไปในช่องแคบ
+  **317 เมตร สูงจากทะเล 47 เมตร** ใต้ตัวสะพาน · มีช่องพื้นกระจก
 
-### 🎎 กิจกรรมที่ Katsuo-ji (2 ชม.)
+<div class="callout">
+  <strong>⭐ เหตุผลที่สะพานอยู่ตอนสาย ไม่ใช่ตอนเย็น</strong>
+  <p><strong>ช่องพื้นกระจกใช้ได้เฉพาะตอนมีแสง</strong> — ตอนค่ำมองลงไปเห็นแต่ความมืด
+  · โครงสร้างสะพานกับเกาะอาวาจิก็เห็นชัดกว่าตอนเป็นเงาดำ</p>
+  <p>แลกด้วยการเสีย <strong>ไฟสะพานตอนค่ำ</strong> (เปลี่ยนสีตามฤดู) — แต่พระอาทิตย์ตกย้ายไปอยู่ที่
+  <strong>Meriken Park ซึ่งมีไฟประดับให้ดูต่อหลังฟ้ามืด</strong> ส่วนที่สะพานพอมืดแล้วก็หมด
+  ต้องนั่งรถ 50 นาทีกลับ</p>
+</div>
 
-- **🎎 ซื้อ Daruma + ทาตา 1 ข้าง** (¥500–3,000 ตามขนาด) — เลือกสีตามคำขอ:
-  แดง = ความฝัน · ทอง = เงิน · ขาว = ความรัก · ดำ = ปัดเป่าโรค
-  ทาตาซ้ายตอนซื้อ + ทาตาขวาเมื่อสมหวัง
-- **🍁 ภาพ Mizuko Jizo** — ดารุมะวางในแอ่งน้ำ + ใบไม้แดง · iconic photo spot ของวัด
-- **🥾 เดินขึ้น Tenkozan viewpoint** — 15 นาทีจาก main hall · พาโนรามาวัดเต็ม
-- **🔔 ตี Bell of Wisdom** — main hall · ¥100 บริจาค
-- **🍵 Tea house ที่วัด** — matcha + wagashi ¥600 · นั่งพักหลังเดิน
-- **📿 Omamori (เครื่องราง)** — luck charm · เลือก safe travel · ¥500–1,000
+<div class="callout callout-warning">
+  <strong>🔴 ถ้าจองตั๋วซีเวิลด์ไม่ได้ — แผนสำรอง</strong>
+  <p>วันที่คนเยอะ <strong>ซีเวิลด์ไม่ขายตั๋วหน้างานเลย</strong> · ถ้าพลาดรอบเปิดขาย 1 ต.ค. แล้วเต็ม
+  ให้ข้าม Suma ไปเลย แล้วยืดสองที่ที่เหลือ:</p>
+  <ul>
+    <li><strong>สะพานอาคาชิ 10:15–12:30</strong> (เพิ่ม 45 นาที) — เดิน Maiko Park กับริมทะเลให้เต็ม</li>
+    <li><strong>Harborland + Meriken 13:30–17:30</strong> (เพิ่ม 90 นาที) — กินมื้อเที่ยงตามเวลาปกติ เดินท่าเรือยาว ๆ · เติม <strong>Motomachi arcade</strong> หรือ <strong>ไชน่าทาวน์</strong> ได้ถ้าอยาก</li>
+  </ul>
+  <p>วันยังสมบูรณ์ ไม่พัง — แค่เปลี่ยนจาก 3 ที่เป็น 2 ที่แบบอยู่นานขึ้น · และประหยัด ~¥3,500/คน</p>
+</div>
 
-## ภาคกลาง — กลับ Osaka + Lunch (11:00–14:00)
+*ไม่เอา **Bridge World Tour** (ขึ้นลิฟต์ไปยอดเสา 289 ม. ~¥5,000) — ใช้เวลา 3 ชม.
+ต้องจองล่วงหน้า เปิดเฉพาะบางวัน ไกด์ญี่ปุ่นเป็นหลัก · เก็บไว้ทริปหน้า*
 
-11:00 ออกจาก Katsuoji ทาง **Hankyu Bus 29** ลงไป Minoh-Kayano (¥430 · 25 นาที ·
-ทุก 30 นาที — เผื่อรอ) แล้ว **Midosuji Line** direct → Umeda (¥430, 30 นาที)
-ถึง Umeda 12:30 หิวพอดี
+## เที่ยง — Suma Sea World (12:10–14:20)
 
-### 🍴 Lunch — Umeda area (12:30–14:00)
+**เปิดใหม่ มิ.ย. 2024** · **ที่เดียวในญี่ปุ่นตะวันตกที่มีโชว์วาฬเพชฆาต** — มี 2 ตัว ชื่อ **Stella** กับ **Ran**
 
-หลังเดินทาง 1.5 ชม. หิวแล้ว · เลือกจาก food hall ขนาดใหญ่ใน Umeda:
+**ทำเลลงตัวพอดี** — JR **Suma Kaihin Koen** เดิน 5 นาที · อยู่บนสาย JR Kobe
+**ระหว่าง Maiko กับโกเบ** เลยแวะได้โดยไม่ต้องย้อนทาง
 
-- **LUCUA Osaka 10F** — restaurants 30+ ร้าน · view Umeda
-- **Grand Front Osaka B1 Umekita Floor** — wagyu bowl, sushi, soba, ramen
-- **Hankyu Department B1** — depachika food hall · grab quickly
-- **Osaka specialty** — kitsune udon (Osaka-style sweet fried tofu udon) · doteyaki (beef tendon miso) · curry udon · negiyaki
+### วางเวลา 2 ชม.10 อย่างไร
 
-## ภาคบ่าย — 🛍️ Tennoji Shopping (14:00–17:00)
+```
+โชว์วาฬ 20 นาที + ไปนั่งรอก่อน 20-30 นาที   ~50 นาที  ← ตัดไม่ได้
+เดินอควาเรียม                                ~60 นาที
+กินเบา ๆ + ซื้อของ                           ~20 นาที
+```
 
-จาก Umeda ขึ้น **Midosuji Line** ทิศใต้ (Nakamozu-bound) direct 12 นาที ¥280 ลง
-**Tennoji** — ออกทางเชื่อมเข้า shopping zone ได้เลย ไม่ต้องขึ้นมาบนดิน
+🔴 **เช็คตารางรอบทันทีที่เข้า** แล้ววางทุกอย่างรอบโชว์วาฬรอบเดียว · **ทิ้งโชว์โลมา**
+ถ้าพยายามเก็บทั้งสองโชว์จะกินเวลาเกิน 3 ชั่วโมง
 
-*เดิมช่วงนี้แวะ **Sumiyoshi Taisha** + Hankai Tram — ตัดออกเพื่อให้จบวันเร็วขึ้น
-~1.5 ชม. เก็บแรงไว้ USJ วันพรุ่งนี้ที่ต้องเดิน 15,000 ก้าว 11 ชั่วโมง*
+<div class="callout">
+  <strong>🍽️ กินเบาในสวน แล้วเก็บมื้อจริงไว้ Harborland</strong>
+  <p><strong>ย่าน Suma Kaihin Koen ไม่มีร้านอาหาร</strong> — เป็นย่านชายหาดกับบ้านพักอาศัย ·
+  ร้านชายหาดที่เปิดหน้าร้อน <strong>พฤศจิกายนปิดหมด</strong> · เดินหาร้านในย่านที่ไม่มีร้าน
+  = เสีย 30 นาทีเพื่อได้อาหารธรรมดา</p>
+  <p>→ <strong>กินของว่างในสวน ~¥1,200</strong> แล้วไปกินมื้อจริงที่ Harborland 15:00
+  ซึ่งมีร้านหลายสิบร้านและมีวิวท่าเรือ</p>
+  <p>มีตัวเลือกหรูในสวนคือ <strong>Blue Ocean</strong> — บุฟเฟต์หลังกระจกอะคริลิก 21 ม. เห็นวาฬว่ายตรงหน้า ·
+  Ocean Area ¥5,000 / Premium ¥6,000 <strong>ต้องจองล่วงหน้า (เปิดจอง 1 เดือนก่อน)</strong> ·
+  Beach Area ¥4,000 walk-in ได้แต่มองไม่เห็นบ่อ = ไม่คุ้ม · ถ้าจะกินที่นี่ต้องจอง Ocean Area ให้ได้</p>
+</div>
 
-### 🛍️ Tennoji Shopping (14:20–17:00)
+## บ่ายแก่ — Harborland + Meriken Park (15:00–17:30)
 
-- **🏢 Abeno Harukas** (300 ม.) — ตึกสูงที่สุดในญี่ปุ่น · **Kintetsu Department B1 depachika** สำหรับ omiyage premium · view deck ชั้น 60 ¥1,500 (optional · **sunset ~16:50** ขึ้นราว 16:15 จะได้ทั้ง 2 บรรยากาศ)
-- **🛒 Tennoji Mio** — ติด JR Tennoji Station · Royce, Pablo, Kit Kat, Tokyo Banana, Glico ครบ
-- **🍡 Q's Mall** — kids + casual brands
-- **🥟 551 Hourai Tennoji** — ตำนาน pork buns Osaka · (recommend ซื้อ Day 5 KIX แทน — fresh กิน 4 ชม.)
+Suma → **Kobe Station** 12 นาที ¥260 · ลงแล้วเดินเชื่อมเข้า **Harborland** ได้เลย
 
-**มีเวลาช้อป 2 ชม. 40 นาที** — สบาย ๆ ไม่ต้องรีบ · จบแล้วเดินไป Shinsekai
-**10 นาที** (ไม่ต้องนั่งรถไฟ!) — Tennoji ↔ Shinsekai ติดกัน
+- **🍽️ umie Mosaic (15:00–16:00)** — ห้างริมน้ำติดสถานี · ร้านอาหารหลายสิบร้าน
+  หลายร้านมีวิวท่าเรือ · **บ่ายสามไม่ใช่เวลาพีค ไม่ต้องจอง ไม่ต้องรอคิว**
+  · นั่งพักขาก่อนออกไปเดินรับพระอาทิตย์ตก
+- **⚓ Meriken Park (16:00–17:30 · ฟรี)** — เดินจาก Mosaic ~10 นาที
+  · **Port Tower** ดูจากข้างล่าง (ไม่ขึ้น) · ป้าย **BE KOBE** · อนุสรณ์แผ่นดินไหวฮันชิน
+  · **พระอาทิตย์ตก 16:48** — อ่าวหันทางใต้ ได้ฟ้าสีกับไฟเมืองสะท้อนน้ำ
 
-## ภาคเย็น — Shinsekai + Daruma Kushikatsu (17:15–19:00)
+<div class="callout">
+  <strong>⭐ ทำไมพระอาทิตย์ตกอยู่ที่ท่าเรือ ไม่ใช่ที่สะพาน</strong>
+  <p><strong>ที่นี่อยู่ต่อได้หลังฟ้ามืด</strong> — ชิงช้าสวรรค์ Mosaic กับไฟประดับริมน้ำติดตอน 17:00
+  พอดี เดินดูต่อได้อีกครึ่งชั่วโมงโดยไม่มีอะไรปิด</p>
+  <p>ส่วนที่สะพาน พอมืดแล้วก็หมด — ต้องนั่งรถ 50 นาทีกลับ ในขณะที่จากที่นี่กลับแค่ 25 นาที</p>
+</div>
 
-จาก Tennoji เดินตรงไป Shinsekai 10 นาที — ไม่ต้องนั่งรถไฟ · Tennoji West Exit →
-ตรงตะวันตก ~10 นาทีถึง Janjan Yokocho + Tsutenkaku tower
+*ไม่ขึ้น **Port Tower** (¥1,200 ต้องใช้ตั๋วระบุวัน-เวลา) — วันนี้ได้วิวจากบนสะพานมาแล้ว
+ไม่ต้องขึ้นตึกเพิ่ม · เดินในสวนกับถ่ายตัวหอจากข้างล่างฟรี*
 
-**Shinsekai (新世界)** = ย่าน retro Osaka ทศวรรษ 1910 รอบ Tsutenkaku tower
-ป้าย neon ใหญ่ + ป้ายร้านเป็นรูปสัตว์/อาหาร · ตรอก **Janjan Yokocho** เต็มไปด้วย
-ร้านเก่าแก่หลายสิบปี
+## กลับโอซากะ (17:30–18:40)
 
-### 🍢 Daruma Sohonten (元祖串かつ だるま 総本店)
+**ช่วงรถไฟหลักคือ Kobe Station → Osaka · JR Special Rapid 25 นาที ¥560** — ขากลับขึ้น
+Special Rapid ได้เพราะจอด Kobe Station
 
-**ร้านคุชิคัตสึต้นกำเนิดของโอซากะ** เปิดปี 1929 — ตำนานเล่าว่าผู้ก่อตั้ง **Yagi-san**
-หัวล้านเหมือนตุ๊กตา daruma ที่ภริยาเรียกแกว่า "Daruma" จึงตั้งชื่อร้าน
+แต่เวลาจริง door-to-door ยาวกว่านั้น:
 
-- **ที่อยู่:** Shinsekai, Naniwa-ku · เดิน 5 นาทีจาก Dobutsuen-mae Station Exit 1
-- **เปิด:** 11:00–22:30 · เย็นคิว ~30 นาที · บ่ายอาจรอน้อยกว่า
-- **เมนู:** kushikatsu ~14 ประเภท · ¥130–250/ไม้ · order tablet ภาษาอังกฤษได้
-- **กฎ "no double-dip":** ถ้วยซอสกลางโต๊ะ → จิ้มได้ครั้งเดียวต่อไม้ · กะหล่ำดิบฟรีใช้ตักซอสได้
-- **คาดงบ:** ¥2,500–3,500/คน อิ่ม + เบียร์ 1 แก้ว
+| | |
+|---|---|
+| เดิน Meriken → JR Kobe Station | ~15 นาที |
+| รอรถ *(Special Rapid + Rapid รวมกัน มีทุก ~7-8 นาที)* | ~5-8 นาที |
+| **Special Rapid → Osaka** | **~25 นาที** |
+| เปลี่ยนสาย + Loop Line ลง Fukushima | ~10 นาที |
+| เดินเข้าโรงแรม | ~5 นาที |
+| **รวม** | **~60 นาที** |
 
-### หลังกิน — Tsutenkaku tower + กลับ DEL style
+**ถึงโรงแรม ~18:40** — กินอิ่มตอนบ่ายสามมาแล้ว เย็นกินเบา ๆ แถวโรงแรมหรือไม่กินก็ได้
 
-หลังกินเดินผ่าน **Tsutenkaku tower** (108 ม., สร้างปี 1956) · ขึ้นไปข้างบนได้
-(¥1,000) — แต่ระดับสายตาก็เห็น neon ของย่านได้ครบ · ถ่ายภาพข้างล่างก็พอ
+*ยังดีกว่าย้อนจาก Maiko อยู่มาก — ช่วงรถไฟเดียวจาก Maiko ก็ 50 นาทีแล้ว ยังไม่นับเดินกับต่อรถ*
 
-กลับ **DEL style Shin Umeda** — Midosuji Line จาก Dobutsuen-mae ขึ้นทิศ Umeda
-7 stops (15 นาที, ¥240) → เดิน 15 นาทีกลับโรงแรม Fukushima Ward · **ถึง ~19:45** ·
-นอนเต็มอิ่มก่อน USJ Day 4 ตื่น 06:30 — วันที่หนักที่สุดของทริป
+พรุ่งนี้ Daruma Day ออก 07:30 ขึ้นเขา Katsuoji — **นอนเต็มอิ่ม ไม่ต้องตื่นตี 5**
+
+<div class="callout">
+  <strong>✂️ สิ่งที่ตัดออกจากโกเบ — และเหตุผล</strong>
+  <ul>
+    <li><strong>🌿 กระเช้า Nunobiki + สวนสมุนไพร</strong> (¥2,500) — ขึ้นราคาจาก ¥2,000 ตั้งแต่ เม.ย. 2026 · คิววันอาทิตย์ 20-30 นาที · และวันนี้ได้วิวจากบนสะพานแล้ว</li>
+    <li><strong>💧 Nunobiki Falls</strong> — ทางเป็นบันไดหินขึ้นเนิน 15 นาที</li>
+    <li><strong>🏛️ Kitano Ijinkan</strong> (¥500) — บ้านฝรั่งบนเนิน ต้องเดินขึ้น 15 นาทีไปและลง 15 นาทีกลับ</li>
+    <li><strong>🗼 ขึ้น Port Tower</strong> (¥1,200) — ต้องจองตั๋วระบุเวลา · ได้วิวจากสะพานแล้ว</li>
+    <li><strong>🥩 เนื้อโกเบ</strong> — มื้อเที่ยงอยู่ที่ Suma ไม่ได้แวะ Sannomiya · <strong>ยกไปกินคืนวันจันทร์ที่โอซากะแทน</strong> ร้านเนื้อโกเบดี ๆ ในโอซากะมีเยอะ</li>
+    <li><strong>🛍️ Motomachi arcade + ไชน่าทาวน์</strong> — ซ้ำกับอาร์เคดและตลาดที่ได้จากโอซากะอยู่แล้ว</li>
+    <li><strong>⛩️ Namba Yasaka + Sumiyoshi Taisha</strong> — อยู่โอซากะทางใต้ คนละทิศกับโกเบ</li>
+  </ul>
+  <p><strong>เหลือ 3 อย่างหลัก</strong> — สะพาน 90 นาที · ซีเวิลด์ 130 นาที · ท่าเรือ 150 นาที
+  · แทนที่จะวิ่ง 7-8 ที่แบบละ 30-40 นาที</p>
+</div>

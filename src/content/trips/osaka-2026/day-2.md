@@ -55,7 +55,7 @@ timeline:
   - time: "11:40–12:20"
     stop: JR Sagano back → Kyoto Station
     cost: "¥240"
-    transit: "🅰️ Togetsukyo → 🅱️ Kyoto Station · 1. เดินขึ้นเหนือกลับสถานี Saga-Arashiyama ~1.1 กม. (15 นาที) · 2. JR Sagano Line ทิศ Kyoto (5 stops, 15 นาที, ¥240) · 3. ลงที่ชานชาลา 32/33 — อยู่ปลายตะวันตกของสถานี"
+    transit: "🅰️ Togetsukyo → 🅱️ Kyoto Station · 1. เดินขึ้นเหนือกลับสถานี Saga-Arashiyama ~1.1 กม. (15 นาที) · 2. ⚠️ **JR Sagano Line มาทุก ~10-15 นาที** ไม่ใช่ทุกนาที — 40 นาทีนี้ตึง ถ้าพลาดขบวนจะเลื่อนไป 15 นาที · เช็คเวลารถก่อนออกจากสะพาน · 3. นั่ง 15 นาที ¥240 · 4. ลงที่ชานชาลา 32/33 — อยู่ปลายตะวันตกของสถานี · 5. **กันชนอยู่ที่มื้อเที่ยง** ถ้ามาสายก็กินเร็วขึ้น teamLab ยังทัน"
     mapUrl: https://www.google.com/maps/dir/?api=1&origin=Saga-Arashiyama+Station&destination=Kyoto+Station&travelmode=transit
   - time: "12:30–13:10"
     stop: 🍜 Lunch — Kyoto Station ฝั่ง Hachijo (ใต้) · กันชนก่อน teamLab
@@ -117,12 +117,6 @@ coords:
   - label: Dotonbori (Ebisubashi)
     lat: 34.6687
     lng: 135.5012
-photos:
-  - ../../../assets/osaka-2026/day-2/bamboo.png
-  - ../../../assets/osaka-2026/day-2/togetsukyo.png
-  - ../../../assets/osaka-2026/day-2/tenryuji.png
-  - ../../../assets/osaka-2026/day-2/otagi.png
-  - ../../../assets/osaka-2026/day-2/dotonbori.png
 references:
   - title: Arashiyama and Sagano — area guide
     url: https://www.japan-guide.com/e/e3912.html
@@ -142,8 +136,8 @@ references:
   - title: teamLab Biovortex Kyoto — official site
     url: https://www.teamlab.art/e/kyoto/
     icon: 🌌
-  - title: JR Tokaido/Kyoto Line — Special Rapid timetable
-    url: https://www.jrailpass.com/blog/jr-kyoto-line
+  - title: JR-WEST train usage guide — Special Rapid & fares
+    url: https://www.westjr.co.jp/travel-information/en/train-usage-guide/
     icon: 🚆
   - title: Dotonbori — visitor guide
     url: https://www.japan-guide.com/e/e4002.html
@@ -347,7 +341,7 @@ Station 17:30 → walk to Umeda hotel + Check-in ~45 นาที ก่อน�
     <li><strong>💴 ราคา total:</strong> ¥64,169 (~฿14,245) · ภาษีรวม · ชำระที่โรงแรม</li>
     <li><strong>ที่อยู่:</strong> 6 Chome-16-1 Fukushima, Fukushima Ward · เปิด 2020 · design hotel</li>
     <li><strong>🛁 อ่างน้ำ:</strong> ส่วนตัวในห้อง (ไม่มี 大浴場 ส่วนกลาง)</li>
-    <li><strong>📍 Location bonus:</strong> ใกล้ <strong>JR Fukushima Station</strong> = Day 4 USJ ตรงไปได้เลย (JR Yumesaki Line direct!)</li>
+    <li><strong>📍 Location bonus:</strong> ใกล้ <strong>JR Fukushima Station</strong> = Osaka Loop Line 1 สถานีถึง Osaka Station · Day 3 ออกโกเบและ Day 5 ขึ้น Haruka ไป KIX สะดวก</li>
     <li><strong>Free cancel:</strong> ก่อน 12 พ.ย. 23:59</li>
   </ul>
 </div>
