@@ -3,7 +3,7 @@ title: Osaka & Kansai
 location: Kyoto · Kansai · Osaka
 startDate: 2026-11-12
 endDate: 2026-11-17
-summary: ทริปวนคันไซในเดือนพฤศจิกายน — ขึ้น TG622 ดึกวันที่ 12 ลงเกียวโตเช้า 13 ช่วงใบไม้แดง เก็บฮิงาชิยามะ+Pontocho ปิดด้วยยากินิกุ วันสองอาราชิยามะ+Jojakko-ji+teamLab Biovortex ย้ายไปโอซากะตอนเย็น วันสามยกให้โกเบทั้งวันแบบเดินทางทิศเดียว สะพานอาคาชิตอนสาย Suma Sea World ดูโชว์วาฬเพชฆาต แล้วปิดที่ Meriken Park รับพระอาทิตย์ตกกับไฟประดับท่าเรือ ปิดท้าย Daruma Day ที่คัตสึโอจิ+คิตะฮามะ+Harukas 300 ก่อนบินกลับจาก KIX
+summary: ทริปวนคันไซในเดือนพฤศจิกายน — ขึ้น TG622 ดึกวันที่ 12 ลงเกียวโตเช้า 13 ช่วงใบไม้แดง เก็บฮิงาชิยามะ+Pontocho ปิดด้วยยากินิกุ วันสองอาราชิยามะ+Jojakko-ji+teamLab Biovortex ย้ายไปโอซากะตอนเย็น วันสามเป็น Daruma Day ที่คัตสึโอจิ+คิตะฮามะ+Harukas 300+คุชิคัตสึชินเซไก · วันสี่ยกให้โกเบทั้งวันแบบเดินทางทิศเดียว สะพานอาคาชิตอนสาย Suma Sea World ดูโชว์วาฬเพชฆาต แล้วปิดที่ Meriken Park รับพระอาทิตย์ตกกับไฟประดับท่าเรือ ปิดท้าย Daruma Day ที่คัตสึโอจิ+คิตะฮามะ+Harukas 300 ก่อนบินกลับจาก KIX
 travellers: 2
 cover: ../../assets/osaka-2026/day-1/hero.jpg
 coverAlt: Evening lanterns glowing along a Gion side street in Kyoto
@@ -23,15 +23,9 @@ preplan:
     - label: Book Osaka hotel — 14–17 Nov (3 คืน)
       status: done
       note: DEL style Osaka Shin Umeda by Daiwa Roynet · Hollywood Twin · breakfast included × 3 mornings · ¥64,169 paid at hotel · Fukushima Ward (JR Loop Line 1 สถานีถึง Osaka Station — ออกโกเบ/เกียวโตสะดวก)
-    - label: 🚨 Book Kobe Suma Sea World ticket — 15 Nov
-      status: todo
-      note: 🔴 วันที่คนเยอะ **ไม่ขายตั๋วหน้างานเลย** — เว็บทางการระบุว่าขายเป็นตั๋วระบุวัน-เวลาทางออนไลน์ ตั๋วหน้างานมีหรือไม่ต้องดู SNS ของวันนั้น · 15 พ.ย. เป็นอาทิตย์ = เสี่ยงสูง · ตั๋วเปิดขายวันที่ 1 ของทุกเดือน ล่วงหน้า 2 เดือน → **ซื้อได้ตั้งแต่ 1 ต.ค.** · dynamic pricing · tix.kobesuma-seaworld.jp · ถ้าเต็มให้ข้าม Suma แล้วยืดสะพานกับ Harborland (มีแผนสำรองใน day-3)
-    - label: Reserve Kobe beef dinner in Osaka — 16 Nov (ย้ายมาจาก Day 3)
-      status: todo
-      note: Day 3 มื้อเที่ยงอยู่ที่ Suma ไม่ได้แวะ Sannomiya → ยกเนื้อโกเบมากินคืนวันจันทร์ที่โอซากะแทน · ร้านย่าน Umeda / Shinsekai · ~¥8,000/คน มื้อเย็น · ถ้าไม่อยากจ่ายเท่านี้ ข้ามได้ Day 4 มีคุชิคัตสึอยู่แล้ว
-    - label: Reserve Kitahama Retro — 16 Nov afternoon (ถ้าจะกิน)
-      status: todo
-      note: ⭐ รับจองเฉพาะวันธรรมดา — 16 พ.ย. เป็นจันทร์ จองได้ · แต่มีคุชิคัตสึ 17:45 → สั่งแค่ชา+เค้กชิ้นเดียว ไม่ต้องเอาเซ็ต afternoon tea เต็ม · ไม่จองก็ถ่ายรูปด้านนอกได้
+    - label: Book Kobe Suma Sea World ticket — 16 Nov (จันทร์)
+      status: done
+      note: ✅ จองแล้ว · ⚠️ ตั๋วระบุวัน-เวลา — เช็ครอบที่จองว่าตรงกับ 12:10-14:20 ในแพลนไหม ถ้าเป็นรอบอื่นต้องขยับเวลาสะพานอาคาชิ/Harborland · เตรียม QR + สกรีนช็อต backup · **15 พ.ย. ปิดทำการ** (วันปิดวันเดียวของเดือน) คือเหตุผลที่โกเบอยู่วันจันทร์ที่ 16
     - label: HARUKA round-trip ticket — Klook
       status: done
       note: ✅ จองแล้ว (Day 1 KIX→Kyoto + Day 5 Osaka→KIX) · non-reserved seat · ⚠️ แลก voucher ที่ JR Ticket Office (Midori no Madoguchi) ชั้น 2 KIX ตอน 07:20-09:00 Day 1 · ต้องใช้พาสปอร์ต · รับตั๋วทั้ง 2 ใบพร้อมกัน เก็บใบ Day 5 ให้ดี (หายต้องซื้อใหม่ ~¥2,200)
@@ -73,9 +67,15 @@ decisions:
     label: Pick Day 2 dinner crawl — Takoyaki + Kushikatsu + Okonomiyaki + Dessert
     day: 2
   - kind: todo
-    label: Pick Day 3 lunch at Harborland umie Mosaic — 15:00, no booking needed
-    day: 3
+    label: Pick Day 4 lunch at Harborland umie Mosaic — 15:00, no booking needed
+    day: 4
   - kind: warn
     label: Special Rapid does not stop at Maiko or Suma Kaihin Koen — take a Rapid on both westbound legs
+    day: 4
+  - kind: warn
+    label: Sunday peak-koyo — catch the 09:00 first bus up to Katsuo-ji or lose 30+ minutes
+    day: 3
+  - kind: warn
+    label: Kitahama Retro takes weekday reservations only — 15 Nov is a Sunday, so photos from outside only
     day: 3
 ---
